@@ -94,7 +94,7 @@ SWEP.CorrectiveAng = Angle(0, 0, 0)
 // reload
 
 SWEP.ClipSize = 25
-SWEP.Ammo = "pistol"
+SWEP.Ammo = "ti_45acp"
 
 SWEP.ReloadTimeMult = 1
 SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/ump45.mdl"
