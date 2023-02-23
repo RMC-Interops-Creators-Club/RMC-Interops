@@ -2,7 +2,7 @@
 Backporting features and weapons from Arctic's Tactical RP to it's predecessor Tactical Intervention because we like things that DON'T SUCK!!!
 
 Current plans:
-- Backport TacRP Extras weapons.
+- Backport TacRP Extras weapons. [DONE]
 - Backport tac laser and light/heavy barrel attachments.
 - Rebalance some atts for more gameplay variety
 - Make tac attachments override default HL2 flashlight
