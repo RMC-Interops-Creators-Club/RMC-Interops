@@ -8,7 +8,7 @@ ATT.Scale = 1
 
 ATT.Category = "tactical" // can be "string" or {"list", "of", "strings"}
 
-ATT.SortOrder = 1
+ATT.SortOrder = 2
 
 ATT.Mult_Spread = 0.9
 
