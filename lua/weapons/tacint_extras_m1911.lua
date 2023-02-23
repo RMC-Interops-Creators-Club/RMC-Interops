@@ -45,7 +45,7 @@ SWEP.Spread = 0.0055
 SWEP.ShootTimeMult = 0.5
 
 
-SWEP.RecoilPerShot = 1
+SWEP.RecoilPerShot = 1.1
 SWEP.RecoilMaximum = 5
 SWEP.RecoilResetTime = 0.3
 SWEP.RecoilDissipationRate = 80
@@ -61,7 +61,7 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.95
+SWEP.MoveSpeedMult = 0.99
 SWEP.ShootingSpeedMult = 1
 SWEP.SightedSpeedMult = 0.5
 SWEP.MeleeSpeedMult = 0.5
@@ -96,7 +96,7 @@ SWEP.ScopedSway = 0
 // reload
 
 SWEP.ClipSize = 7
-SWEP.Ammo = "pistol"
+SWEP.Ammo = "ti_45acp"
 
 SWEP.ReloadTimeMult = 1
 
