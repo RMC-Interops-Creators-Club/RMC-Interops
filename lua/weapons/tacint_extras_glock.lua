@@ -40,6 +40,7 @@ SWEP.Firemode = 1
 SWEP.RPM = 550
 
 SWEP.Spread = 0.006
+SWEP.HipFireSpreadPenalty = 0.0015 // spread penalty for not being scoped in
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 8
