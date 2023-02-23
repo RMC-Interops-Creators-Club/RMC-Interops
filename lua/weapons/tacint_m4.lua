@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "M4A1"
+SWEP.PrintName = "C8A1"
 SWEP.Category = "Tactical Intervention (Arctic)"
 
 SWEP.Description = "Well balanced American assault rifle. This model is a Canadian variant."
