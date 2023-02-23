@@ -4,10 +4,10 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "PGM Hécate II"
+SWEP.PrintName = "Hécate II"
 SWEP.Category = "Tactical Intervention Extras (VA1)"
 
-SWEP.Description = "Premium bolt-action anti-materiel rifle that kills in one shot. Cannot fire phantom bullets.\nEquipped with a 10x scope by default."
+SWEP.Description = "Premium bolt-action anti-materiel rifle that kills in one shot.  Very heavy."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_hecate.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_hecate.mdl"
@@ -36,7 +36,7 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 27 --27
+SWEP.RPM = 35
 
 SWEP.Spread = 0
 
@@ -50,7 +50,7 @@ SWEP.ScopedSpreadPenalty = 0
 SWEP.BlindFireSpreadPenalty = 0.05 // spread penalty for blind firing
 SWEP.CrouchSpreadPenalty = -0.01
 
-SWEP.RecoilPerShot = 1
+SWEP.RecoilPerShot = 1.2
 SWEP.RecoilMaximum = 2
 SWEP.RecoilResetTime = 0 // time after you stop shooting for recoil to start dissipating
 SWEP.RecoilDissipationRate = 1
