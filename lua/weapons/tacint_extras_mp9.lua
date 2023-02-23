@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "MP9"
-SWEP.Category = "Tactical Intervention Extras (VA1)"
+SWEP.Category = "Tactical Intervention Extras (RMC)"
 
 // Assets: https://gamebanana.com/mods/208831
 

@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Colt .45"
-SWEP.Category = "Tactical Intervention Extras (VA1)"
+SWEP.Category = "Tactical Intervention Extras (RMC)"
 
 SWEP.Description = "Classic military handgun. Cannot accept tactical attachments but still packs a wallop."
 SWEP.ViewModel = "models/weapons/tacint_extras/v_m1911.mdl"

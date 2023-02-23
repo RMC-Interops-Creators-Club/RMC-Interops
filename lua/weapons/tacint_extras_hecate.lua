@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Hécate II"
-SWEP.Category = "Tactical Intervention Extras (VA1)"
+SWEP.Category = "Tactical Intervention Extras (RMC)"
 
 SWEP.Description = "Premium bolt-action anti-materiel rifle that kills in one shot.  Very heavy."
 

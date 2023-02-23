@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "USP Tactical"
-SWEP.Category = "Tactical Intervention Extras (VA1)"
+SWEP.Category = "Tactical Intervention Extras (RMC)"
 
 SWEP.Description = "Modern .45 ACP pistol with a double stack magazine."
 
