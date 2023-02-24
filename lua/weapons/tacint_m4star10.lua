@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "M4-S10"
+SWEP.PrintName = "M1014"
 SWEP.Category = "Tactical Intervention (Arctic)"
 
 SWEP.Description = "Automatic combat shotgun. Great fire rate."

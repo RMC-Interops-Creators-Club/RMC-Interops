@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Uzi Para"
+SWEP.PrintName = "Uzi Pro"
 SWEP.Category = "Tactical Intervention (Arctic)"
 
 SWEP.Description = "SMG with excellent moving accuracy."

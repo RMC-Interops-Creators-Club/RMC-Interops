@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "G36/K"
+SWEP.PrintName = "G36K"
 SWEP.Category = "Tactical Intervention (Arctic)"
 
 SWEP.Description = "Assault rifle with integral scope."
