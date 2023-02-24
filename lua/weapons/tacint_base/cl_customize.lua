@@ -37,6 +37,10 @@ local lastcustomize = false
 
 SWEP.CustomizeHUD = nil
 
+local fastspread = function(base, val)
+    return math.Round(math.deg(val), 1)
+end
+
 function SWEP:CreateCustomizeHUD()
     self:RemoveCustomizeHUD()
 
@@ -246,12 +250,17 @@ function SWEP:CreateCustomizeHUD()
         -- }
         {
             Name = "Spread",
+            AggregateFunction = function(base, val)
+                return math.Round(math.deg(val), 1)
+            end,
+            Unit = "°",
             Value = "Spread",
             LowerIsBetter = true,
         },
         {
             Name = "RPM",
-            Value = "RPM"
+            Value = "RPM",
+            RoundTo = 0,
         },
         {
             Name = "Penetration",
@@ -267,7 +276,7 @@ function SWEP:CreateCustomizeHUD()
         {
             Name = "Reload Time",
             AggregateFunction = function(base)
-                return self:GetReloadTime(base)
+                return math.Round(self:GetReloadTime(base), 1)
             end,
             Value = "ReloadTimeMult",
             LowerIsBetter = true,
@@ -276,7 +285,7 @@ function SWEP:CreateCustomizeHUD()
         {
             Name = "Deploy Time",
             AggregateFunction = function(base)
-                return self:GetDeployTime(base)
+                return math.Round(self:GetDeployTime(base), 1)
             end,
             Value = "DeployTimeMult",
             LowerIsBetter = true,
@@ -303,51 +312,77 @@ function SWEP:CreateCustomizeHUD()
             LowerIsBetter = true,
         },
         {
-            Name = "Recoil Spread",
+            Name = "Spread from recoil",
             Value = "RecoilSpreadPenalty",
+            AggregateFunction = fastspread,
+            Unit = "°",
             LowerIsBetter = true,
         },
         {
-            Name = "Moving Spread",
+            Name = "Spread, moving",
             Value = "MoveSpreadPenalty",
+            AggregateFunction = fastspread,
+            Unit = "°",
             LowerIsBetter = true,
         },
         {
-            Name = "Crouched Spread",
+            Name = "Spread, ducking",
             Value = "CrouchSpreadPenalty",
+            AggregateFunction = fastspread,
+            Unit = "°",
             LowerIsBetter = true,
         },
         {
-            Name = "Scoped Spread",
+            Name = "Spread, ADS",
             Value = "ScopedSpreadPenalty",
+            AggregateFunction = fastspread,
+            Unit = "°",
             LowerIsBetter = true,
         },
         {
-            Name = "Blind Fire Spread",
+            Name = "Spread, blindfire",
             Value = "BlindFireSpreadPenalty",
+            AggregateFunction = fastspread,
+            Unit = "°",
             LowerIsBetter = true,
         },
         {
-            Name = "Mid-Air Spread",
+            Name = "Spread, mid-air",
             Value = "MidAirSpreadPenalty",
+            AggregateFunction = fastspread,
+            Unit = "°",
             LowerIsBetter = true,
         },
         {
-            Name = "Hip Fire Spread",
+            Name = "Spread, hip",
             Value = "HipFireSpreadPenalty",
+            AggregateFunction = fastspread,
+            Unit = "°",
             LowerIsBetter = true,
         },
         {
             Name = "Move Speed",
-            Value = "MoveSpeedMult"
+            Value = "MoveSpeedMult",
+            AggregateFunction = function(base, val)
+                return math.Round(val*100, 0)
+            end,
+            Unit = "%",
         },
         {
             Name = "Shooting Speed",
-            Value = "ShootingSpeedMult"
+            Value = "ShootingSpeedMult",
+            AggregateFunction = function(base, val)
+                return math.Round(val*100, 0)
+            end,
+            Unit = "%",
         },
         {
             Name = "Sighted Speed",
-            Value = "SightedSpeedMult"
+            Value = "SightedSpeedMult",
+            AggregateFunction = function(base, val)
+                return math.Round(val*100, 0)
+            end,
+            Unit = "%",
         },
         {
             Name = "Melee Damage",
@@ -397,8 +432,8 @@ function SWEP:CreateCustomizeHUD()
                 local stat_curr = 0
 
                 if k.AggregateFunction then
-                    stat_base = math.Round(k.AggregateFunction(true), 4)
-                    stat_curr = math.Round(k.AggregateFunction(false), 4)
+                    stat_base = k.AggregateFunction(true, selftbl[k.Value])
+                    stat_curr = k.AggregateFunction(false, self:GetValue(k.Value))
                 else
                     stat_base = math.Round(selftbl[k.Value], 4)
                     stat_curr = math.Round(self:GetValue(k.Value), 4)
