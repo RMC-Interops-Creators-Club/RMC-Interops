@@ -132,7 +132,7 @@ SWEP.QCA_Muzzle = 1
 // ditto for shell
 SWEP.QCA_Eject = 2
 
-SWEP.MuzzleEffect = "muzzleflash_m82"
+SWEP.MuzzleEffect = "muzzleflash_1"
 SWEP.EjectEffect = 2
 
 // anims
