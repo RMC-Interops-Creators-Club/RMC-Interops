@@ -4,10 +4,10 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "G18 MP"
+SWEP.PrintName = "G17 Auto"
 SWEP.Category = "Tactical Intervention Extras (RMC)"
 
-SWEP.Description = "Cheap burst-fire pistol with good mobility but poor accuracy and damage."
+SWEP.Description = "Automatic pistol with poor damage but a fast rate of fire."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_glock.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_glock.mdl"
@@ -16,8 +16,8 @@ SWEP.Slot = 1
 
 // "ballistics"
 
-SWEP.Damage_Max = 18
-SWEP.Damage_Min = 9
+SWEP.Damage_Max = 100 / 6
+SWEP.Damage_Min = 100 / 11
 SWEP.Range_Min = 2000 // distance for which to maintain maximum damage
 SWEP.Range_Max = 4000 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
@@ -35,15 +35,15 @@ SWEP.BodyDamageMultipliers = {
 
 // misc. shooting
 
-SWEP.Firemode = -3
+SWEP.Firemode = 2
 
-SWEP.RPM = 1250
+SWEP.RPM = 1050
 
 SWEP.Spread = 0.006
 SWEP.HipFireSpreadPenalty = 0.0015 // spread penalty for not being scoped in
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 8
+SWEP.RecoilMaximum = 10
 SWEP.RecoilResetTime = 0.2
 SWEP.RecoilDissipationRate = 100
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
@@ -91,7 +91,7 @@ SWEP.CorrectiveAng = Angle(0.05, -0.05, 0)
 
 // reload
 
-SWEP.ClipSize = 18
+SWEP.ClipSize = 20
 SWEP.Ammo = "ti_9mm"
 
 SWEP.ReloadTimeMult = 1.4
