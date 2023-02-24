@@ -38,12 +38,12 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 60
+SWEP.RPM = 47
 
 SWEP.Spread = 0.095
 
 SWEP.ShootTimeMult = 1.25
-SWEP.ShootSpeedMult = 1.25
+SWEP.ShootSpeedMult = 1
 
 SWEP.HipFireSpreadPenalty = 0
 SWEP.MidAirSpreadPenalty = 0
