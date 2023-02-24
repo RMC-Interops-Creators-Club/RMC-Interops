@@ -21,5 +21,5 @@ ATT.Override_ScopeHideWeapon = true
 ATT.Mult_QuickScopeTime = 0.75
 
 ATT.Add_ScopedSpreadPenalty = -0.010
-ATT.Add_HipFireSpreadPenalty = 0.055
+ATT.Add_HipFireSpreadPenalty = 0.045
 ATT.Mult_MoveSpreadPenalty = 1.3

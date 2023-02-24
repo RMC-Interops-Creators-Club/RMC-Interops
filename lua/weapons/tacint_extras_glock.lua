@@ -4,10 +4,10 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "G17"
+SWEP.PrintName = "G18 MP"
 SWEP.Category = "Tactical Intervention Extras (RMC)"
 
-SWEP.Description = "Cheap pistol with good mobility but poor accuracy and damage."
+SWEP.Description = "Cheap burst-fire pistol with good mobility but poor accuracy and damage."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_glock.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_glock.mdl"
@@ -91,7 +91,7 @@ SWEP.CorrectiveAng = Angle(0.05, -0.05, 0)
 
 // reload
 
-SWEP.ClipSize = 17
+SWEP.ClipSize = 18
 SWEP.Ammo = "ti_9mm"
 
 SWEP.ReloadTimeMult = 1.4
