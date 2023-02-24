@@ -1,5 +1,5 @@
 SWEP.Base = "tacint_base"
-SWEP.Spawnable = true
+SWEP.Spawnable = false
 
 AddCSLuaFile()
 
