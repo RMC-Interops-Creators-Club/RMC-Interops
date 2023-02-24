@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "GSR/1911"
+SWEP.PrintName = "GSR Tactical .45"
 SWEP.Category = "Tactical Intervention (Arctic)"
 
 SWEP.Description = "Lightweight pistol with single-stack magazine."

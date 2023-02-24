@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Molov Bekas"
+SWEP.PrintName = "Molot Bekas"
 SWEP.Category = "Tactical Intervention (Arctic)"
 
 SWEP.Description = "Hunting shotgun with tight spread but a small magazine size."

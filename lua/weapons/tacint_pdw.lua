@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "KPDW"
+SWEP.PrintName = "KAC PDW"
 SWEP.Category = "Tactical Intervention (Arctic)"
 
 SWEP.Description = "Subcompact 5.56mm rifle used as a PDW. Excellent damage compared to other SMGs."

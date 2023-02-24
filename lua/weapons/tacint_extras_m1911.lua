@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Colt .45"
+SWEP.PrintName = "M1911"
 SWEP.Category = "Tactical Intervention Extras (RMC)"
 
 SWEP.Description = "Classic military handgun. Cannot accept tactical attachments but still packs a wallop."
