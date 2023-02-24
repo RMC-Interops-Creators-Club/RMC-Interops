@@ -61,7 +61,7 @@ SWEP.RecoilVisualShake = 0.85
 
 SWEP.RecoilKick = 0.75
 
-SWEP.RecoilSpreadPenalty = 0.004 // extra spread per one unit of recoil
+SWEP.RecoilSpreadPenalty = 0.016 // extra spread per one unit of recoil
 
 SWEP.CanBlindFire = true
 
