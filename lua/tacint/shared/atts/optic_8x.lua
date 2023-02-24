@@ -24,4 +24,4 @@ ATT.Add_ScopedSpreadPenalty = -0.01
 ATT.Add_HipFireSpreadPenalty = 0.025
 ATT.Mult_MoveSpreadPenalty = 1.5
 
-ATT.Ignore = true
+ATT.Ignore = false
