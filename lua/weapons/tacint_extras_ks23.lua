@@ -38,7 +38,7 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 40
+SWEP.RPM = 60
 
 SWEP.Spread = 0.095
 
@@ -72,8 +72,6 @@ SWEP.MeleeSpeedMult = 0.5
 SWEP.MeleeSpeedMultTime = 2
 
 SWEP.SprintToFireTime = 0.4
-
-SWEP.ReloadTimeMult = 0.85
 
 // hold types
 
