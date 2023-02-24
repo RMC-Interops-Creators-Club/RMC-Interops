@@ -35,9 +35,9 @@ SWEP.BodyDamageMultipliers = {
 
 // misc. shooting
 
-SWEP.Firemode = 1
+SWEP.Firemode = -3
 
-SWEP.RPM = 550
+SWEP.RPM = 1250
 
 SWEP.Spread = 0.006
 SWEP.HipFireSpreadPenalty = 0.0015 // spread penalty for not being scoped in
