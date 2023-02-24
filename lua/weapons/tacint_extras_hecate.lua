@@ -16,8 +16,8 @@ SWEP.Slot = 3
 
 // "ballistics"
 
-SWEP.Damage_Max = 140 // damage at minimum range
-SWEP.Damage_Min = 115 // damage at maximum range
+SWEP.Damage_Max = 100 / 1 // damage at minimum range
+SWEP.Damage_Min = 100 / 2 // damage at maximum range
 SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
 SWEP.Range_Max = 6000 // distance at which we drop to minimum damage
 SWEP.Penetration = 30 // units of metal this weapon can penetrate
@@ -67,9 +67,9 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.7
-SWEP.ShootingSpeedMult = 0.6
-SWEP.SightedSpeedMult = 0.1
+SWEP.MoveSpeedMult = 0.9
+SWEP.ShootingSpeedMult = 0.75
+SWEP.SightedSpeedMult = 0.5
 SWEP.MeleeSpeedMult = 0.5
 SWEP.MeleeSpeedMultTime = 2 // seconds to apply slow down for
 
