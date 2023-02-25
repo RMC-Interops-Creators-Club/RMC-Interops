@@ -1,4 +1,4 @@
-ATT.PrintName = "Holo"
+ATT.PrintName = "Holographic"
 ATT.FullName = "Holographic Sight"
 ATT.Icon = Material("entities/tacint_att_optic_holographic.png", "mips smooth")
 ATT.Description = "Short-to-medium range combat sight. 1.5x zoom."

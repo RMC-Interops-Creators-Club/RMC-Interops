@@ -1,4 +1,4 @@
-ATT.PrintName = "Blindfire"
+ATT.PrintName = "Blindfire+"
 ATT.FullName = "Blindfire Training"
 ATT.Icon = Material("entities/tacint_att_acc_blindfire.png", "mips smooth")
 ATT.Description = "Improves accuracy while blind firing."
