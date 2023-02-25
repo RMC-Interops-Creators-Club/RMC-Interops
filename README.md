@@ -12,10 +12,10 @@ Current plans:
     - MP9 [Done]
     - UMP45 [Done]
     - USP [Done]
-    - KS23 
+    - KS23 [Done]
     - Riot Shield
 
-- Backport tac laser and light/heavy barrel attachments.
+- Backport tac laser [Done]
 - Rebalance some atts for more gameplay variety
 - Make tac attachments override default HL2 flashlight
 - Make it so shotgun reloads can be instantly cancelled (like CS 1.6)
