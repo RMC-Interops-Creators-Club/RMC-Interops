@@ -83,7 +83,7 @@ SWEP.SprintPos = Vector(5, 0, -2)
 
 // reload
 
-SWEP.ClipSize = 25
+SWEP.ClipSize = 24
 SWEP.Ammo = "ti_556"
 
 SWEP.ReloadTimeMult = 1
