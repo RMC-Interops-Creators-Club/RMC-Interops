@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Hécate II"
 SWEP.Category = "Tactical Intervention Extras (RMC)"
 
-SWEP.Description = "Premium bolt-action anti-materiel rifle that kills in one shot.  Very heavy."
+SWEP.Description = "Premium bolt-action anti-materiel rifle.  Very heavy."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_hecate.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_hecate.mdl"
@@ -16,10 +16,10 @@ SWEP.Slot = 3
 
 // "ballistics"
 
-SWEP.Damage_Max = 100 / 1 // damage at minimum range
-SWEP.Damage_Min = 100 / 2 // damage at maximum range
-SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 6000 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 105 // damage at minimum range
+SWEP.Damage_Min = 30 // damage at maximum range
+SWEP.Range_Min = 12000 // distance for which to maintain maximum damage
+SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
 SWEP.Penetration = 30 // units of metal this weapon can penetrate
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 5, // nobody is surviving this
@@ -45,7 +45,7 @@ SWEP.ShootSpeedMult = 1
 // Spread penalties are in spread units and are additive
 SWEP.MoveSpreadPenalty = 0.15 // spread penalty while travelling at max. 250 u/s
 SWEP.MidAirSpreadPenalty = 0.25 // spread penalty for being in the air
-SWEP.HipFireSpreadPenalty = 0.16 // spread penalty for not being scoped in
+SWEP.HipFireSpreadPenalty = 0.35 // spread penalty for not being scoped in
 SWEP.ScopedSpreadPenalty = 0
 SWEP.BlindFireSpreadPenalty = 0.05 // spread penalty for blind firing
 SWEP.CrouchSpreadPenalty = -0.01
@@ -108,7 +108,7 @@ SWEP.QuickScopeTime = 1 // amount of time over which to fade out the quickscope 
 
 // reload
 
-SWEP.ClipSize = 7
+SWEP.ClipSize = 6
 SWEP.Ammo = "ti_50bmg"
 
 SWEP.ReloadTimeMult = 1.4

@@ -16,10 +16,10 @@ SWEP.Slot = 3
 
 // "ballistics"
 
-SWEP.Damage_Max = 115 // damage at minimum range
-SWEP.Damage_Min = 95 // damage at maximum range
-SWEP.Range_Min = 8000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 12000 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 105 // damage at minimum range
+SWEP.Damage_Min = 45 // damage at maximum range
+SWEP.Range_Min = 15000 // distance for which to maintain maximum damage
+SWEP.Range_Max = 8000 // distance at which we drop to minimum damage
 SWEP.Penetration = 8 // units of metal this weapon can penetrate
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2.5,
@@ -36,7 +36,7 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 200
+SWEP.RPM = 180
 
 SWEP.Spread = 0
 
@@ -45,7 +45,7 @@ SWEP.ShootSpeedMult = 1
 // Spread penalties are in spread units and are additive
 SWEP.MoveSpreadPenalty = 0.15 // spread penalty while travelling at max. 250 u/s
 SWEP.MidAirSpreadPenalty = 0.25 // spread penalty for being in the air
-SWEP.HipFireSpreadPenalty = 0.16 // spread penalty for not being scoped in
+SWEP.HipFireSpreadPenalty = 0.35 // spread penalty for not being scoped in
 SWEP.ScopedSpreadPenalty = 0
 SWEP.BlindFireSpreadPenalty = 0.05 // spread penalty for blind firing
 SWEP.CrouchSpreadPenalty = -0.01
@@ -69,8 +69,8 @@ SWEP.CanBlindFire = true
 
 SWEP.MoveSpeedMult = 0.85
 SWEP.ShootingSpeedMult = 0.5 // slow down applied while shooting
-SWEP.SightedSpeedMult = 0.25
-SWEP.MeleeSpeedMult = 0.5
+SWEP.SightedSpeedMult = 0.45
+SWEP.MeleeSpeedMult = 1
 SWEP.MeleeSpeedMultTime = 2 // seconds to apply slow down for
 
 SWEP.SprintToFireTime = 0.65 // multiplies how long it takes to recover from sprinting
@@ -111,7 +111,7 @@ SWEP.QuickScopeTime = 1 // amount of time over which to fade out the quickscope 
 SWEP.ClipSize = 5
 SWEP.Ammo = "ti_50bmg"
 
-SWEP.ReloadTimeMult = 1
+SWEP.ReloadTimeMult = 1.05
 SWEP.DropMagazineImpact = "metal"
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/uratio.mdl"
 

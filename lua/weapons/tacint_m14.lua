@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "M1A"
 SWEP.Category = "Tactical Intervention (Arctic)"
 
-SWEP.Description = "Semi-automatic sniper rifle. One hits to head at all ranges."
+SWEP.Description = "Semi-automatic sniper rifle. Allows more combat flexibility than a bolt-action."
 
 SWEP.ViewModel = "models/weapons/tacint/v_m14.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_m14.mdl"
@@ -18,8 +18,8 @@ SWEP.Slot = 3
 
 SWEP.Damage_Max = 40 // damage at minimum range
 SWEP.Damage_Min = 30 // damage at maximum range
-SWEP.Range_Min = 8000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 12000 // distance at which we drop to minimum damage
+SWEP.Range_Min = 7000 // distance for which to maintain maximum damage
+SWEP.Range_Max = 10000 // distance at which we drop to minimum damage
 SWEP.Penetration = 4 // units of metal this weapon can penetrate
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3,
@@ -45,7 +45,7 @@ SWEP.ShootSpeedMult = 1
 // Spread penalties are in spread units and are additive
 SWEP.MoveSpreadPenalty = 0.10 // spread penalty while travelling at max. 250 u/s
 SWEP.MidAirSpreadPenalty = 0.15 // spread penalty for being in the air
-SWEP.HipFireSpreadPenalty = 0.008 // spread penalty for not being scoped in
+SWEP.HipFireSpreadPenalty = 0.08 // spread penalty for not being scoped in
 SWEP.ScopedSpreadPenalty = 0
 SWEP.BlindFireSpreadPenalty = 0.05 // spread penalty for blind firing
 SWEP.CrouchSpreadPenalty = -0.002
@@ -59,7 +59,7 @@ SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 SWEP.RecoilVisualKick = 0.05
 SWEP.RecoilVisualShake = 0.2
 
-SWEP.RecoilKick = 10
+SWEP.RecoilKick = 8
 
 SWEP.RecoilSpreadPenalty = 0.5 // extra spread per one unit of recoil
 
@@ -108,7 +108,7 @@ SWEP.QuickScopeTime = 0.1 // amount of time over which to fade out the quickscop
 SWEP.ClipSize = 15
 SWEP.Ammo = "ti_762nato"
 
-SWEP.ReloadTimeMult = 1
+SWEP.ReloadTimeMult = 1.05
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/m14.mdl"
 SWEP.DropMagazineImpact = "metal"
 

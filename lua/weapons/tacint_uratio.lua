@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Ultima Ratio"
 SWEP.Category = "Tactical Intervention (Arctic)"
 
-SWEP.Description = "Powerful bolt action sniper rifle used at long ranges. One-hit kill to head and upper chest at all ranges."
+SWEP.Description = "Premium bolt action sniper rifle with excellent handling."
 
 SWEP.ViewModel = "models/weapons/tacint/v_uratio.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_uratio.mdl"
@@ -17,9 +17,9 @@ SWEP.Slot = 3
 // "ballistics"
 
 SWEP.Damage_Max = 90 // damage at minimum range
-SWEP.Damage_Min = 75 // damage at maximum range
-SWEP.Range_Min = 8000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 12000 // distance at which we drop to minimum damage
+SWEP.Damage_Min = 100 / 6 // damage at maximum range
+SWEP.Range_Min = 12000 // distance for which to maintain maximum damage
+SWEP.Range_Max = 8000 // distance at which we drop to minimum damage
 SWEP.Penetration = 6 // units of metal this weapon can penetrate
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2,
@@ -45,7 +45,7 @@ SWEP.ShootSpeedMult = 1
 // Spread penalties are in spread units and are additive
 SWEP.MoveSpreadPenalty = 0.22 // spread penalty while travelling at max. 250 u/s
 SWEP.MidAirSpreadPenalty = 0.22 // spread penalty for being in the air
-SWEP.HipFireSpreadPenalty = 0.02 // spread penalty for not being scoped in
+SWEP.HipFireSpreadPenalty = 0.25 // spread penalty for not being scoped in
 SWEP.ScopedSpreadPenalty = -0.01
 SWEP.BlindFireSpreadPenalty = 0.05 // spread penalty for blind firing
 SWEP.CrouchSpreadPenalty = -0.005
@@ -109,7 +109,7 @@ SWEP.QuickScopeTime = 0.1 // amount of time over which to fade out the quickscop
 SWEP.ClipSize = 10
 SWEP.Ammo = "ti_308"
 
-SWEP.ReloadTimeMult = 1
+SWEP.ReloadTimeMult = 1.12
 SWEP.DropMagazineImpact = "metal"
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/uratio.mdl"
 

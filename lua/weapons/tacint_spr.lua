@@ -17,9 +17,9 @@ SWEP.Slot = 3
 // "ballistics"
 
 SWEP.Damage_Max = 100 // damage at minimum range
-SWEP.Damage_Min = 60 // damage at maximum range
-SWEP.Range_Min = 8000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 12000 // distance at which we drop to minimum damage
+SWEP.Damage_Min = 100 / 5 // damage at maximum range
+SWEP.Range_Min = 12000 // distance for which to maintain maximum damage
+SWEP.Range_Max = 6000 // distance at which we drop to minimum damage
 SWEP.Penetration = 4 // units of metal this weapon can penetrate
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2,
@@ -45,7 +45,7 @@ SWEP.ShootSpeedMult = 1
 // Spread penalties are in spread units and are additive
 SWEP.MoveSpreadPenalty = 0.10 // spread penalty while travelling at max. 250 u/s
 SWEP.MidAirSpreadPenalty = 0.15 // spread penalty for being in the air
-SWEP.HipFireSpreadPenalty = 0 // spread penalty for not being scoped in
+SWEP.HipFireSpreadPenalty = 0.3 // spread penalty for not being scoped in
 SWEP.ScopedSpreadPenalty = -0.02
 SWEP.BlindFireSpreadPenalty = 0.05 // spread penalty for blind firing
 SWEP.CrouchSpreadPenalty = -0.005
@@ -109,7 +109,7 @@ SWEP.QuickScopeTime = 0.1 // amount of time over which to fade out the quickscop
 SWEP.ClipSize = 5
 SWEP.Ammo = "ti_308"
 
-SWEP.ReloadTimeMult = 1
+SWEP.ReloadTimeMult = 1.05
 SWEP.DropMagazineModel = false
 
 // sounds
