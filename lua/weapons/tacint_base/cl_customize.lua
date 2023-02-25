@@ -666,9 +666,14 @@ function SWEP:CreateCustomizeHUD()
 
                     local txt = atttbl.FullName or atttbl.PrintName
 
-                    surface.SetFont("TacInt_Myriad_Pro_10")
                     surface.SetTextColor(col_text)
+                    surface.SetFont("TacInt_Myriad_Pro_10")
                     surface.SetTextPos(rx + ScreenScale(2), ry + ScreenScale(1))
+                    surface.DrawText(txt)
+
+                    txt = atttbl.Description or ""
+                    surface.SetFont("TacInt_Myriad_Pro_6")
+                    surface.SetTextPos(rx + ScreenScale(2), ry + ScreenScale(1 + 8 + 1))
                     surface.DrawText(txt)
 
                     local bump = 0
