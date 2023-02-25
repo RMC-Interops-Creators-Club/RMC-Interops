@@ -16,10 +16,10 @@ SWEP.Slot = 3
 
 // "ballistics"
 
-SWEP.Damage_Max = 105 // damage at minimum range
-SWEP.Damage_Min = 30 // damage at maximum range
-SWEP.Range_Min = 12000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 30 // damage at minimum range
+SWEP.Damage_Min = 105 // damage at maximum range
+SWEP.Range_Min = 1900 // distance for which to maintain maximum damage
+SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
 SWEP.Penetration = 30 // units of metal this weapon can penetrate
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 5, // nobody is surviving this
