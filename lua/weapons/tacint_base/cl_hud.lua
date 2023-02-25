@@ -81,10 +81,58 @@ function SWEP:GetBinding(bind)
     return string.upper(t_bind)
 end
 
+local sizes_to_make = {
+	6,
+	8,
+	10,
+	16,
+	32
+}
+local function genfonts()
+	for _, i in pairs(sizes_to_make) do
+		surface.CreateFont( "TacInt_Hint_" .. tostring(i), {
+			font = "Segoe UI",
+			size = ScreenScale(i),
+			weight = 0,
+			antialias = true,
+			extended = true, -- Required for non-latin fonts
+		} )
+	end
+end
+genfonts()
+
+function SWEP:DoHintsHUD()
+	local w, h = ScrW(), ScrH()
+	local ss = ScreenScale
+	local bw, bh = ss(160), ss(16)
+
+	local col_bg = Color(0, 0, 0, 150)
+	local col_corner = Color(255, 255, 255)
+	local col_text = Color(255, 255, 255)
+
+	surface.SetDrawColor( col_bg )
+	TacInt.DrawCorneredBox( w - bw - ss(8), (h/2) - (bh/2), bw, bh, col_corner )
+
+	do
+		local sx, sy = (w - bw) - ss(4), (h/2) - ss(4)
+		local txt = {
+			font = "TacInt_Hint_8",
+			pos = { sx, sy }
+		}
+		txt.text = "Hold USE and press ATTACK to throw a grenade."
+		draw.Text(txt)
+		txt.pos[2] = txt.pos[2] + ss(6)
+		txt.text = "Hold ATTACK to throw it farther."
+		draw.Text(txt)
+	end
+end
+
 function SWEP:DrawHUD()
     self:DoScope()
 
     self:DrawCustomizeHUD()
+
+    -- self:DoHintsHUD()
 
     if !GetConVar("tacint_showgrenadepanel"):GetBool() then return end
 
@@ -118,6 +166,7 @@ function SWEP:DrawHUD()
         surface.SetTextPos(qn_x - (w / 2), ScrH() - ScreenScale(15))
         surface.DrawText(txt)
     end
+
 end
 
 SWEP.Mat_Select = nil

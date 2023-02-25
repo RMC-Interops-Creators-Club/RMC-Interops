@@ -1,7 +1,7 @@
 ATT.PrintName = "Smackdown"
 ATT.FullName = "Melee Training"
 ATT.Icon = Material("entities/tacint_att_acc_melee.png", "mips smooth")
-ATT.Description = "Increased melee attack damage."
+ATT.Description = "Improves melee damage."
 ATT.Pros = {"Stronger melee attack"}
 ATT.Cons = {"Incompatible with scopes"}
 

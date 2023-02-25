@@ -59,9 +59,7 @@ end
 generatefonts()
 
 function TacInt.Regen(full)
-    if full then
-        generatefonts()
-    end
+	generatefonts()
 end
 
-hook.Add( "OnScreenSizeChanged", "TacInt.Regen", function() TacInt.Regen(true) end)
+hook.Add( "OnScreenSizeChanged", "TacInt.Regen", function() TacInt.Regen() end)

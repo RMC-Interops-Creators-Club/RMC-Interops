@@ -1,8 +1,8 @@
 ATT.PrintName = "Blindfire"
 ATT.FullName = "Blinefire Training"
 ATT.Icon = Material("entities/tacint_att_acc_blindfire.png", "mips smooth")
-ATT.Description = "Improved accuracy while blind firing."
-ATT.Pros = {"Improved blindfire accuracy"}
+ATT.Description = "Improves accuracy while blind firing."
+ATT.Pros = {"No penalty to blindfire"}
 
 ATT.Category = {"perk_shooting", "perk_blindfire"} // can be "string" or {"list", "of", "strings"}
 

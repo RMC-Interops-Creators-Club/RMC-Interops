@@ -38,7 +38,7 @@ function SWEP:CreateFlashlightsVM()
 
             table.insert(self.Flashlights, newlight)
 
-            l:SetFOV(50)
+            l:SetFOV(106)
 
 
             l:SetFarZ(1024)
@@ -48,7 +48,7 @@ function SWEP:CreateFlashlightsVM()
 
             l:SetColor(Color(255, 255, 255))
             l:SetTexture("effects/flashlight001")
-            l:SetBrightness(3)
+            l:SetBrightness(2)
             l:SetEnableShadows(true)
             l:Update()
 
