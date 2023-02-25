@@ -28,7 +28,7 @@ SWEP.Firemode = 2
 
 SWEP.RPM = 700
 
-SWEP.Spread = 0.001
+SWEP.Spread = 0.003
 
 // Spread penalties are in spread units and are additive
 SWEP.MoveSpreadPenalty = 0.045 // spread penalty while travelling at max. 250 u/s
