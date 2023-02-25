@@ -26,7 +26,7 @@ SWEP.Penetration = 2 // units of metal this weapon can penetrate
 
 SWEP.Firemode = 2
 
-SWEP.RPM = 850
+SWEP.RPM = 800
 
 SWEP.Spread = 0.006
 
@@ -47,9 +47,9 @@ SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 SWEP.RecoilVisualKick = 0.2
 SWEP.RecoilVisualShake = 0.25
 
-SWEP.RecoilKick = 0.25
+SWEP.RecoilKick = 0.35
 
-SWEP.RecoilSpreadPenalty = 0.004 // extra spread per one unit of recoil
+SWEP.RecoilSpreadPenalty = 0.0045 // extra spread per one unit of recoil
 
 SWEP.CanBlindFire = true
 
@@ -83,7 +83,7 @@ SWEP.SprintPos = Vector(5, 0, -2)
 
 // reload
 
-SWEP.ClipSize = 20
+SWEP.ClipSize = 25
 SWEP.Ammo = "ti_556"
 
 SWEP.ReloadTimeMult = 1
