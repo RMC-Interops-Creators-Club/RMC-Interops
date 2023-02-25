@@ -28,7 +28,7 @@ SWEP.Firemode = 2
 
 SWEP.RPM = 750
 
-SWEP.Spread = 0.015
+SWEP.Spread = 0.02
 
 // Spread penalties are in spread units and are additive
 SWEP.MoveSpreadPenalty = 0.017 // spread penalty while travelling at max. 250 u/s
@@ -39,7 +39,7 @@ SWEP.BlindFireSpreadPenalty = 0.05 // spread penalty for blind firing
 SWEP.CrouchSpreadPenalty = -0.004
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 5
+SWEP.RecoilMaximum = 10
 SWEP.RecoilResetTime = 0.25 // time after you stop shooting for recoil to start dissipating
 SWEP.RecoilDissipationRate = 100
 SWEP.RecoilFirstShotMult = 2.5 // multiplier for the first shot's recoil amount
