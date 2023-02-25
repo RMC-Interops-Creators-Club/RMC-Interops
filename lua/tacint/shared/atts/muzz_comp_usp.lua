@@ -1,14 +1,15 @@
 ATT.PrintName = "Compensator"
 ATT.Icon = Material("entities/tacint_att_muzz_pistol_comp.png", "mips smooth")
 ATT.Description = "Muzzle device which reduces recoil impact."
-ATT.Pros = {"Recoil"}
-ATT.Cons = {"Fire rate"}
+ATT.Pros = {"Reduced first shot recoil"}
+ATT.Cons = {"Increased recoil accumulation"}
 
 ATT.Category = "comp_usp" // can be "string" or {"list", "of", "strings"}
 ATT.InvAtt = "muzz_pistol_comp"
 ATT.SortOrder = 1
 
-ATT.Mult_RecoilKick = 0.5
-ATT.Mult_RPM = 0.95
+ATT.Mult_RecoilFirstShotMult = 0.8
+ATT.Mult_RecoilPerShot = 1.25
+ATT.Mult_RecoilMaximum = 1.25
 
 ATT.InstalledElements = {"pistol_comp"}

@@ -1,8 +1,8 @@
 ATT.PrintName = "RMR"
 ATT.Icon = Material("entities/tacint_att_optic_rmr.png", "mips smooth")
 ATT.Description = "Low profile optic sight for pistols."
-ATT.Pros = {"Zoom"}
-ATT.Cons = {"No melee attack"}
+ATT.Pros = {"Zoom and reduced scoped spread"}
+ATT.Cons = {"Increased hipfire spread and no melee attack"}
 
 ATT.Model = "models/weapons/tacint/addons/optic_rmr.mdl"
 ATT.Scale =  1

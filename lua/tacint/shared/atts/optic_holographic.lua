@@ -1,8 +1,8 @@
 ATT.PrintName = "Holographic"
 ATT.Icon = Material("entities/tacint_att_optic_holographic.png", "mips smooth")
 ATT.Description = "Boxy optic that helps to improve mid-range aim."
-ATT.Pros = {"Zoom"}
-ATT.Cons = {"No melee attack"}
+ATT.Pros = {"Zoom and reduced scoped spread"}
+ATT.Cons = {"Increased hipfire spread and no melee attack"}
 
 ATT.Model = "models/weapons/tacint/addons/holosight.mdl"
 ATT.Scale = 0.35
