@@ -8,4 +8,4 @@ ATT.Category = "perk_melee" // can be "string" or {"list", "of", "strings"}
 
 ATT.SortOrder = 1
 
-ATT.Mult_MeleeDamage = 3
+ATT.Mult_MeleeDamage = 1.92
