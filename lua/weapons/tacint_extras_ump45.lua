@@ -39,7 +39,7 @@ SWEP.MuzzleVelocity = 12500
 
 SWEP.RPM = 525
 
-SWEP.Spread = 0.005
+SWEP.Spread = 0.0053
 
 SWEP.ShootTimeMult = 0.5
 
