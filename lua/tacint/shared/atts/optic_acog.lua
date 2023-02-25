@@ -1,8 +1,9 @@
 ATT.PrintName = "ACOG"
+ATT.FullName = "ACOG Scope"
 ATT.Icon = Material("entities/tacint_att_optic_acog.png", "mips smooth")
-ATT.Description = "Medium range combat scope."
-ATT.Pros = {"Zoom and reduced scoped spread"}
-ATT.Cons = {"Increased hipfire spread and no melee attack"}
+ATT.Description = "Medium-to-long range combat scope. 3.5x zoom."
+ATT.Pros = {"Zoom"}
+ATT.Cons = {"Increased hipfire spread", "Increased moving spread", "Disables melee attack"}
 
 ATT.Model = "models/weapons/tacint/addons/acog.mdl"
 ATT.Scale = 0.3

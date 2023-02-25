@@ -1,8 +1,9 @@
 ATT.PrintName = "LP"
+ATT.FullName = "Low-Profile Sight"
 ATT.Icon = Material("entities/tacint_att_optic_rmr.png", "mips smooth")
-ATT.Description = "Low profile optic sight for pistols."
-ATT.Pros = {"Zoom and reduced scoped spread"}
-ATT.Cons = {"Increased hipfire spread and no melee attack"}
+ATT.Description = "Low-profile combat sight. 1.25x zoom."
+ATT.Pros = {"Zoom"}
+ATT.Cons = {"Increased hipfire spread", "Disables melee attack"}
 
 ATT.Model = "models/weapons/tacint/addons/optic_rmr.mdl"
 ATT.Scale =  1.1
@@ -21,4 +22,4 @@ ATT.Override_ScopeHideWeapon = false
 ATT.Mult_QuickScopeTime = 0.85
 
 ATT.Add_ScopedSpreadPenalty = -0.0015
-ATT.Add_HipFireSpreadPenalty = 0.005
+ATT.Add_HipFireSpreadPenalty = 0.004

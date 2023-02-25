@@ -1,6 +1,7 @@
-ATT.PrintName = "200rd Belt"
+ATT.PrintName = "Ext. Mag"
+ATT.FullName = "200-Round Belt"
 ATT.Icon = Material("entities/tacint_att_acc_extendedbelt.png", "mips smooth")
-ATT.Description = "Extended belt that gives the gun even greater capacity and makes it even heavier."
+ATT.Description = "Extended belt with higher capacity but worse handling."
 ATT.Pros = {"Increased mag capacity"}
 ATT.Cons = {"Reduced handling"}
 

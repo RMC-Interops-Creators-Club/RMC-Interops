@@ -1,6 +1,7 @@
 ATT.PrintName = "Flashlight"
+ATT.FullName = "Tactical Flashlight"
 ATT.Icon = Material("entities/tacint_att_tac_flashlight.png", "mips smooth")
-ATT.Description = "Tactical device which illuminates enemies and improves spread."
+ATT.Description = "Tactical flashlight that illuminates targets."
 ATT.Pros = {"Reduced base spread"}
 ATT.Cons = {"Reduced handling"}
 

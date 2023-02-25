@@ -1,6 +1,9 @@
 ATT.PrintName = "3GL"
+ATT.FullName = "Cluster Rounds"
 ATT.Icon = Material("entities/tacint_att_ammo_40mm_3gl.png", "mips smooth")
-ATT.Description = "Three weak cluster grenades, fired at once."
+ATT.Description = "A single round containg 3 small grenades fired in a cluster."
+ATT.Pros = {"3-round cluster"}
+ATT.Cons = {"Reduce damage"}
 
 ATT.Category = "ammo_40mm" // can be "string" or {"list", "of", "strings"}
 

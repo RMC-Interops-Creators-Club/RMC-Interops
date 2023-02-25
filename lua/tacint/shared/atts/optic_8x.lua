@@ -1,8 +1,9 @@
 ATT.PrintName = "8x"
+ATT.FullName = "8x Variable Zoom Scope"
 ATT.Icon = Material("entities/tacint_att_optic_8x.png", "mips smooth")
-ATT.Description = "Long-range two-level sniper optic."
-ATT.Pros = {"Multi-level zoom and reduced scoped spread"}
-ATT.Cons = {"Increased hipfire spread and no melee attack"}
+ATT.Description = "Special sniper optic with variable zoom."
+ATT.Pros = {"Multi-level zoom"}
+ATT.Cons = {"Increased hipfire spread", "Increased moving spread", "Disables melee attack"}
 
 ATT.Model = "models/weapons/tacint/addons/8x.mdl"
 ATT.Scale = 1

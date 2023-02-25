@@ -1,6 +1,7 @@
 ATT.PrintName = "Laser"
+ATT.FullName = "Tactical Laser Module"
 ATT.Icon = Material("entities/tacint_att_tac_laser.png", "mips smooth")
-ATT.Description = "Tactical device which aids your aim.  Significantly improves spread."
+ATT.Description = "Laser-pointer that helps stay on target."
 ATT.Pros = {"Reduced recoil spread"}
 ATT.Cons = {"Reduced handling"}
 

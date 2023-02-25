@@ -1,8 +1,9 @@
-ATT.PrintName = "Holographic"
+ATT.PrintName = "Holo"
+ATT.FullName = "Holographic Sight"
 ATT.Icon = Material("entities/tacint_att_optic_holographic.png", "mips smooth")
-ATT.Description = "Boxy optic that helps to improve mid-range aim."
-ATT.Pros = {"Zoom and reduced scoped spread"}
-ATT.Cons = {"Increased hipfire spread and no melee attack"}
+ATT.Description = "Short-to-medium range combat sight. 1.5x zoom."
+ATT.Pros = {"Zoom"}
+ATT.Cons = {"Increased hipfire spread", "Disables melee attack"}
 
 ATT.Model = "models/weapons/tacint/addons/holosight.mdl"
 ATT.Scale = 0.35
@@ -21,4 +22,3 @@ ATT.Mult_QuickScopeTime = 0.75
 
 ATT.Add_ScopedSpreadPenalty = -0.003
 ATT.Add_HipFireSpreadPenalty = 0.01
-ATT.Mult_MoveSpreadPenalty = 1.1

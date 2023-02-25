@@ -1,4 +1,5 @@
 ATT.PrintName = "Compensator"
+ATT.FullName = "Pistol Compensator"
 ATT.Icon = Material("entities/tacint_att_muzz_pistol_comp.png", "mips smooth")
 ATT.Description = "Muzzle device which reduces first shot recoil."
 ATT.Pros = {"Reduced first shot recoil"}
