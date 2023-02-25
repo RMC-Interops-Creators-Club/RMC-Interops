@@ -250,15 +250,6 @@ function SWEP:CreateCustomizeHUD()
         --     Unit = ""
         -- }
         {
-            Name = "Spread",
-            AggregateFunction = function(base, val)
-                return math.Round(math.deg(val), 1)
-            end,
-            Unit = "°",
-            Value = "Spread",
-            LowerIsBetter = true,
-        },
-        {
             Name = "RPM",
             Value = "RPM",
             RoundTo = 0,
@@ -317,6 +308,15 @@ function SWEP:CreateCustomizeHUD()
             Value = "RecoilSpreadPenalty",
             AggregateFunction = fastspread,
             Unit = "°",
+            LowerIsBetter = true,
+        },
+        {
+            Name = "Spread",
+            AggregateFunction = function(base, val)
+                return math.Round(math.deg(val), 1)
+            end,
+            Unit = "°",
+            Value = "Spread",
             LowerIsBetter = true,
         },
         {
@@ -407,14 +407,14 @@ function SWEP:CreateCustomizeHUD()
             local x_2 = w - ScreenScale(32)
 
             surface.SetDrawColor(255, 255, 255, 100)
-            surface.DrawLine(x_1, 0, x_1, h)
+            --surface.DrawLine(x_1, 0, x_1, h)
             surface.DrawLine(x_2, 0, x_2, h)
             surface.DrawLine(0, ScreenScale(2 + 8 + 1), w, ScreenScale(2 + 8 + 1))
 
-            surface.SetFont("TacInt_Myriad_Pro_8")
-            surface.SetTextColor(255, 255, 255)
-            surface.SetTextPos(x_1 + ScreenScale(4), ScreenScale(2))
-            surface.DrawText("BASE")
+            -- surface.SetFont("TacInt_Myriad_Pro_8")
+            -- surface.SetTextColor(255, 255, 255)
+            -- surface.SetTextPos(x_1 + ScreenScale(4), ScreenScale(2))
+            -- surface.DrawText("BASE")
 
             surface.SetFont("TacInt_Myriad_Pro_8")
             surface.SetTextColor(255, 255, 255)
@@ -457,9 +457,9 @@ function SWEP:CreateCustomizeHUD()
                     end
                 end
 
-                surface.SetTextColor(255, 255, 255)
-                surface.SetTextPos(x_1 + ScreenScale(3), ScreenScale(8 + 4 + 1) + (ScreenScale(8 * i2)))
-                surface.DrawText(txt_base .. (k.Unit or ""))
+                -- surface.SetTextColor(255, 255, 255)
+                -- surface.SetTextPos(x_1 + ScreenScale(3), ScreenScale(8 + 4 + 1) + (ScreenScale(8 * i2)))
+                -- surface.DrawText(txt_base .. (k.Unit or ""))
 
                 local good = false
                 local goodorbad = false
@@ -646,6 +646,48 @@ function SWEP:CreateCustomizeHUD()
                     local nt_w = surface.GetTextSize(numtxt)
                     surface.SetTextPos(w - nt_w - ScreenScale(2), ScreenScale(1))
                     surface.DrawText(numtxt)
+                end
+
+                if hover then
+                    local todo = DisableClipping(true)
+                    self2:SetDrawOnTop( true )
+                    local col_bg = Color(0, 0, 0, 150)
+                    local col_corner = Color(255, 255, 255)
+                    local col_text = Color(255, 255, 255)
+                    local col_text_pro = Color(200, 255, 200)
+                    local col_text_con = Color(255, 200, 200)
+                    local rx, ry = self2:CursorPos()
+                    ry = ry + ScreenScale(10)
+                    surface.SetDrawColor(col_bg)
+                    local bw, bh = ScreenScale(128), ScreenScale(64)
+                    local gap = ScreenScale(16)
+                    TacInt.DrawCorneredBox(rx, ry, bw, bh, col_corner)
+                    surface.DrawLine(rx, ry + gap, rx + bw, ry + gap)
+
+                    local txt = atttbl.FullName or atttbl.PrintName
+
+                    surface.SetFont("TacInt_Myriad_Pro_10")
+                    surface.SetTextColor(col_text)
+                    surface.SetTextPos(rx + ScreenScale(2), ry + ScreenScale(1))
+                    surface.DrawText(txt)
+
+                    local bump = 0
+                    if atttbl.Pros then for aa, ab in ipairs(atttbl.Pros) do
+                        surface.SetFont("TacInt_Myriad_Pro_8")
+                        surface.SetTextColor(col_text_pro)
+                        surface.SetTextPos(rx + ScreenScale(2), ry + ScreenScale(18) + bump)
+                        surface.DrawText("+ " .. ab)
+                        bump = bump + ScreenScale(8)
+                    end end
+                    if atttbl.Cons then for aa, ab in ipairs(atttbl.Cons) do
+                        surface.SetFont("TacInt_Myriad_Pro_8")
+                        surface.SetTextColor(col_text_con)
+                        surface.SetTextPos(rx + ScreenScale(2), ry + ScreenScale(18) + bump)
+                        surface.DrawText("- " .. ab)
+                        bump = bump + ScreenScale(8)
+                    end end
+
+                    DisableClipping(todo)
                 end
             end
         end
