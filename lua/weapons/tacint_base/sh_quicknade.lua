@@ -46,6 +46,8 @@ function SWEP:ThrowGrenade()
         force = force * 0.35
     else
         self:PlayAnimation("throw_grenade", self:GetValue("QuickNadeTimeMult"), true)
+		
+		force = force * 0.6
     end
 
     if CLIENT then return end
