@@ -56,7 +56,7 @@ function SWEP:DrawLaser(pos, ang, strength, thirdperson)
 
     local delta = behavior and 1 or 0
 
-    if IsValid(vm) and GetConVar("tacrp_true_laser"):GetBool() and !self:GetCustomize() and !behavior then
+    if IsValid(vm) and GetConVar("tacint_true_laser"):GetBool() and !self:GetCustomize() and !behavior then
         local d1 = (CurTime() - self:GetNextPrimaryFire()) / 0.5
         d1 = math.min(d1, (CurTime() - self:GetNextSecondaryFire()) / 2)
 
@@ -121,7 +121,7 @@ function SWEP:DrawLasers(wm)
     for i, k in pairs(self.Attachments) do
         if !k.Installed then continue end
 
-        local atttbl = tacrp.GetAttTable(k.Installed)
+        local atttbl = tacint.GetAttTable(k.Installed)
 
         local power = 2
 
