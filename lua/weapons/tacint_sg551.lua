@@ -12,7 +12,7 @@ SWEP.Description = "Assault rifle with a small magazine but high fire rate and l
 SWEP.ViewModel = "models/weapons/tacint/v_sg551.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_sg551.mdl"
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 
 // "ballistics"
 

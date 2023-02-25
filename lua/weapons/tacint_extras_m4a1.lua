@@ -12,7 +12,7 @@ SWEP.Description = "Well balanced American assault rifle. Older variant with 3-r
 SWEP.ViewModel = "models/weapons/tacint_extras/v_m4a1.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_m4a1.mdl"
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 
 // "ballistics"
 

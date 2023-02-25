@@ -12,7 +12,7 @@ SWEP.Description = "Assault rifle with integral scope."
 SWEP.ViewModel = "models/weapons/tacint/v_g36k.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_g36k.mdl"
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 
 // "ballistics"
 

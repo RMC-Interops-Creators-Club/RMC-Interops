@@ -12,7 +12,7 @@ SWEP.Description = "Korean-made three round burst assault rifle."
 SWEP.ViewModel = "models/weapons/tacint/v_k1a.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_k1a.mdl"
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 
 // "ballistics"
 

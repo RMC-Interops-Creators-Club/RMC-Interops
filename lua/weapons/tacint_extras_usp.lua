@@ -12,7 +12,7 @@ SWEP.Description = "Modern .45 ACP pistol with a double stack magazine."
 SWEP.ViewModel = "models/weapons/tacint_extras/v_usp.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_usp.mdl"
 
-SWEP.Slot = 2
+SWEP.Slot = 1
 
 // "ballistics"
 

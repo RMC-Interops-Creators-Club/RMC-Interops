@@ -14,7 +14,7 @@ SWEP.Description = "Premium submachine gun with a fast fire rate."
 SWEP.ViewModel = "models/weapons/tacint_extras/v_mp9.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_mp9.mdl"
 
-SWEP.Slot = 3
+SWEP.Slot = 1
 
 // "ballistics"
 

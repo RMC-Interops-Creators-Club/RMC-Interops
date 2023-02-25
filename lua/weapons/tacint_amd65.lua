@@ -12,7 +12,7 @@ SWEP.Description = "Experimental Hungarian assault rifle model with 2-round burs
 SWEP.ViewModel = "models/weapons/tacint/v_amd65.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_amd65.mdl"
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 
 // "ballistics"
 

@@ -12,7 +12,7 @@ SWEP.Description = "Well balanced American assault rifle. This model is a Canadi
 SWEP.ViewModel = "models/weapons/tacint/v_m4.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_m4.mdl"
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 
 // "ballistics"
 

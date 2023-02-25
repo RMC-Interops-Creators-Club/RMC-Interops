@@ -12,7 +12,7 @@ SWEP.Description = "Powerful pump-action shotgun with poor spread."
 SWEP.ViewModel = "models/weapons/tacint/v_tgs12.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_tgs12.mdl"
 
-SWEP.Slot = 2
+SWEP.Slot = 3
 
 // "ballistics"
 

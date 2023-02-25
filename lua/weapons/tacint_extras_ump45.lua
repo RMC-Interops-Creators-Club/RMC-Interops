@@ -12,7 +12,7 @@ SWEP.Description = "Quality sub-machine gun with high damage and slow rate of fi
 SWEP.ViewModel = "models/weapons/tacint_extras/v_ump45.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_ump45.mdl"
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 
 // "ballistics"
 

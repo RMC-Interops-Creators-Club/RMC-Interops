@@ -12,7 +12,7 @@ SWEP.Description = "Hunting shotgun with tight spread but a small magazine size.
 SWEP.ViewModel = "models/weapons/tacint/v_bekas.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_bekas.mdl"
 
-SWEP.Slot = 2
+SWEP.Slot = 3
 
 // "ballistics"
 

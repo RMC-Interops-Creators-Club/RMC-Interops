@@ -18,7 +18,7 @@ SWEP.NoStatBox = true
 
 SWEP.NPCUsable = false
 
-SWEP.Slot = 3
+SWEP.Slot = 4
 
 // misc. shooting
 

@@ -12,7 +12,7 @@ SWEP.Description = "Cheap machine pistol with an extremely fast rate of fire."
 SWEP.ViewModel = "models/weapons/tacint_extras/v_mac10.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_mac10.mdl"
 
-SWEP.Slot = 2
+SWEP.Slot = 1
 
 // "ballistics"
 

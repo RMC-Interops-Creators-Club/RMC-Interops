@@ -12,7 +12,7 @@ SWEP.Description = "Balanced assault rifle with above average recoil."
 SWEP.ViewModel = "models/weapons/tacint/v_ak47.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_ak47.mdl"
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 
 // "ballistics"
 
