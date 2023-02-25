@@ -10,6 +10,6 @@ ATT.Category = "tactical" // can be "string" or {"list", "of", "strings"}
 
 ATT.SortOrder = 1
 
-ATT.Mult_Spread = 0.7
+ATT.Mult_RecoilSpreadPenalty = 0.8
 
 ATT.Laser = true
