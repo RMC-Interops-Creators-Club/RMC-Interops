@@ -6,7 +6,7 @@ ATT.Cons = {"No melee attack"}
 
 ATT.Model = "models/weapons/tacint/addons/optic_rmr.mdl"
 ATT.Scale =  1.1
-ATT.ModelOffset = Vector(0, 0, -0.35)
+ATT.ModelOffset = Vector(0, 0, -0.45)
 
 ATT.Category = "optic_smg" // can be "string" or {"list", "of", "strings"}
 
