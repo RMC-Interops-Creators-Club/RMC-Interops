@@ -63,9 +63,10 @@ function SWEP:CreateCustomizeHUD()
         self:SavePreset()
     end
     bg.Paint = function(self2, w, h)
-        if !IsValid(self) then
-            self:Remove()
+        if !IsValid(self) or !IsValid(self:GetOwner()) then
+            self2:Remove()
             gui.EnableScreenClicker(false)
+            return
         end
 
         local name_txt = self:GetValue("PrintName")
