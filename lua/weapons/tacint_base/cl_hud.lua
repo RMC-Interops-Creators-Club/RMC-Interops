@@ -102,37 +102,21 @@ function SWEP:DrawHUD()
         end
 
         surface.SetDrawColor(0, 0, 0, 150)
-        TacInt.DrawCorneredBox(qn_x - (ScreenScale(64) / 2), ScrH() - ScreenScale(24) - ScreenScale(32), ScreenScale(64), ScreenScale(48))
+        TacInt.DrawCorneredBox(qn_x - (ScreenScale(64) / 2), ScrH() - ScreenScale(24) - ScreenScale(12), ScreenScale(64), ScreenScale(32))
 
         if nade.Icon then
-
             local s = ScreenScale(24)
-
             surface.SetMaterial(icon)
             surface.SetDrawColor(255, 255, 255)
-            surface.DrawTexturedRect(qn_x - (s / 2), ScrH() - ScreenScale(32) - s, s, s)
-
+            surface.DrawTexturedRect(qn_x - (s / 2), ScrH() - ScreenScale(12) - s, s, s)
         end
 
-        local txt = nade.PrintName .. " (x" .. qty .. ")"
-
+        local txt = nade.PrintName .. " × " .. qty
         surface.SetFont("TacInt_LondonBetween_10")
         local w = surface.GetTextSize(txt)
-
-        surface.SetFont("TacInt_LondonBetween_10")
         surface.SetTextColor(255, 255, 255, 255)
-        surface.SetTextPos(qn_x - (w / 2), ScrH() - ScreenScale(32))
+        surface.SetTextPos(qn_x - (w / 2), ScrH() - ScreenScale(15))
         surface.DrawText(txt)
-
-        local throw_txt = self:GetBinding("+use") .. " + " .. self:GetBinding("+attack")
-
-        surface.SetFont("TacInt_LondonBetween_8")
-        local throw_w = surface.GetTextSize(throw_txt)
-
-        surface.SetFont("TacInt_LondonBetween_8")
-        surface.SetTextColor(255, 255, 255, 255)
-        surface.SetTextPos(qn_x - (throw_w / 2), ScrH() - ScreenScale(20))
-        surface.DrawText(throw_txt)
     end
 end
 
