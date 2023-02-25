@@ -9,7 +9,7 @@ SWEP.Category = "Tactical Intervention Extras (RMC)"
 
 // Assets: https://gamebanana.com/mods/208831
 
-SWEP.Description = "Premium submachine gun with excellent control."
+SWEP.Description = "Premium submachine gun with a fast fire rate."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_mp9.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_mp9.mdl"
@@ -39,19 +39,19 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.RPM = 900
 
-SWEP.Spread = 0.009
+SWEP.Spread = 0.011
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 10
+SWEP.RecoilMaximum = 15
 SWEP.RecoilResetTime = 0.15 // time after you stop shooting for recoil to start dissipating
 SWEP.RecoilDissipationRate = 100
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 0.02
 
-SWEP.RecoilKick = 0.1
+SWEP.RecoilKick = 0.25
 
-SWEP.RecoilSpreadPenalty = 0.005
+SWEP.RecoilSpreadPenalty = 0.006
 
 SWEP.CanBlindFire = true
 
