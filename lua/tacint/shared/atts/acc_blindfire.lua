@@ -7,4 +7,4 @@ ATT.Category = {"perk_shooting", "perk_blindfire"} // can be "string" or {"list"
 
 ATT.SortOrder = 1
 
-ATT.Add_BlindFireSpreadPenalty = -0.025
+ATT.Mult_BlindFireSpreadPenalty = 0
