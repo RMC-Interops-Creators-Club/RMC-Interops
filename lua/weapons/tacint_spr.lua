@@ -16,10 +16,10 @@ SWEP.Slot = 3
 
 // "ballistics"
 
-SWEP.Damage_Max = 100 // damage at minimum range
-SWEP.Damage_Min = 100 / 5 // damage at maximum range
-SWEP.Range_Min = 12000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 6000 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 100 / 5 // damage at minimum range
+SWEP.Damage_Min = 100 // damage at maximum range
+SWEP.Range_Min = 1800 // distance for which to maintain maximum damage
+SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
 SWEP.Penetration = 4 // units of metal this weapon can penetrate
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2,
@@ -107,7 +107,7 @@ SWEP.QuickScopeTime = 0.1 // amount of time over which to fade out the quickscop
 // reload
 
 SWEP.ClipSize = 5
-SWEP.Ammo = "ti_308"
+SWEP.Ammo = "ti_762nato"
 
 SWEP.ReloadTimeMult = 1.05
 SWEP.DropMagazineModel = false

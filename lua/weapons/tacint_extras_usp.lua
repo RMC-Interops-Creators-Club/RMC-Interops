@@ -50,7 +50,7 @@ SWEP.RecoilDissipationRate = 8
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 0.06
-SWEP.RecoilKick = 0.2
+SWEP.RecoilKick = 0.35
 
 SWEP.RecoilSpreadPenalty = 0.0045
 
@@ -96,7 +96,7 @@ SWEP.CorrectiveAng = Angle(0, 0, 0)
 SWEP.ClipSize = 12
 SWEP.Ammo = "ti_45acp"
 
-SWEP.ReloadTimeMult = 1.25
+SWEP.ReloadTimeMult = 1.3
 
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/p2000.mdl"
 SWEP.DropMagazineImpact = "pistol"

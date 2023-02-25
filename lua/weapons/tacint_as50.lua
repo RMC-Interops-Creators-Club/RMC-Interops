@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "AS50"
 SWEP.Category = "Tactical Intervention (Arctic)"
 
-SWEP.Description = "High-calibre sniper rifle. Massively powerful but very difficult to handle."
+SWEP.Description = "High-calibre sniper rifle. Very powerful but very difficult to handle."
 
 SWEP.ViewModel = "models/weapons/tacint/v_as50.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_as50.mdl"
@@ -16,10 +16,10 @@ SWEP.Slot = 3
 
 // "ballistics"
 
-SWEP.Damage_Max = 105 // damage at minimum range
-SWEP.Damage_Min = 45 // damage at maximum range
-SWEP.Range_Min = 15000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 8000 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 45 // damage at minimum range
+SWEP.Damage_Min = 105 // damage at maximum range
+SWEP.Range_Min = 2000 // distance for which to maintain maximum damage
+SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
 SWEP.Penetration = 8 // units of metal this weapon can penetrate
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2.5,
