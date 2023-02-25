@@ -47,10 +47,14 @@ local function FormatViewModelAttachment(nFOV, vOrigin, bFrom)
     return vEyePos
 end
 
+function SWEP:GetShootDir()
+    return self:GetOwner():EyeAngles()
+end
+
 function SWEP:DrawLaser(pos, ang, strength, thirdperson)
     strength = strength or 1
 
-    local behavior = (self:GetValue("ScopeHideWeapon") and self:IsInScope())
+    local behavior = (self:GetValue("ScopeHideWeapon") and self:GetScopeLevel() > 0)
     local vm = self:GetOwner():IsPlayer() and self:GetOwner():GetViewModel()
     local curr_seq = IsValid(vm) and vm:GetSequenceName(vm:GetSequence())
 
@@ -121,11 +125,11 @@ function SWEP:DrawLasers(wm)
     for i, k in pairs(self.Attachments) do
         if !k.Installed then continue end
 
-        local atttbl = tacint.GetAttTable(k.Installed)
+        local atttbl = TacInt.GetAttTable(k.Installed)
 
         local power = 2
 
-        if atttbl.Laser and self:GetTactical() then
+        if atttbl.Laser and true then
             if wm and IsValid(k.WModel) then
                 if self:GetOwner():IsPlayer() then
                     self:DrawLaser(k.WModel:GetPos(), self:GetShootDir(), power, true)

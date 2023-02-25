@@ -84,6 +84,10 @@ local conVars = {
         default = "1",
     },
     {
+        name = "true_laser",
+        default = "1"
+    },
+    {
         name = "penetration",
         default = "1",
         replicated = true

@@ -4,6 +4,7 @@ function SWEP:ViewModelDrawn(vm)
     end
 
     self:DrawCustomModel(false)
+    self:DrawLasers()
 end
 
 function SWEP:DrawCustomModel(wm)
