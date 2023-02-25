@@ -2,7 +2,7 @@ ATT.PrintName = "Hollowpoints"
 ATT.Icon = Material("entities/tacint_att_acc_hollowpoints.png", "mips smooth")
 ATT.Description = "Bullets that improve damage, but are available only in a small magazine."
 ATT.Pros = {"Increased damage"}
-ATT.Cons = {"Reduce mag capacity"}
+ATT.Cons = {"Reduced mag capacity"}
 
 ATT.InstalledElements = {"smallmag"}
 
