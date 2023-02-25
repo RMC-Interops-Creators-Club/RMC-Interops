@@ -84,7 +84,7 @@ SWEP.SprintPos = Vector(5, 0, -2)
 // scope
 
 SWEP.Scope = true
-SWEP.ScopeOverlay = Material("tacint/scopes/sniper.png", "mips smooth") // Material("path/to/overlay")
+SWEP.ScopeOverlay = Material("tacint/scopes/pso1.png", "mips smooth") // Material("path/to/overlay")
 SWEP.ScopeFOV = 90 / 5
 SWEP.ScopeLevels = 1
 
