@@ -32,7 +32,7 @@ SWEP.MoveSpeedMult = 1
 SWEP.MeleeSpeedMult = 1
 SWEP.MeleeSpeedMultTime = 2 // seconds to apply slow down for
 
-SWEP.SprintToFireTime = 0.25
+SWEP.SprintToFireTime = 0.1
 
 SWEP.Scope = false
 
@@ -50,7 +50,7 @@ SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_PISTOL
 SWEP.GestureBash = ACT_HL2MP_GESTURE_RANGE_ATTACK_MELEE
 
 SWEP.PassiveAng = Angle(0, 0, 0)
-SWEP.PassivePos = Vector(0, 0, 0)
+SWEP.PassivePos = Vector(2.5, 0, -4)
 
 SWEP.SprintAng = Angle(0, -25, -10)
 SWEP.SprintPos = Vector(3, 0, -2)
