@@ -43,7 +43,7 @@ function SWEP:ThrowGrenade()
     if !self:GetOwner():KeyDown(IN_ATTACK) then
         self:PlayAnimation("throw_grenade_underhand", self:GetValue("QuickNadeTimeMult"), true)
 
-        force = force * 0.5
+        force = force * 0.35
     else
         self:PlayAnimation("throw_grenade", self:GetValue("QuickNadeTimeMult"), true)
     end
