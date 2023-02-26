@@ -16,8 +16,8 @@ SWEP.Slot = 2
 
 // "ballistics"
 
-SWEP.Damage_Max = 100 / 3
-SWEP.Damage_Min = 100 / 5
+SWEP.Damage_Max = 34
+SWEP.Damage_Min = 21
 SWEP.Range_Min = 3275 // distance for which to maintain maximum damage
 SWEP.Range_Max = 5500
 SWEP.Penetration = 2 // units of metal this weapon can penetrate
@@ -47,16 +47,16 @@ SWEP.ShootTimeMult = 0.5
 
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 8
-SWEP.RecoilResetTime = 0.2
+SWEP.RecoilMaximum = 3
+SWEP.RecoilResetTime = 0.25
 SWEP.RecoilDissipationRate = 100
-SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
+SWEP.RecoilFirstShotMult = 0.2 // multiplier for the first shot's recoil amount
 
-SWEP.RecoilVisualKick = 0.1
+SWEP.RecoilVisualKick = 0.24
 
-SWEP.RecoilKick = 0.5
+SWEP.RecoilKick = 0.8
 
-SWEP.RecoilSpreadPenalty = 0.010
+SWEP.RecoilSpreadPenalty = 0.004
 
 SWEP.CanBlindFire = true
 
