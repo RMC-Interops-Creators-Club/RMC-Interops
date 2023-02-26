@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "MR96"
-SWEP.Category = "Tactical Intervention (Arctic)"
+SWEP.Category = "RMC Interops (Smallarms)"
 
 SWEP.Description = "Powerful revolver with high recoil."
 

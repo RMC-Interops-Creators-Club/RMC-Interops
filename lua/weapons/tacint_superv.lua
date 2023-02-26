@@ -5,9 +5,9 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Vector"
-SWEP.Category = "Tactical Intervention (Arctic)"
+SWEP.Category = "RMC Interops (Smallarms)"
 
-SWEP.Description = "SMG with extremely fast fire rate."
+SWEP.Description = ".45 SMG with extremely fast fire rate."
 
 SWEP.ViewModel = "models/weapons/tacint/v_superv.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_superv.mdl"

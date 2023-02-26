@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "SP-R"
-SWEP.Category = "Tactical Intervention (Arctic)"
+SWEP.Category = "RMC Interops (Rifles)"
 
 SWEP.Description = "Fast-reaction bolt-action rifle, effective at relatively close range."
 

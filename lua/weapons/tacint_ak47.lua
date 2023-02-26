@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Beryl 7.62" -- Aware this is modeled on the 5.56 Beryl but dnc shut up blame minh le he not know firearm
-SWEP.Category = "Tactical Intervention (Arctic)"
+SWEP.Category = "RMC Interops (Rifles)"
 
 SWEP.Description = "Balanced assault rifle with above average recoil."
 

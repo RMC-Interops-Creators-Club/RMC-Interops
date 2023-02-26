@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "M4 Carbine"
-SWEP.Category = "Tactical Intervention Extras (RMC)"
+SWEP.Category = "RMC Interops (Rifles)"
 
 SWEP.Description = "Well balanced American assault rifle. Older variant with 3-round burst for better control."
 

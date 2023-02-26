@@ -4,7 +4,7 @@ SWEP.AdminOnly = false
 
 // names and stuff
 SWEP.PrintName = "Arctic's Tactical Intervention Base"
-SWEP.Category = "Tactical Intervention (Arctic)"
+SWEP.Category = "RMC Interops (Rifles)"
 
 SWEP.Description = ""
 

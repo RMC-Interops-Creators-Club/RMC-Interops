@@ -6,7 +6,7 @@ DEFINE_BASECLASS( "tacint_base" )
 
 // names and stuff
 SWEP.PrintName = "Tactical Knife"
-SWEP.Category = "Tactical Intervention Extras (RMC)"
+SWEP.Category = "RMC Interops (Smallarms)"
 
 SWEP.Description = "Sturdy tactical knife for close-quarters combat when all your guns run dry."
 

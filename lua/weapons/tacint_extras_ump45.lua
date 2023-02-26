@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "UMP-45"
-SWEP.Category = "Tactical Intervention Extras (RMC)"
+SWEP.Category = "RMC Interops (Smallarms)"
 
 SWEP.Description = "Quality sub-machine gun with high damage and slow rate of fire."
 

@@ -5,9 +5,9 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "KAC PDW"
-SWEP.Category = "Tactical Intervention (Arctic)"
+SWEP.Category = "RMC Interops (Smallarms)"
 
-SWEP.Description = "Subcompact 5.56mm rifle used as a PDW. Excellent damage compared to other SMGs."
+SWEP.Description = "Subcompact 5.56mm rifle with the handling of an SMG. Excellent damage compared to other SMGs."
 
 SWEP.ViewModel = "models/weapons/tacint/v_pdw.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_pdw.mdl"
