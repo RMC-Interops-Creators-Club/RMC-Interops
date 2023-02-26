@@ -16,11 +16,21 @@ SWEP.Slot = 3
 
 // "ballistics"
 
-SWEP.Damage_Max = 100 / 3 // damage at minimum range
-SWEP.Damage_Min = 100 / 5 // damage at maximum range
+SWEP.Damage_Max = 30 // damage at minimum range
+SWEP.Damage_Min = 26 // damage at maximum range
 SWEP.Range_Min = 2500 // distance for which to maintain maximum damage
 SWEP.Range_Max = 6000 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
+SWEP.BodyDamageMultipliers = {
+    [HITGROUP_HEAD] = 3,
+    [HITGROUP_CHEST] = 1.25,
+    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_LEFTARM] = 1,
+    [HITGROUP_RIGHTARM] = 1,
+    [HITGROUP_LEFTLEG] = 0.9,
+    [HITGROUP_RIGHTLEG] = 0.9,
+    [HITGROUP_GEAR] = 0.9
+}
 
 // misc. shooting
 
@@ -28,34 +38,34 @@ SWEP.Firemode = 1
 
 SWEP.RPM = 600
 
-SWEP.Spread = 0.007
+SWEP.Spread = 0.0000
 
 // Spread penalties are in spread units and are additive
-SWEP.MoveSpreadPenalty = 0.055 // spread penalty while travelling at max. 250 u/s
-SWEP.MidAirSpreadPenalty = 0.12 // spread penalty for being in the air
-SWEP.HipFireSpreadPenalty = 0.003 // spread penalty for not being scoped in
+SWEP.MoveSpreadPenalty = 0.17 // spread penalty while travelling at max. 250 u/s
+SWEP.MidAirSpreadPenalty = 0.15 // spread penalty for being in the air
+SWEP.HipFireSpreadPenalty = 0.16 // spread penalty for not being scoped in
 SWEP.ScopedSpreadPenalty = 0
-SWEP.BlindFireSpreadPenalty = 0.035 // spread penalty for blind firing
-SWEP.CrouchSpreadPenalty = -0.003
+SWEP.BlindFireSpreadPenalty = 0.05 // spread penalty for blind firing
+SWEP.CrouchSpreadPenalty = -0.002
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 10
-SWEP.RecoilResetTime = 0.2 // time after you stop shooting for recoil to start dissipating
-SWEP.RecoilDissipationRate = 100
+SWEP.RecoilMaximum = 1
+SWEP.RecoilResetTime = 0 // time after you stop shooting for recoil to start dissipating
+SWEP.RecoilDissipationRate = 10
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
-SWEP.RecoilVisualKick = 0.15
-SWEP.RecoilVisualShake = 0.35
+SWEP.RecoilVisualKick = 0.11
+SWEP.RecoilVisualShake = 0.33
 
-SWEP.RecoilKick = 1
+SWEP.RecoilKick = 6
 
-SWEP.RecoilSpreadPenalty = 0.0035 // extra spread per one unit of recoil
+SWEP.RecoilSpreadPenalty = 0.5 // extra spread per one unit of recoil
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.94
+SWEP.MoveSpeedMult = 0.92
 SWEP.ShootingSpeedMult = 1 // slow down applied while shooting
 SWEP.SightedSpeedMult = 0.5
 SWEP.MeleeSpeedMult = 1
@@ -92,7 +102,7 @@ SWEP.QuickScopeSpreadPenalty = 0.5
 SWEP.QuickScopeTime = 0.3 // amount of time over which to fade out the quickscope spread penalty
 
 
-SWEP.ClipSize = 10
+SWEP.ClipSize = 20
 SWEP.Ammo = "ti_762wp"
 
 SWEP.ReloadTimeMult = 1
@@ -141,7 +151,7 @@ SWEP.EjectEffect = 2
 // WM:
 // attack1
 SWEP.AnimationTranslationTable = {
-    ["deploy"] = "deploy",
+    ["deploy"] = "unholster",
     ["fire1"] = "fire1_M",
     ["fire2"] = "fire2_M",
     ["fire3"] = "fire3_M",
@@ -150,12 +160,24 @@ SWEP.AnimationTranslationTable = {
     ["melee"] = {"melee1", "melee2"}
 }
 
+SWEP.DeployTimeMult = 2.25
+
 // attachments
 
 SWEP.AttachmentElements = {
+    ["0iron"] = {
+        BGs_VM = {
+            {2, 2}
+        },
+    },
     ["tactical"] = {
         BGs_VM = {
             {2, 1}
+        },
+    },
+    ["iron"] = {
+        BGs_VM = {
+            {2, 2}
         },
     },
 }
@@ -164,7 +186,7 @@ SWEP.AttachmentElements = {
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = {"optic_cqb", "optic_medium", "optic_sniper"},
+        Category = {"ironsights", "optic_cqb", "optic_medium", "optic_sniper"},
         Bone = "ValveBiped.AK47_rootbone",
         WMBone = "Box01",
         InstalledElements = {"tactical"},
