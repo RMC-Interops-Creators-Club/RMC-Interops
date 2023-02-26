@@ -24,4 +24,6 @@ TacInt.PenTable = {
     [MAT_WARPSHIELD]  = 1
 }
 
+TacInt.HUToM = 0.0254
+
 TacInt.PresetPath = "tacint_presets/"

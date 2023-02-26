@@ -88,6 +88,11 @@ local conVars = {
         default = "1"
     },
     {
+        name = "range_hu",
+        default = "0",
+        client = true
+    },
+    {
         name = "penetration",
         default = "1",
         replicated = true
