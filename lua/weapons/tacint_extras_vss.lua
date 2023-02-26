@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "VSS Vintorez"
 SWEP.Category = "Tactical Intervention Extras (RMC)"
 
-SWEP.Description = "Integrally-suppressed sniper rifle with good accuracy."
+SWEP.Description = "Integrally-suppressed sniper rifle with good mobility."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_vss.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_ak47.mdl"
