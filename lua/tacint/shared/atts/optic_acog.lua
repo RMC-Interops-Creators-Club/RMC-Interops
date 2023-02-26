@@ -1,5 +1,5 @@
 ATT.PrintName = "ACOG"
-ATT.FullName = "ACOG Scope"
+ATT.FullName = "Advanced Combat Optical Gunsight"
 ATT.Icon = Material("entities/tacint_att_optic_acog.png", "mips smooth")
 ATT.Description = "Medium-to-long range combat scope. 3.5x zoom."
 ATT.Pros = {"Zoom"}

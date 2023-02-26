@@ -1,5 +1,5 @@
 ATT.PrintName = "Red Dot"
-ATT.FullName = "Red Dot Sight"
+ATT.FullName = "Red Dot Gunsight"
 ATT.Icon = Material("entities/tacint_att_optic_rds.png", "mips smooth")
 ATT.Description = "Medium range combat sight. 1.75x zoom."
 ATT.Pros = {"Zoom"}
