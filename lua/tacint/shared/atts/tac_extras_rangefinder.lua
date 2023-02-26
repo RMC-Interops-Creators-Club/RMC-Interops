@@ -1,5 +1,5 @@
 ATT.PrintName = "Rangefinder"
-ATT.FullName = "Tactical Ballistics Trajectory Computer"
+ATT.FullName = "Tactical Ballistics Trajectory Micro-Computer"
 ATT.Icon = Material("entities/tacrp_att_tac_extras_rangefinder.png", "mips smooth")
 ATT.Description = "High-tech tactical CPU that calculates ballistics and battle information."
 ATT.Pros = {"Display range and shots-to-kill"}
