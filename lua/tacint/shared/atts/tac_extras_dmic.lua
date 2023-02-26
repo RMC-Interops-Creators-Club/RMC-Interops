@@ -1,4 +1,4 @@
-ATT.PrintName = "Radar Mic"
+ATT.PrintName = "Radar"
 ATT.FullName = "Tactical Omnidirectional Radar Microphone"
 ATT.Icon = Material("entities/tacrp_att_tac_extras_dmic.png", "mips smooth")
 ATT.Description = "Tactical microphone that shows nearby enemies via echolocation."
