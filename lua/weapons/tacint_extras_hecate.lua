@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Hécate II"
 SWEP.Category = "Tactical Intervention Extras (RMC)"
 
-SWEP.Description = "Premium bolt-action anti-materiel rifle.  Very heavy."
+SWEP.Description = "Premium bolt-action anti-materiel rifle. Very heavy."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_hecate.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_hecate.mdl"
@@ -17,7 +17,7 @@ SWEP.Slot = 3
 // "ballistics"
 
 SWEP.Damage_Max = 30 // damage at minimum range
-SWEP.Damage_Min = 105 // damage at maximum range
+SWEP.Damage_Min = 110 // damage at maximum range
 SWEP.Range_Min = 1900 // distance for which to maintain maximum damage
 SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
 SWEP.Penetration = 30 // units of metal this weapon can penetrate
@@ -29,7 +29,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
     [HITGROUP_RIGHTLEG] = 0.9,
-    [HITGROUP_GEAR] = 0.8
+    [HITGROUP_GEAR] = 0.9
 }
 
 // misc. shooting
@@ -48,7 +48,7 @@ SWEP.MidAirSpreadPenalty = 0.25 // spread penalty for being in the air
 SWEP.HipFireSpreadPenalty = 0.35 // spread penalty for not being scoped in
 SWEP.ScopedSpreadPenalty = 0
 SWEP.BlindFireSpreadPenalty = 0.05 // spread penalty for blind firing
-SWEP.CrouchSpreadPenalty = -0.01
+SWEP.CrouchSpreadPenalty = -0.05
 
 SWEP.RecoilPerShot = 1.2
 SWEP.RecoilMaximum = 2
@@ -56,12 +56,12 @@ SWEP.RecoilResetTime = 0 // time after you stop shooting for recoil to start dis
 SWEP.RecoilDissipationRate = 1
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
-SWEP.RecoilVisualKick = 3 --12
+SWEP.RecoilVisualKick = 3
 SWEP.RecoilVisualShake = 0.9
 
-SWEP.RecoilKick = 6 --12
+SWEP.RecoilKick = 6
 
-SWEP.RecoilSpreadPenalty = 0.05 // extra spread per one unit of recoil
+SWEP.RecoilSpreadPenalty = 0.2 // extra spread per one unit of recoil
 
 SWEP.CanBlindFire = true
 
@@ -103,15 +103,15 @@ SWEP.ScopeOverlay = Material("tacint/scopes/sniper.png", "mips smooth") // Mater
 SWEP.ScopeFOV = 90 / 10
 SWEP.ScopeLevels = 1 // 2 = like CS:S
 
-SWEP.QuickScopeSpreadPenalty = 0.25
-SWEP.QuickScopeTime = 1 // amount of time over which to fade out the quickscope spread penalty
+SWEP.QuickScopeSpreadPenalty = 0.35
+SWEP.QuickScopeTime = 0.9 // amount of time over which to fade out the quickscope spread penalty
 
 // reload
 
-SWEP.ClipSize = 4
+SWEP.ClipSize = 5
 SWEP.Ammo = "ti_50bmg"
 
-SWEP.ReloadTimeMult = 1.4
+SWEP.ReloadTimeMult = 1.5
 SWEP.DropMagazineImpact = "metal"
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/uratio.mdl"
 
