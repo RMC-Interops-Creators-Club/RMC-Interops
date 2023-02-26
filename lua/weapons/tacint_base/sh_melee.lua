@@ -56,5 +56,5 @@ function SWEP:SecondaryAttack()
 
     self:SetLastMeleeTime(CurTime())
 
-    self:SetNextSecondaryFire(CurTime() + 0.5)
+    self:SetNextSecondaryFire(CurTime() + self:GetValue("MeleeDelay"))
 end

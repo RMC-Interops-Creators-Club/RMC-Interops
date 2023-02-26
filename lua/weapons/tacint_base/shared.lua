@@ -140,7 +140,7 @@ SWEP.QuickNadeTimeMult = 1
 
 SWEP.CanMeleeAttack = true
 SWEP.MeleeDamage = 25
-SWEP.MeleeAttackTime = 0.75 // time between swings
+SWEP.MeleeDelay = 0.5 // time between swings
 
 // reload
 

@@ -70,6 +70,7 @@ if CLIENT then
 			y = 0,
 			w = rt_w,
 			h = rt_h,
+			aspect = 1,
 			angles = self:GetShootDir(),
 			origin = self:GetMuzzleOrigin(),
 			drawviewmodel = false,

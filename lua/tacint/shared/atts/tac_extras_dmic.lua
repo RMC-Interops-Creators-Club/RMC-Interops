@@ -13,7 +13,7 @@ ATT.Category = "tactical" // can be "string" or {"list", "of", "strings"}
 
 ATT.CanToggle = true
 
-	if CLIENT then
+if CLIENT then
 	local mat_radar = Material("tacint/tacrpport/radar.png", "smooth")
 	local mat_radar_active = Material("tacint/tacrpport/radar_active.png", "mips smooth")
 	local mat_dot = Material("tacint/tacrpport/dot.png", "mips smooth")
@@ -40,7 +40,7 @@ ATT.CanToggle = true
 			if lastradar + scantime > CurTime() then
 				radarpositions = cache_lastradarpositions
 			else
-				local tbl = ents.FindInSphere(self:GetOwner():GetPos(), 50 / TacInt.HUToM)
+				local tbl = ents.FindInSphere(self:GetOwner():GetPos(), 25 / TacInt.HUToM)
 
 				for _, ent in ipairs(tbl) do
 					if !(ent:IsPlayer() or ent:IsNPC() or ent:IsNextBot()) then continue end
@@ -75,8 +75,8 @@ ATT.CanToggle = true
 			local ds = ScreenScale(4)
 
 			for _, dot in ipairs(radarpositions) do
-				local dx = x + (dot.x * TacInt.HUToM * w * (36 / 40) / 100) + (w / 2)
-				local dy = y + (dot.y * TacInt.HUToM * h * (36 / 40) / 100) + (h / 2)
+				local dx = x + (dot.x * TacInt.HUToM * w * (360 / 400) / (25 * 2)) + (w / 2)
+				local dy = y + (dot.y * TacInt.HUToM * h * (360 / 400) / (25 * 2)) + (h / 2)
 
 				local gs = ScreenScale(8)
 
