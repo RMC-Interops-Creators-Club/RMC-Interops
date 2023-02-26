@@ -139,7 +139,7 @@ function SWEP:SetBaseSettings()
         self.Primary.Automatic = false
     end
 
-    self.Primary.ClipSize = self:GetValue("ClipSize")
+    self.Primary.ClipSize = math.Round(self:GetValue("ClipSize"), 0)
     self.Primary.Ammo = self:GetValue("Ammo")
 
     self.Primary.DefaultClip = self.Primary.ClipSize
