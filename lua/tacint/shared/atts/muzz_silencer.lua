@@ -3,7 +3,7 @@ ATT.FullName = "Sound Suppressor"
 ATT.Icon = Material("entities/tacint_att_muzz_silencer.png", "mips smooth")
 ATT.Description = "Muzzle device that reduces audible report and recoil."
 ATT.Pros = {"Reduced recoil", "Reduced muzzle report"}
-ATT.Cons = {"Reduced range"}
+ATT.Cons = {"Faster damage dropoff"}
 
 ATT.Model = "models/weapons/tacint/addons/silencer.mdl"
 ATT.Scale = 0.35
