@@ -373,3 +373,10 @@ function SWEP:SetupDataTables()
     self:NetworkVar("Bool", 3, "EndReload")
     self:NetworkVar("Bool", 4, "PrimedGrenade")
 end
+
+function SWEP:OnReloaded()
+    self.StatCache = {}
+    self.HookCache = {}
+
+    self:SetBaseSettings()
+end
