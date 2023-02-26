@@ -320,6 +320,20 @@ function SWEP:CreateCustomizeHUD()
             LowerIsBetter = true,
         },
         {
+            Name = "Spread, hip",
+            Value = "HipFireSpreadPenalty",
+            AggregateFunction = fastspread,
+            Unit = "°",
+            LowerIsBetter = true,
+        },
+        {
+            Name = "Spread, ADS",
+            Value = "ScopedSpreadPenalty",
+            AggregateFunction = fastspread,
+            Unit = "°",
+            LowerIsBetter = true,
+        },
+        {
             Name = "Spread, moving",
             Value = "MoveSpreadPenalty",
             AggregateFunction = fastspread,
@@ -334,20 +348,6 @@ function SWEP:CreateCustomizeHUD()
             LowerIsBetter = true,
         },
         {
-            Name = "Spread, ADS",
-            Value = "ScopedSpreadPenalty",
-            AggregateFunction = fastspread,
-            Unit = "°",
-            LowerIsBetter = true,
-        },
-        {
-            Name = "Spread, blindfire",
-            Value = "BlindFireSpreadPenalty",
-            AggregateFunction = fastspread,
-            Unit = "°",
-            LowerIsBetter = true,
-        },
-        {
             Name = "Spread, mid-air",
             Value = "MidAirSpreadPenalty",
             AggregateFunction = fastspread,
@@ -355,8 +355,8 @@ function SWEP:CreateCustomizeHUD()
             LowerIsBetter = true,
         },
         {
-            Name = "Spread, hip",
-            Value = "HipFireSpreadPenalty",
+            Name = "Spread, blindfire",
+            Value = "BlindFireSpreadPenalty",
             AggregateFunction = fastspread,
             Unit = "°",
             LowerIsBetter = true,
