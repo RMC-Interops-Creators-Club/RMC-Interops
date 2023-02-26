@@ -19,7 +19,7 @@ SWEP.Slot = 3
 SWEP.Damage_Max = 45 // damage at minimum range
 SWEP.Damage_Min = 100 // damage at maximum range
 SWEP.Range_Min = 3000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
+SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
 SWEP.Penetration = 6 // units of metal this weapon can penetrate
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2,
@@ -29,16 +29,16 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
     [HITGROUP_RIGHTLEG] = 0.9,
-    [HITGROUP_GEAR] = 0.9
+    [HITGROUP_GEAR] = 0.8
 }
 
 // misc. shooting
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 40
+SWEP.RPM = 38
 
-SWEP.Spread = 0.00
+SWEP.Spread = 0
 
 SWEP.ShootSpeedMult = 1
 
@@ -53,7 +53,7 @@ SWEP.CrouchSpreadPenalty = -0.005
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 1
 SWEP.RecoilResetTime = 0 // time after you stop shooting for recoil to start dissipating
-SWEP.RecoilDissipationRate = 3
+SWEP.RecoilDissipationRate = 0.5
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 0.05
@@ -101,8 +101,8 @@ SWEP.ScopeOverlay = Material("tacint/scopes/sniper.png", "mips smooth") // Mater
 SWEP.ScopeFOV = 90 / 10
 SWEP.ScopeLevels = 2 // 2 = like CS:S
 
-SWEP.QuickScopeSpreadPenalty = 0.05
-SWEP.QuickScopeTime = 0.1 // amount of time over which to fade out the quickscope spread penalty
+SWEP.QuickScopeSpreadPenalty = 0.1
+SWEP.QuickScopeTime = 0.4 // amount of time over which to fade out the quickscope spread penalty
 
 // reload
 

@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Hécate II"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Premium bolt-action anti-materiel rifle. Very heavy."
+SWEP.Description = "Premium bolt-action anti-materiel rifle. Hits harder than others, but is very heavy."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_hecate.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_hecate.mdl"
@@ -19,7 +19,7 @@ SWEP.Slot = 3
 SWEP.Damage_Max = 30 // damage at minimum range
 SWEP.Damage_Min = 110 // damage at maximum range
 SWEP.Range_Min = 1900 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
+SWEP.Range_Max = 4000 // distance at which we drop to minimum damage
 SWEP.Penetration = 30 // units of metal this weapon can penetrate
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 5, // nobody is surviving this
@@ -29,14 +29,14 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
     [HITGROUP_RIGHTLEG] = 0.9,
-    [HITGROUP_GEAR] = 0.9
+    [HITGROUP_GEAR] = 0.8
 }
 
 // misc. shooting
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 35
+SWEP.RPM = 37
 
 SWEP.Spread = 0
 
@@ -53,7 +53,7 @@ SWEP.CrouchSpreadPenalty = -0.05
 SWEP.RecoilPerShot = 1.2
 SWEP.RecoilMaximum = 2
 SWEP.RecoilResetTime = 0 // time after you stop shooting for recoil to start dissipating
-SWEP.RecoilDissipationRate = 1
+SWEP.RecoilDissipationRate = 0.6
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 3
@@ -103,7 +103,7 @@ SWEP.ScopeOverlay = Material("tacint/scopes/sniper.png", "mips smooth") // Mater
 SWEP.ScopeFOV = 90 / 10
 SWEP.ScopeLevels = 1 // 2 = like CS:S
 
-SWEP.QuickScopeSpreadPenalty = 0.35
+SWEP.QuickScopeSpreadPenalty = 0.25
 SWEP.QuickScopeTime = 0.9 // amount of time over which to fade out the quickscope spread penalty
 
 // reload
