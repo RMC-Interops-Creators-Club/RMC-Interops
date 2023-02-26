@@ -29,14 +29,14 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
     [HITGROUP_RIGHTLEG] = 0.9,
-    [HITGROUP_GEAR] = 0.9
+    [HITGROUP_GEAR] = 0.8
 }
 
 // misc. shooting
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 55
+SWEP.RPM = 43
 
 SWEP.Spread = 0.02
 
@@ -53,7 +53,7 @@ SWEP.CrouchSpreadPenalty = -0.005
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 1
 SWEP.RecoilResetTime = 0 // time after you stop shooting for recoil to start dissipating
-SWEP.RecoilDissipationRate = 5
+SWEP.RecoilDissipationRate = 0.6
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 0.05
@@ -101,8 +101,8 @@ SWEP.ScopeOverlay = Material("tacint/scopes/sniper.png", "mips smooth") // Mater
 SWEP.ScopeFOV = 90 / 6
 SWEP.ScopeLevels = 1 // 2 = like CS:S
 
-SWEP.QuickScopeSpreadPenalty = 0.05
-SWEP.QuickScopeTime = 0.1 // amount of time over which to fade out the quickscope spread penalty
+SWEP.QuickScopeSpreadPenalty = 0.1
+SWEP.QuickScopeTime = 0.33 // amount of time over which to fade out the quickscope spread penalty
 
 // reload
 
