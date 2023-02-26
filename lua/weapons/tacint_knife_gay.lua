@@ -50,7 +50,7 @@ SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_PISTOL
 SWEP.GestureBash = ACT_HL2MP_GESTURE_RANGE_ATTACK_MELEE
 
 SWEP.PassiveAng = Angle(0, 0, 0)
-SWEP.PassivePos = Vector(2.5, 0, -4)
+SWEP.PassivePos = Vector(2.5, -1, -4)
 
 SWEP.SprintAng = Angle(0, -25, -10)
 SWEP.SprintPos = Vector(3, 0, -2)
