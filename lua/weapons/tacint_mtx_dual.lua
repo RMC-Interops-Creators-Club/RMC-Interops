@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Dual MTX"
 SWEP.Category = "Tactical Intervention (Arctic)"
 
-SWEP.Description = "Pair of handguns for dual wielding. Inaccurate but high capacity."
+SWEP.Description = "Pair of handguns well suited for dual wielding. Inaccurate but high capacity."
 
 SWEP.ViewModel = "models/weapons/tacint/v_mtx_dual.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_mtx.mdl"
@@ -16,7 +16,7 @@ SWEP.Slot = 1
 
 // "ballistics"
 
-SWEP.Damage_Max = 100 / 6 // damage at minimum range
+SWEP.Damage_Max = 100 / 5 // damage at minimum range
 SWEP.Damage_Min = 100 / 8 // damage at maximum range
 SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
 SWEP.Range_Max = 4000 // distance at which we drop to minimum damage
@@ -39,13 +39,13 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = -2
 
-SWEP.RPM = 700
+SWEP.RPM = 900
 
 SWEP.Spread = 0.008
 
 // Spread penalties are in spread units and are additive
 SWEP.MoveSpreadPenalty = 0.010 // spread penalty while travelling at max. 250 u/s
-SWEP.MidAirSpreadPenalty = 0.012 // spread penalty for being in the air
+SWEP.MidAirSpreadPenalty = 0.062 // spread penalty for being in the air
 SWEP.HipFireSpreadPenalty = 0 // spread penalty for not being scoped in
 SWEP.BlindFireSpreadPenalty = 0.01 // spread penalty for blind firing
 SWEP.CrouchSpreadPenalty = 0
@@ -95,7 +95,7 @@ SWEP.SprintPos = Vector(1, 0, -12)
 
 // reload
 
-SWEP.ClipSize = 24
+SWEP.ClipSize = 28
 SWEP.Ammo = "ti_9mm"
 
 SWEP.ReloadTimeMult = 1
