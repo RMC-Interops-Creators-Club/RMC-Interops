@@ -8,4 +8,4 @@ ATT.Category = "perk_shooting" // can be "string" or {"list", "of", "strings"}
 
 ATT.SortOrder = 1
 
-ATT.Mult_Penetration = 2
+ATT.Mult_Penetration = 4
