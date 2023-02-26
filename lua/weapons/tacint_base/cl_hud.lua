@@ -133,6 +133,7 @@ function SWEP:DrawHUD()
     self:DrawCustomizeHUD()
 
     -- self:DoHintsHUD()
+    self:RunHook("Hook_DrawHUD")
 
     if !GetConVar("tacint_showgrenadepanel"):GetBool() then return end
 

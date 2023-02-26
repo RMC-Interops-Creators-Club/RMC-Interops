@@ -43,4 +43,6 @@ function SWEP:Think()
             end
         end
     end
+
+    self:RunHook("Hook_Think")
 end
