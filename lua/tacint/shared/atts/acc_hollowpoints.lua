@@ -11,7 +11,7 @@ ATT.Category = "perk_hollowpoints" // can be "string" or {"list", "of", "strings
 
 ATT.SortOrder = 1
 
-ATT.Override_ClipSize = 20
+ATT.Mult_ClipSize = (2/3)
 
 ATT.Mult_Damage_Min = 1.2
 ATT.Mult_Damage_Max = 1.2
