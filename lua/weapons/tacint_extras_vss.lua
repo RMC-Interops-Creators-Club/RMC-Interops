@@ -165,17 +165,12 @@ SWEP.DeployTimeMult = 2.25
 // attachments
 
 SWEP.AttachmentElements = {
-    ["0iron"] = {
-        BGs_VM = {
-            {2, 2}
-        },
-    },
     ["tactical"] = {
         BGs_VM = {
             {2, 1}
         },
     },
-    ["iron"] = {
+    ["irons"] = {
         BGs_VM = {
             {2, 2}
         },
@@ -193,7 +188,7 @@ SWEP.Attachments = {
         AttachSound = "tacint/weapons/optic_on.wav",
         DetachSound = "tacint/weapons/optic_off.wav",
         VMScale = 0.75,
-        Pos_VM = Vector(-5.15, 0.15, 4),
+        Pos_VM = Vector(-5.25, 0.15, 4),
         Ang_VM = Angle(90, 0, 0),
         Pos_WM = Vector(0, 3, 0.5),
         Ang_WM = Angle(0, -90, 0),
