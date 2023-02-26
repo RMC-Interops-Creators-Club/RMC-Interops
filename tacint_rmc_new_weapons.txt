@@ -1,5 +1,3 @@
-https://gamebanana.com/mods/208443 - SPAS-12. Semi-auto, use M1014 anims.
-
 https://gamebanana.com/mods/207737 - Deagla. Could use any number of pistol animations.  May need rescaling.
 
 https://gamebanana.com/mods/207923 - P226. Use P250 anims. [Done, needs worldmodel]
@@ -7,3 +5,13 @@ https://gamebanana.com/mods/207923 - P226. Use P250 anims. [Done, needs worldmod
 https://gamebanana.com/mods/211807 - VSS. Use AK anims. [Done, needs worldmodel]
 
 https://gamebanana.com/mods/206969 - Glock 18. Replace current Glock.
+
+https://gamebanana.com/mods/208423 - R870 Magnum. idk how we would balance it but it look nice :pleading_ios:
+
+https://gamebanana.com/wips/46736 - AK-12 Prototype.  Might suck will look at it later.
+
+https://gamebanana.com/mods/207745 - Raging Bull.  Either this or the M29 for a .44 Magnum revolver.
+
+https://gamebanana.com/mods/207707 - M29 Satan.  Either this or the Raging Bull for a .44 magnum revolver.
+
+SPATAN IS DEAD :sobbing:
