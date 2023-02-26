@@ -40,3 +40,15 @@ Current plans:
 - Make tac attachments override default HL2 flashlight
 - Make it so shotgun reloads can be instantly cancelled (like CS 1.6)
 - Restore the knives.
+
+Contributors
+- VinierAardvark1
+  - [contributions]
+- speedonerd
+  - [contributions]
+- Fesiug
+  - [contributions]
+- CyloWalker
+  - Weapon icons
+- Palindrone
+  - Worldmodels & magazines (?)
