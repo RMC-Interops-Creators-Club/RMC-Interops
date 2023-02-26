@@ -34,11 +34,10 @@ Current plans:
     - P226
     - Deagle
     
-- Backport tac laser [Done]
-- Backport radar
-- Rebalance some atts for more gameplay variety
-- Make tac attachments override default HL2 flashlight
-- Make it so shotgun reloads can be instantly cancelled (like CS 1.6)
+- Backport TacRP attachments. [Done]
+- Total balance overhaul.
+- Make tac attachments override default HL2 flashlight.
+- Make it so shotgun reloads can be instantly cancelled. (like CS 1.6)
 - Restore the knives.
 
 Contributors
