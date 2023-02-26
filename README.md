@@ -7,7 +7,6 @@ Features:
     All new weapons:
     - VSS Vintorez - Integrally-suppressed sniper with good mobility but poor damage and spread.
     - P226 - .357 SIG pistol that maintains its damage over long ranges.
-    - SPAS-12 - Powerful semi-auto shotgun that's devestating up close but has sluggish handling.
     - Desert Eagle - A powerful but cumbersome magnum pistol with amazing damage.
     - Tactical Knife and Jackal Knife - Backup melee weapons that can make quick work of opponents if you're out of ammo.
     
@@ -33,7 +32,6 @@ Current plans:
 - Add new weapons: [see "tacint_rmc_new_weapons.txt"]
     - VSS
     - P226
-    - SPAS-12 
     - Deagle
     
 - Backport tac laser [Done]
@@ -42,3 +40,15 @@ Current plans:
 - Make tac attachments override default HL2 flashlight
 - Make it so shotgun reloads can be instantly cancelled (like CS 1.6)
 - Restore the knives.
+
+Contributors
+- VinierAardvark1
+  - [contributions]
+- speedonerd
+  - [contributions]
+- Fesiug
+  - [contributions]
+- CyloWalker
+  - Weapon icons
+- Palindrone
+  - Worldmodels & magazines (?)
