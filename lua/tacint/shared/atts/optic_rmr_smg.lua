@@ -1,5 +1,5 @@
 ATT.PrintName = "LP"
-ATT.FullName = "Low-Profile Gunsight"
+ATT.FullName = "Low-Profile Sub-Machinegun Sight"
 ATT.Icon = Material("entities/tacint_att_optic_rmr.png", "mips smooth")
 ATT.Description = "Low-profile combat sight. 1.25x zoom."
 ATT.Pros = {"Zoom"}
