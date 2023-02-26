@@ -16,6 +16,7 @@ Current plans:
     - Riot Shield
 
 - Backport tac laser [Done]
+- Backport radar
 - Rebalance some atts for more gameplay variety
 - Make tac attachments override default HL2 flashlight
 - Make it so shotgun reloads can be instantly cancelled (like CS 1.6)
