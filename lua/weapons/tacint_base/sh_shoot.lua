@@ -46,6 +46,19 @@ function SWEP:PrimaryAttack()
         end
     end
 
+    if self.PrimaryMelee then
+        self:S_Melee()
+
+        local sshoot = self:GetValue("Sound_Shoot")
+        local pvar = self:GetValue("ShootPitchVariance")
+
+        if istable(sshoot) then
+            sshoot = table.Random(sshoot)
+        end
+        self:EmitSound(sshoot, self:GetValue("Vol_Shoot"), 100 + util.SharedRandom("tacint_sshoot", -pvar, pvar), 1, CHAN_WEAPON)
+        return
+    end
+
     if self:GetValue("Firemode") < 0 and self:GetBurstCount() >= -self:GetValue("Firemode") then return end
     if self:Clip1() < self:GetValue("AmmoPerShot") then
         self.Primary.Automatic = false

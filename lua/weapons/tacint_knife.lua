@@ -1,8 +1,8 @@
 SWEP.Base = "tacint_base"
 SWEP.Spawnable = true
+SWEP.Melee = true
 
 AddCSLuaFile()
-DEFINE_BASECLASS( "tacint_base" )
 
 // names and stuff
 SWEP.PrintName = "Tactical Knife"
@@ -29,6 +29,7 @@ SWEP.ClipSize = -1
 
 SWEP.MoveSpeedMult = 1
 
+SWEP.PrimaryMelee = true
 SWEP.MeleeSpeedMult = 1
 SWEP.MeleeSpeedMultTime = 2 // seconds to apply slow down for
 
@@ -38,7 +39,7 @@ SWEP.Scope = false
 
 SWEP.FreeAim = false
 
-SWEP.QuickNadeTimeMult = 1.5
+SWEP.QuickNadeTimeMult = 0.75
 
 // hold types
 
@@ -61,8 +62,8 @@ SWEP.SprintMidPoint = {
 }
 
 SWEP.AnimationTranslationTable = {
-    ["deploy"] = "draw",
-    ["melee"] = "melee"
+    ["deploy"] = "deploy",
+    ["melee"] = {"slash_left1", "slash_left2", "slash_right1", "slash_right2", "slash_forward1", "slash_forward2"}
 }
 
 // attachments

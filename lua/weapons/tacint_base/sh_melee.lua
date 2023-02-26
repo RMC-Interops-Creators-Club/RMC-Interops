@@ -24,6 +24,10 @@ function SWEP:SecondaryAttack()
         return
     end
 
+    self:S_Melee()
+end
+
+function SWEP:S_Melee()
     if self:StillWaiting() then return end
     if self:SprintLock() then return end
     if !self:GetValue("CanMeleeAttack") then return end
