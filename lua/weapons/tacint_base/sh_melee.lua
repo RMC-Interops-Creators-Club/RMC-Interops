@@ -24,7 +24,9 @@ function SWEP:SecondaryAttack()
         return
     end
 
-    self:S_Melee()
+    if !self.PrimaryMelee then
+        self:S_Melee()
+    end
 end
 
 function SWEP:S_Melee()
