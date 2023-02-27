@@ -62,7 +62,7 @@ SWEP.SprintMidPoint = {
 
 SWEP.AnimationTranslationTable = {
     ["deploy"] = "deploy",
-    ["melee"] = "melee",
+    ["melee"] = {"slash_left1", "slash_left2", "slash_right1", "slash_right2", "slash_forward1", "slash_forward2"},
     ["idle"] = "idle"
 }
 
