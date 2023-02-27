@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Hécate II"
-SWEP.Category = "RMC Interops (Heavy)"
+SWEP.Category = "RMC Interops (Heavy Weapons)"
 
 SWEP.Description = "Premium bolt-action anti-materiel rifle. Hits harder than others, but is very heavy."
 
