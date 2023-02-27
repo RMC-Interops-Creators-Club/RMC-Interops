@@ -3,7 +3,7 @@ ATT.FullName = "Tactical Omnidirectional Radar Microphone"
 ATT.Icon = Material("entities/tacrp_att_tac_extras_dmic.png", "mips smooth")
 ATT.Description = "Tactical microphone that shows nearby enemies via echolocation."
 ATT.Pros = {"Radar"}
-ATT.Cons = {"Audible pinging", "Reduced handling"}
+ATT.Cons = {"Audible pinging", "Reduced handling", "Disables flashlight"}
 
 ATT.Model = "models/weapons/tacint/addons/dmic_mounted.mdl"
 ATT.Scale = 0.75

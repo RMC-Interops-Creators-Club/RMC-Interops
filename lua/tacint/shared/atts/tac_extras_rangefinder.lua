@@ -10,7 +10,7 @@ ATT.Scale = 1
 ATT.Category = "tactical"
 
 ATT.SpreadGauge = true
-ATT.CanToggle = true
+ATT.CanToggle = false
 
 if CLIENT then
 	local mat_rf = Material("tacint/tacrpport/rangefinder.png", "mips smooth")
