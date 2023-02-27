@@ -373,6 +373,8 @@ function SWEP:SetupDataTables()
     self:NetworkVar("Bool", 3, "EndReload")
     self:NetworkVar("Bool", 4, "PrimedGrenade")
     self:NetworkVar("Bool", 5, "NWTactical")
+
+    self:SetTactical(true)
 end
 
 SWEP.CL_Tactical = true

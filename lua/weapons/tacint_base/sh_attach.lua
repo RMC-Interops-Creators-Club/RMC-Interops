@@ -39,6 +39,7 @@ function SWEP:Attach(slot, att, silent)
     self.HookCache = {}
 
     self:SetBaseSettings()
+    self:SetTactical(true)
 end
 
 function SWEP:Detach(slot, silent)

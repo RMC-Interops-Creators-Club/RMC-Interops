@@ -65,6 +65,8 @@ net.Receive("tacint_attach", function(len, ply)
     else
         wpn:Detach(slot, true)
     end
+
+    wpn:SetTactical(true)
 end)
 
 net.Receive("tacint_receivepreset", function(len, ply)
