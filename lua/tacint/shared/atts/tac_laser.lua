@@ -16,3 +16,4 @@ ATT.Mult_RecoilSpreadPenalty = 0.8
 ATT.Mult_SprintToFireTime = 1.1
 
 ATT.Laser = true
+ATT.CanToggle = true

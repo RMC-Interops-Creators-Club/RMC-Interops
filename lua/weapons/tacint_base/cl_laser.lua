@@ -129,7 +129,7 @@ function SWEP:DrawLasers(wm)
 
         local power = 2
 
-        if atttbl.Laser and true then
+        if atttbl.Laser and self:GetTactical() then
             if wm and IsValid(k.WModel) then
                 if self:GetOwner():IsPlayer() then
                     self:DrawLaser(k.WModel:GetPos(), self:GetShootDir(), power, true)

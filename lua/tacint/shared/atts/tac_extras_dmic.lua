@@ -21,7 +21,7 @@ if CLIENT then
 	local scantime = 1.5
 
 	ATT.Hook_DrawHUD = function(self)
-		if true then--self:GetTactical() then
+		if self:GetTactical() then
 			local scrw = ScrW()
 			local scrh = ScrH()
 

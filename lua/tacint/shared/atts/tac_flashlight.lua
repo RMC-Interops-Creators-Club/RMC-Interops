@@ -16,3 +16,4 @@ ATT.Mult_HipFireSpreadPenalty = 0.8
 ATT.Mult_SprintToFireTime = 1.1
 
 ATT.Flashlight = true
+ATT.CanToggle = true

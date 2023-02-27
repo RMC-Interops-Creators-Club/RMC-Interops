@@ -4,6 +4,7 @@ SWEP.Flashlights = {} -- tracks projectedlights
 function SWEP:GetHasFlashlights()
     for i, k in pairs(self.Attachments) do
         if !k.Installed then continue end
+        if !self:GetTactical() then continue end
 
         local atttbl = TacInt.GetAttTable(k.Installed)
 
@@ -21,6 +22,7 @@ function SWEP:CreateFlashlightsVM()
 
     for i, k in pairs(self.Attachments) do
         if !k.Installed then continue end
+        if !self:GetTactical() then continue end
 
         local atttbl = TacInt.GetAttTable(k.Installed)
 
@@ -86,6 +88,11 @@ function SWEP:KillFlashlightsVM()
 end
 
 function SWEP:DrawFlashlightsVM()
+    if !self:GetTactical() then
+        self:KillFlashlights()
+        return
+    end
+
     if !self.Flashlights then
         self:CreateFlashlightsVM()
     end

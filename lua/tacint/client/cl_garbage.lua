@@ -50,7 +50,6 @@ hook.Add("PostDrawEffects", "TacInt_CleanFlashlights", function()
 
     local wpn = LocalPlayer():GetActiveWeapon()
 
-    if !wpn then return end
     if !IsValid(wpn) then return end
     if !wpn.ArcticTacInt then return end
 

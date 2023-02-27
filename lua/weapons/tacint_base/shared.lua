@@ -372,6 +372,18 @@ function SWEP:SetupDataTables()
     self:NetworkVar("Bool", 2, "BlindFire")
     self:NetworkVar("Bool", 3, "EndReload")
     self:NetworkVar("Bool", 4, "PrimedGrenade")
+    self:NetworkVar("Bool", 5, "NWTactical")
+end
+
+SWEP.CL_Tactical = true
+function SWEP:SetTactical(x)
+    if (!game.SinglePlayer() and CLIENT) then self.CL_Tactical = x end
+    self:SetNWTactical(x)
+end
+
+function SWEP:GetTactical()
+    if (!game.SinglePlayer() and CLIENT) then return self.CL_Tactical end
+    return self:GetNWTactical()
 end
 
 function SWEP:OnReloaded()

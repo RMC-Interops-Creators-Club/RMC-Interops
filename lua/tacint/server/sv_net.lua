@@ -2,6 +2,7 @@ if CLIENT then return end
 
 util.AddNetworkString("tacint_toggleblindfire")
 util.AddNetworkString("tacint_togglecustomize")
+util.AddNetworkString("tacintrmc_toggletactical")
 util.AddNetworkString("tacint_reloadatts")
 util.AddNetworkString("tacint_networkweapon")
 util.AddNetworkString("tacint_attach")
@@ -26,6 +27,14 @@ net.Receive("tacint_togglecustomize", function(len, ply)
     if !wpn or !IsValid(wpn) or !wpn.ArcticTacInt then return end
 
     wpn:ToggleCustomize(bf)
+end)
+
+net.Receive("tacintrmc_toggletactical", function(len, ply)
+    local wpn = ply:GetActiveWeapon()
+
+    if !wpn or !IsValid(wpn) or !wpn.ArcticTacInt or !wpn:GetValue("CanToggle") then return end
+
+    wpn:SetTactical(!wpn:GetTactical())
 end)
 
 net.Receive("tacint_networkweapon", function(len, ply)
