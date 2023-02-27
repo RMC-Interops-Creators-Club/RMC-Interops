@@ -6,18 +6,8 @@ https://gamebanana.com/mods/211807 - VSS. [Done, needs worldmodel]
 
 https://gamebanana.com/mods/206969 - Glock 18. Replace current Glock.
 
-https://gamebanana.com/mods/208423 - R870 Magnum. Use Bekas animations. Balanced performance compared to all other shotguns, which have a unique gimmick.
-
-https://gamebanana.com/wips/46736 - AK-12 Prototype. Might suck will look at it later. idk balance ideas rn
-
-https://gamebanana.com/mods/207745 - Raging Bull. Either this or the M29 for a .44 Magnum revolver. More powerful but less accurate than the MR96.
-
-https://gamebanana.com/mods/207707 - M29 Satan. Either this or the Raging Bull for a .44 magnum revolver. More powerful but less accurate than the MR96.
-
-https://gamebanana.com/mods/210642 - XM8. Use G36 anims. Alternative to G36K, also has integral scope.
+https://gamebanana.com/mods/207745 - Raging Bull. .44 Magnum. More powerful but less accurate than the MR96.
 
 https://gamebanana.com/mods/211951 - XM8 LMG. Mag-fed MG to add variety.
 
 https://gamebanana.com/mods/211952 - M240. Might suck, disintegrating belt will suck to do. 7.62 alternative to the 5.56 MG4.
-
-https://gamebanana.com/mods/211964 - M60. Alternative to the M240. Use one or the other. 7.62 alternative to the 5.56 MG4.
