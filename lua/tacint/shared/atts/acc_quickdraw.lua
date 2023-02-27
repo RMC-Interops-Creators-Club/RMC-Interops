@@ -1,6 +1,6 @@
 ATT.PrintName = "Quickdraw"
-ATT.Icon = Material("entities/tacint_att_acc_foldstock.png", "mips smooth")
-ATT.Description = "Faster handling techniques that let you draw your weapon quicker."
+ATT.Icon = Material("entities/tacint_acc_quickdraw.png", "mips smooth")
+ATT.Description = "Disregard safety practices and draw your weapon quicker."
 ATT.Pros = {"Faster draw speed"}
 ATT.Cons = {"Increased recoil"}
 
