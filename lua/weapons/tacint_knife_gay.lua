@@ -28,6 +28,13 @@ SWEP.Ammo = ""
 SWEP.ClipSize = -1
 
 // handling
+SWEP.Spread = 0.01
+SWEP.MoveSpreadPenalty = 0
+SWEP.MidAirSpreadPenalty = 0
+SWEP.HipFireSpreadPenalty = 0
+SWEP.ScopedSpreadPenalty = 0
+SWEP.BlindFireSpreadPenalty = 0
+SWEP.CrouchSpreadPenalty = 0
 
 SWEP.MoveSpeedMult = 1
 
