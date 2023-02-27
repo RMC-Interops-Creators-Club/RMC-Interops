@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "KS-23"
 SWEP.Category = "RMC Interops (Heavy)"
 
-SWEP.Description = "Heavy large calibre shotgun that packs a serious punch."
+SWEP.Description = "Heavy shotgun that is lethal up close but damage falls off quickly."
 
 SWEP.ViewModel = "models/weapons/tacint/v_ks23.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_ks23.mdl"
@@ -17,9 +17,9 @@ SWEP.Slot = 3
 // "ballistics"
 
 SWEP.Damage_Max = 100 / 6
-SWEP.Damage_Min = 100 / 8
-SWEP.Range_Min = 500 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
+SWEP.Damage_Min = 100 / 12
+SWEP.Range_Min = 210 // distance for which to maintain maximum damage
+SWEP.Range_Max = 320 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 SWEP.Num = 6
 

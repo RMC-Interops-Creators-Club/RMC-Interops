@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Molot Bekas"
 SWEP.Category = "RMC Interops (Heavy)"
 
-SWEP.Description = "Hunting shotgun with tight spread but a small magazine size."
+SWEP.Description = "Hunting shotgun with tight spread but a small magazine and low damage."
 
 SWEP.ViewModel = "models/weapons/tacint/v_bekas.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_bekas.mdl"
@@ -18,10 +18,10 @@ SWEP.Slot = 3
 
 SWEP.Damage_Max = 100 / 7 // damage at minimum range
 SWEP.Damage_Min = 100 / 15 // damage at maximum range
-SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
+SWEP.Range_Min = 300 // distance for which to maintain maximum damage
+SWEP.Range_Max = 520 // distance at which we drop to minimum damage
 SWEP.Penetration = 0.25 // units of metal this weapon can penetrate
-SWEP.Num = 6
+SWEP.Num = 5
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 1,

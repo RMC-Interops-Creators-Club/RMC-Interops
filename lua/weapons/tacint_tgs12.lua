@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "TGS-12"
 SWEP.Category = "RMC Interops (Heavy)"
 
-SWEP.Description = "Powerful pump-action shotgun with poor spread."
+SWEP.Description = "Compact shotgun with good mobility but poor spread."
 
 SWEP.ViewModel = "models/weapons/tacint/v_tgs12.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_tgs12.mdl"
@@ -18,10 +18,10 @@ SWEP.Slot = 3
 
 SWEP.Damage_Max = 100 / 8 // damage at minimum range
 SWEP.Damage_Min = 100 / 10 // damage at maximum range
-SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
+SWEP.Range_Min = 260 // distance for which to maintain maximum damage
+SWEP.Range_Max = 375 // distance at which we drop to minimum damage
 SWEP.Penetration = 0.25 // units of metal this weapon can penetrate
-SWEP.Num = 8
+SWEP.Num = 6
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 1,
@@ -69,13 +69,13 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.9
+SWEP.MoveSpeedMult = 0.95
 SWEP.ShootingSpeedMult = 1 // slow down applied while shooting
 SWEP.SightedSpeedMult = 0.5
 SWEP.MeleeSpeedMult = 1
 SWEP.MeleeSpeedMultTime = 2 // seconds to apply slow down for
 
-SWEP.SprintToFireTime = 0.35
+SWEP.SprintToFireTime = 0.3
 
 // hold types
 

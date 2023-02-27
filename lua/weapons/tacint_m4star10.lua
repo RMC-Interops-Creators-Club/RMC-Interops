@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "M1014"
 SWEP.Category = "RMC Interops (Heavy)"
 
-SWEP.Description = "Automatic combat shotgun. Great fire rate."
+SWEP.Description = "Semi-automatic combat shotgun. Great fire rate but poor control."
 
 SWEP.ViewModel = "models/weapons/tacint/v_m4star10.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_m4star10.mdl"
@@ -18,10 +18,10 @@ SWEP.Slot = 3
 
 SWEP.Damage_Max = 100 / 8 // damage at minimum range
 SWEP.Damage_Min = 100 / 14 // damage at maximum range
-SWEP.Range_Min = 1250 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
+SWEP.Range_Min = 230 // distance for which to maintain maximum damage
+SWEP.Range_Max = 420 // distance at which we drop to minimum damage
 SWEP.Penetration = 0.25 // units of metal this weapon can penetrate
-SWEP.Num = 8
+SWEP.Num = 6
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 1,
@@ -38,7 +38,7 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 300
+SWEP.RPM = 275
 
 SWEP.Spread = 0.045
 
@@ -95,7 +95,7 @@ SWEP.SprintPos = Vector(5, 0, -2)
 
 // reload
 
-SWEP.ClipSize = 8
+SWEP.ClipSize = 7
 SWEP.Ammo = "ti_12g"
 SWEP.ShotgunReload = true
 
