@@ -36,7 +36,7 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 600
+SWEP.RPM = 400
 
 SWEP.Spread = 0.0000
 
