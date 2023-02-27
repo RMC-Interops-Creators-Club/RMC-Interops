@@ -12,8 +12,8 @@ ATT.Category = "tactical" // can be "string" or {"list", "of", "strings"}
 
 ATT.SortOrder = 2
 
-ATT.Mult_HipFireSpreadPenalty = 0.8
-ATT.Mult_SprintToFireTime = 1.1
+ATT.Mult_HipFireSpreadPenalty = 0.67
+ATT.Mult_SprintToFireTime = 1.18
 
 ATT.Flashlight = true
 ATT.CanToggle = true
