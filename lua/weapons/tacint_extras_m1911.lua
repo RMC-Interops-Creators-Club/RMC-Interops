@@ -17,8 +17,8 @@ SWEP.Slot = 1
 
 SWEP.Damage_Max = 33 -- MFW .45 STOPPIN POWAH
 SWEP.Damage_Min = 12
-SWEP.Range_Min = 900
-SWEP.Range_Max = 3000
+SWEP.Range_Min = 570
+SWEP.Range_Max = 880
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 
 SWEP.MuzzleVelocity = 8000
