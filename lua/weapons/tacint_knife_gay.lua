@@ -40,6 +40,12 @@ SWEP.FreeAim = false
 
 SWEP.QuickNadeTimeMult = 0.75
 
+// sounds
+
+local path = "tacint/weapons/knife/"
+
+SWEP.Sound_Shoot = {path .. "swing-1.wav", path .. "swing-2.wav", path .. "swing-3.wav", path .. "swing-4.wav", path .. "swing-5.wav", path .. "swing-6.wav"}
+
 // hold types
 
 SWEP.HoldType = "knife"
