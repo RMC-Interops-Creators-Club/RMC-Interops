@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Dual MTX"
-SWEP.Category = "RMC Interops (Small Arms)"
+SWEP.Category = "RMC Interops (Handguns)"
 
 SWEP.Description = "Pair of handguns well suited for dual wielding. Inaccurate but high capacity."
 

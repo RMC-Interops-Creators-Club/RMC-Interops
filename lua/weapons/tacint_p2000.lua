@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "P2000"
-SWEP.Category = "RMC Interops (Small Arms)"
+SWEP.Category = "RMC Interops (Handguns)"
 
 SWEP.Description = "9mm pistol with balanced characteristics."
 
