@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "P250"
 SWEP.Category = "RMC Interops (Smallarms)"
 
-SWEP.Description = "9mm handgun with balanced characteristics."
+SWEP.Description = "9mm handgun with a longer than average range."
 
 SWEP.ViewModel = "models/weapons/tacint/v_p250.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_p250.mdl"
@@ -17,8 +17,8 @@ SWEP.Slot = 1
 // "ballistics"
 
 SWEP.Damage_Max = 100 / 4 // damage at minimum range
-SWEP.Damage_Min = 100 / 7 // damage at maximum range
-SWEP.Range_Min = 540 // distance for which to maintain maximum damage
+SWEP.Damage_Min = 12 // damage at maximum range
+SWEP.Range_Min = 600 // distance for which to maintain maximum damage
 SWEP.Range_Max = 1300 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 

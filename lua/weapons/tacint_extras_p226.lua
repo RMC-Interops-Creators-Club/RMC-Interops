@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "P226"
 SWEP.Category = "RMC Interops (Smallarms)"
 
-SWEP.Description = ".357 SIG handgun that maintains damage over range."
+SWEP.Description = ".357 SIG handgun that's weaker than average but can maintain damage over range."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_p226.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_p250.mdl"

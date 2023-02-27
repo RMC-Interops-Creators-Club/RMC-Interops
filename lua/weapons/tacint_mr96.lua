@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "MR96"
 SWEP.Category = "RMC Interops (Smallarms)"
 
-SWEP.Description = "Powerful revolver with high recoil."
+SWEP.Description = "Accurate revolver that maintains effective stopping power over long distances."
 
 SWEP.ViewModel = "models/weapons/tacint/v_mr96.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_mr96.mdl"
@@ -19,7 +19,7 @@ SWEP.Slot = 1
 SWEP.Damage_Max = 100 / 2 // damage at minimum range
 SWEP.Damage_Min = 100 / 3 // damage at maximum range
 SWEP.Range_Min = 800 // distance for which to maintain maximum damage
-SWEP.Range_Max = 4000 // distance at which we drop to minimum damage
+SWEP.Range_Max = 2375 // distance at which we drop to minimum damage
 SWEP.Penetration = 1.5 // units of metal this weapon can penetrate
 
 SWEP.BodyDamageMultipliers = {

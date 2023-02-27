@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "P2000"
 SWEP.Category = "RMC Interops (Smallarms)"
 
-SWEP.Description = "9mm pistol with excellent moving accuracy."
+SWEP.Description = "9mm pistol with balanced characteristics."
 
 SWEP.ViewModel = "models/weapons/tacint/v_p2000.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_p2000.mdl"
