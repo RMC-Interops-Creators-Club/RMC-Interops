@@ -19,6 +19,9 @@ SWEP.NPCUsable = false
 
 SWEP.Slot = 0
 
+SWEP.MeleeDamage = 60
+SWEP.MeleeDelay = 0.70
+
 // misc. shooting
 
 SWEP.Ammo = ""
