@@ -5,9 +5,9 @@ ENT.Base                     = "base_entity"
 ENT.RenderGroup              = RENDERGROUP_TRANSLUCENT
 
 ENT.PrintName                = "Nuclear Device"
-ENT.Category                 = "Tactical Intervention - Ammo"
+ENT.Category                 = "RMC Interops - Ammo"
 
-ENT.AdminOnly = true
+ENT.AdminOnly                = true
 ENT.Spawnable                = true
 ENT.Model                    = "models/weapons/tacint/props_misc/briefcase_bomb-1.mdl"
 

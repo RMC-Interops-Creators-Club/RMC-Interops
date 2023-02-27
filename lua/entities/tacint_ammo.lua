@@ -5,16 +5,16 @@ ENT.Base                     = "base_entity"
 ENT.RenderGroup              = RENDERGROUP_TRANSLUCENT
 
 ENT.PrintName                = "Ammo Pickup"
-ENT.Category                 = "Tactical Intervention - Ammo"
+ENT.Category                 = "RMC Interops - Ammo"
 
 ENT.Spawnable                = true
 ENT.Model                    = "models/weapons/tacint/ammoboxes/ammo_bag-1.mdl"
-ENT.ModelOptions = nil
+ENT.ModelOptions             = nil
 
-ENT.InfiniteUse = false
-ENT.OpeningAnim = false
-ENT.NextUse = 0
-ENT.Open = false
+ENT.InfiniteUse              = false
+ENT.OpeningAnim              = false
+ENT.NextUse                  = 0
+ENT.Open                     = false
 
 function ENT:Initialize()
     local model = self.Model

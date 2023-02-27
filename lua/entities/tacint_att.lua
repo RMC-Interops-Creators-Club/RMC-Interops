@@ -5,7 +5,7 @@ ENT.Base                     = "base_entity"
 ENT.RenderGroup              = RENDERGROUP_TRANSLUCENT
 
 ENT.PrintName                = "Attachment"
-ENT.Category                 = "Tactical Intervention - Attachments"
+ENT.Category                 = "RMC Interops - Attachments"
 
 ENT.Spawnable                = false
 ENT.Model                    = "models/tacint/props_containers/supply_case-2.mdl"

@@ -5,13 +5,13 @@ ENT.Base                     = "tacint_ammo"
 ENT.RenderGroup              = RENDERGROUP_TRANSLUCENT
 
 ENT.PrintName                = "Ammo Crate"
-ENT.Category                 = "Tactical Intervention - Ammo"
+ENT.Category                 = "RMC Interops - Ammo"
 
 ENT.Spawnable                = true
 ENT.Model                    = "models/weapons/tacint/ammoboxes/ammo_box-2b.mdl"
 
-ENT.InfiniteUse = true
-ENT.OpeningAnim = true
+ENT.InfiniteUse              = true
+ENT.OpeningAnim              = true
 
 ENT.AutomaticFrameAdvance = true
 
