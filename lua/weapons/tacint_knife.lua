@@ -6,7 +6,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Tactical Knife"
-SWEP.Category = "RMC Interops (Smallarms)"
+SWEP.Category = "RMC Interops (Utilities)"
 
 SWEP.Description = "Foldable tactical knife for survival situations and close-quarters combat scenarios."
 

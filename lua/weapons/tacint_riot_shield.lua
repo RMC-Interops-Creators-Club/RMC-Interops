@@ -6,7 +6,7 @@ DEFINE_BASECLASS( "tacint_base" )
 
 // names and stuff
 SWEP.PrintName = "Riot Shield"
-SWEP.Category = "RMC Interops (Rifles)"
+SWEP.Category = "RMC Interops (Utilities)"
 
 SWEP.Description = "Metal-framed plastic shield, capable of stopping all incoming bullets, no matter how big. Somehow."
 

@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Molot Bekas"
-SWEP.Category = "RMC Interops (Rifles)"
+SWEP.Category = "RMC Interops (Heavy)"
 
 SWEP.Description = "Hunting shotgun with tight spread but a small magazine size."
 

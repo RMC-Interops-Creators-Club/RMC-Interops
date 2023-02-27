@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "C4 Detonator"
-SWEP.Category = "RMC Interops (Smallarms)"
+SWEP.Category = "RMC Interops (Utilities)"
 
 SWEP.Description = "Device for touching off C4 charges or other types of remote explosives."
 

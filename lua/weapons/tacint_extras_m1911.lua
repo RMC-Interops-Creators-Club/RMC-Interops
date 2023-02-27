@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "M1911"
-SWEP.Category = "RMC Interops (Smallarms)"
+SWEP.Category = "RMC Interops (Small Arms)"
 
 SWEP.Description = "Classic military handgun. Cannot accept tactical attachments but still packs a wallop."
 SWEP.ViewModel = "models/weapons/tacint_extras/v_m1911.mdl"

@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "M320"
-SWEP.Category = "RMC Interops (Smallarms)"
+SWEP.Category = "RMC Interops (Utilities)"
 
 SWEP.Description = "Grenade launcher capable of firing a variety of payloads."
 

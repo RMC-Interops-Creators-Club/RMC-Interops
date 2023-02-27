@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Dual MTX"
-SWEP.Category = "RMC Interops (Smallarms)"
+SWEP.Category = "RMC Interops (Small Arms)"
 
 SWEP.Description = "Pair of handguns well suited for dual wielding. Inaccurate but high capacity."
 
@@ -18,8 +18,8 @@ SWEP.Slot = 1
 
 SWEP.Damage_Max = 100 / 5 // damage at minimum range
 SWEP.Damage_Min = 100 / 8 // damage at maximum range
-SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 4000 // distance at which we drop to minimum damage
+SWEP.Range_Min = 500 // distance for which to maintain maximum damage
+SWEP.Range_Max = 1100 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 
 SWEP.TracerNum = 1
