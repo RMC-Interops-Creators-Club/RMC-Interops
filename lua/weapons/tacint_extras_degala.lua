@@ -97,7 +97,7 @@ SWEP.SprintPos = Vector(2, 0, -12)
 SWEP.ClipSize = 7
 SWEP.Ammo = "ti_45acp"
 
-SWEP.ReloadTimeMult = 1
+SWEP.ReloadTimeMult = 1.2
 
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/gsr1911.mdl"
 SWEP.DropMagazineImpact = "pistol"
@@ -105,6 +105,7 @@ SWEP.DropMagazineImpact = "pistol"
 // sounds
 
 local path = "tacint_extras/degala/"
+local path1 = "tacint/weapons/gsr1911/"
 
 SWEP.Sound_Shoot = path .. "deagle-1.wav"
 
@@ -153,15 +154,15 @@ SWEP.LastShot = true
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = "optic_pistol",
-        Bone = "ValveBiped.slide",
+        Category = "optic_pistol", 
+        Bone = "ValveBiped.GSR1911_rootbone",
         WMBone = "Box01",
         AttachSound = "tacint/weapons/optic_on.wav",
         DetachSound = "tacint/weapons/optic_off.wav",
         VMScale = 1,
         WMScale = 1,
-        Pos_VM = Vector(0, 1.75, 0),
-        Ang_VM = Angle(0, 90, 180),
+        Pos_VM = Vector(-3.35, 0, 5.5),
+        Ang_VM = Angle(90, 0, 0),
         Pos_WM = Vector(0, -1, -0.85),
         Ang_WM = Angle(0, -90, 0),
     },
@@ -174,7 +175,7 @@ SWEP.Attachments = {
         DetachSound = "tacint/weapons/flashlight_off.wav",
         VMScale = 1.1,
         WMScale = 1.3,
-        Pos_VM = Vector(-1.7, 0, 6),
+        Pos_VM = Vector(-1.7, 0, 7),
         Ang_VM = Angle(90, 0, 180),
         Pos_WM = Vector(0, 5, -3),
         Ang_WM = Angle(0, -90, 180),
@@ -196,9 +197,9 @@ local function addsound(name, spath)
     })
 end
 
-addsound("tacint_degala.clip_in", path .. "clip_in.wav")
-addsound("tacint_degala.clip_in-mid", path .. "clip_in-mid.wav")
-addsound("tacint_degala.clip_out", path .. "clip_out.wav")
-addsound("tacint_degala.slide_action", path .. "slide_action.wav")
-addsound("tacint_degala.slide_shut", path .. "slide_shut.wav")
-addsound("tacint_degala.cock_hammer", path .. "cockhammer.wav")
+addsound("tacint_degala.clip_in", path1 .. "gsr1911_clip_in.wav")
+addsound("tacint_degala.clip_in-mid", path1 .. "gsr1911_clip_in-mid.wav")
+addsound("tacint_degala.clip_out", path1 .. "gsr1911_clip_out.wav")
+addsound("tacint_degala.slide_action", path1 .. "gsr1911_slide_action.wav")
+addsound("tacint_degala.slide_shut", path1 .. "gsr1911_slide_shut.wav")
+addsound("tacint_degala.cock_hammer", path1 .. "gsr1911_cockhammer.wav")
