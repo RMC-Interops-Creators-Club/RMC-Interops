@@ -8,7 +8,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Tactical Knife"
 SWEP.Category = "RMC Interops (Smallarms)"
 
-SWEP.Description = "Sturdy tactical knife for close-quarters combat when all your guns run dry."
+SWEP.Description = "Foldable tactical knife for survival situations and close-quarters combat scenarios."
 
 SWEP.ViewModel = "models/weapons/tacint/v_knife.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_knife.mdl"

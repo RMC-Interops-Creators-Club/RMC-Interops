@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Jackal Knife"
 SWEP.Category = "RMC Interops (Smallarms)"
 
-SWEP.Description = "Fancy collectors knife, not meant for combat but looks cool."
+SWEP.Description = "Fancy collectors knife, not meant for combat but looks pretty gangster."
 
 SWEP.ViewModel = "models/weapons/tacint/v_knife2.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_knife2.mdl"
