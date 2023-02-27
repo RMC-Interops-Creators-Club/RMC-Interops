@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "FP6"
 SWEP.Category = "RMC Interops (Heavy Weapons)"
 
-SWEP.Description = "Well-rounded combat shotgun."
+SWEP.Description = "Advanced tacitcal shotgun that performs well even at range."
 
 SWEP.ViewModel = "models/weapons/tacint/v_fp6.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_fp6.mdl"
