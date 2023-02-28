@@ -4,12 +4,12 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "G17 Auto"
+SWEP.PrintName = "G18C"
 SWEP.Category = "RMC Interops (Handguns)"
 
 SWEP.Description = "Automatic pistol with poor damage but a fast rate of fire."
 
-SWEP.ViewModel = "models/weapons/tacint_extras/v_glock.mdl"
+SWEP.ViewModel = "models/weapons/tacint_extras/v_glock18.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_glock.mdl"
 
 SWEP.Slot = 1
@@ -23,7 +23,7 @@ SWEP.Range_Max = 1000 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2,
+    [HITGROUP_HEAD] = 1,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -39,8 +39,8 @@ SWEP.Firemode = 2
 
 SWEP.RPM = 1050
 
-SWEP.Spread = 0.006
-SWEP.HipFireSpreadPenalty = 0.0015 // spread penalty for not being scoped in
+SWEP.Spread = 0
+SWEP.HipFireSpreadPenalty = 0.025 // spread penalty for not being scoped in
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 10
@@ -170,20 +170,6 @@ SWEP.Attachments = {
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
-        PrintName = "Muzzle",
-        Category = "silencer",
-        Bone = "ValveBiped.barrel_assembly",
-        WMBone = "Box01",
-        AttachSound = "tacint/weapons/silencer_on.wav",
-        DetachSound = "tacint/weapons/silencer_off.wav",
-        VMScale = 0.5,
-        WMScale = 0.6,
-        Pos_VM = Vector(-0.5, 0.25, 7),
-        Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, 8.4, -1.5),
-        Ang_WM = Angle(0, -90, 0),
-    },
-    [3] = {
         PrintName = "Tactical",
         Category = "tactical",
         Bone = "ValveBiped.p2000_rootbone",
@@ -197,9 +183,9 @@ SWEP.Attachments = {
         Pos_WM = Vector(0, 5, -2.75),
         Ang_WM = Angle(0, -90, 180),
     },
-    [4] = {
+    [3] = {
         PrintName = "Perk",
-        Category = {"perk", "perk_melee", "perk_shooting", "perk_reload"},
+        Category = {"perk", "perk_melee", "perk_shooting", "perk_reload", "acc_quickdraw"},
         AttachSound = "tacint/weapons/flashlight_on.wav",
         DetachSound = "tacint/weapons/flashlight_off.wav",
     },
