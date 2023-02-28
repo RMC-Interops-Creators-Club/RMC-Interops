@@ -104,8 +104,7 @@ SWEP.DropMagazineImpact = "pistol"
 local path = "tacint/weapons/p2000/p2000_"
 local path2 = "tacint_extras/glock/"
 
-SWEP.Sound_Shoot = "^" .. path2 .. "fire-1.wav"
-SWEP.Sound_Shoot_Silenced = path2 .. "fire_silenced-1.wav"
+SWEP.Sound_Shoot = "^" .. path2 .. "glock18-1.wav"
 
 SWEP.Vol_Shoot = 110
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
@@ -200,9 +199,9 @@ local function addsound(name, spath)
     })
 end
 
-addsound("tacint_extras_glock.clip_in", path .. "clip_in.wav")
+addsound("tacint_extras_glock.clip_in", path2 .. "Clipin.wav")
 addsound("tacint_extras_glock.clip_in-mid", path .. "clip_in-mid.wav")
-addsound("tacint_extras_glock.clip_out", path2 .. "magout.mp3")
+addsound("tacint_extras_glock.clip_out", path2 .. "Clipout.wav")
 addsound("tacint_extras_glock.slide_action", path .. "slide_action.wav")
 addsound("tacint_extras_glock.slide_shut", path .. "slide_shut.wav")
 addsound("tacint_extras_glock.cock_hammer", path .. "cockhammer.wav")
