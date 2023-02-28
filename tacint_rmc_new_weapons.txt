@@ -4,9 +4,7 @@ https://gamebanana.com/mods/207923 - P226. [Done, needs worldmodel]
 
 https://gamebanana.com/mods/211807 - VSS. [Done, needs worldmodel]
 
-https://gamebanana.com/mods/206969 - Glock 18. Replace current Glock.
-
-https://gamebanana.com/mods/207745 - Raging Bull. .44 Magnum. More powerful but less accurate than the MR96.
+https://gamebanana.com/mods/206969 - Glock 18. Replace current Glock. [Done]
 
 https://gamebanana.com/mods/211951 - XM8 LMG. Mag-fed MG to add variety.
 
