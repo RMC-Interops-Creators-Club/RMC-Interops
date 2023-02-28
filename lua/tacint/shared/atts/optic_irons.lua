@@ -2,7 +2,7 @@ ATT.PrintName = "Irons"
 ATT.FullName = "Iron Sights"
 ATT.Icon = Material("entities/tacint_att_optic_irons.png", "mips smooth")
 ATT.Description = "Basic sights that won't be damaged by striking with the weapon."
-ATT.Pros = {"Enables melee attack"}
+ATT.Pros = {"Enables melee attack", "Improved handling", "Reduced hipfire spread"}
 ATT.Cons = {"Disables zooming"}
 
 ATT.Free = true
