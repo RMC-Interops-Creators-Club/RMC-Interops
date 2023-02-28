@@ -1,4 +1,4 @@
-# Tactical-Intervention - RMC's Edit
+# Tactical-Intervention - RMC's Edit, aka RMC InterOps
 
 placeholder workshop desc
 --------------------------------------------------------------------------------
