@@ -1,4 +1,4 @@
-https://gamebanana.com/mods/207737 - Deagla. Use 1911 animations. Fast and powerful but hard to control and less accurate than the revolvers.
+https://gamebanana.com/mods/207737 - Deagla. [Done, needs worldmodel]
 
 https://gamebanana.com/mods/207923 - P226. [Done, needs worldmodel]
 
