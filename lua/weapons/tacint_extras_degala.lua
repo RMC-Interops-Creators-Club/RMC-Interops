@@ -50,8 +50,8 @@ SWEP.BlindFireSpreadPenalty = 0 // spread penalty for blind firing
 SWEP.CrouchSpreadPenalty = -0.006
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 6
-SWEP.RecoilResetTime = 0.25 // time after you stop shooting for recoil to start dissipating
+SWEP.RecoilMaximum = 7
+SWEP.RecoilResetTime = 0.3 // time after you stop shooting for recoil to start dissipating
 SWEP.RecoilDissipationRate = 80
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
@@ -60,7 +60,7 @@ SWEP.RecoilVisualShake = 0.85
 
 SWEP.RecoilKick = 0.25
 
-SWEP.RecoilSpreadPenalty = 0.008 // extra spread per one unit of recoil
+SWEP.RecoilSpreadPenalty = 0.01 // extra spread per one unit of recoil
 
 SWEP.CanBlindFire = true
 
@@ -95,7 +95,7 @@ SWEP.SprintPos = Vector(2, 0, -12)
 // reload
 
 SWEP.ClipSize = 7
-SWEP.Ammo = "ti_45acp"
+SWEP.Ammo = "357"
 
 SWEP.ReloadTimeMult = 1.2
 

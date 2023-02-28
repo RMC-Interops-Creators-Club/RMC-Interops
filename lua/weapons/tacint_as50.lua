@@ -110,7 +110,7 @@ SWEP.QuickScopeTime = 0.6 // amount of time over which to fade out the quickscop
 // reload
 
 SWEP.ClipSize = 5
-SWEP.Ammo = "ti_50bmg"
+SWEP.Ammo = "sniperpenetratedround"
 
 SWEP.ReloadTimeMult = 1.05
 SWEP.DropMagazineImpact = "metal"

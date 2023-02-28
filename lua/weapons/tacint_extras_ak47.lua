@@ -88,7 +88,7 @@ SWEP.Sway = 1
 SWEP.ScopedSway = 0.1
 
 SWEP.ClipSize = 30
-SWEP.Ammo = "ti_762wp"
+SWEP.Ammo = "ar2"
 
 SWEP.ReloadTimeMult = 1.15
 SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/ak47.mdl"

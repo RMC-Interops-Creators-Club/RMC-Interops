@@ -102,7 +102,7 @@ SWEP.CanMeleeAttack = true
 // reload
 
 SWEP.ClipSize = 1
-SWEP.Ammo = "ti_40mm"
+SWEP.Ammo = "smg1_grenade"
 
 // sounds
 

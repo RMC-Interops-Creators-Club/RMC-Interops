@@ -96,7 +96,7 @@ SWEP.SprintPos = Vector(5, 0, -2)
 // reload
 
 SWEP.ClipSize = 7
-SWEP.Ammo = "ti_12g"
+SWEP.Ammo = "buckshot"
 SWEP.ShotgunReload = true
 
 SWEP.ReloadTimeMult = 1

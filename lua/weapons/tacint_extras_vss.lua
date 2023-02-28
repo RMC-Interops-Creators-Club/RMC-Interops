@@ -103,7 +103,7 @@ SWEP.QuickScopeTime = 0.3 // amount of time over which to fade out the quickscop
 
 
 SWEP.ClipSize = 20
-SWEP.Ammo = "ti_762wp"
+SWEP.Ammo = "ar2"
 
 SWEP.ReloadTimeMult = 1
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/ak47.mdl"

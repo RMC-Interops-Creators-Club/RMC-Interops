@@ -107,7 +107,7 @@ SWEP.QuickScopeTime = 0.33 // amount of time over which to fade out the quicksco
 // reload
 
 SWEP.ClipSize = 5
-SWEP.Ammo = "ti_762nato"
+SWEP.Ammo = "ar2"
 
 SWEP.ReloadTimeMult = 1.05
 SWEP.DropMagazineModel = false

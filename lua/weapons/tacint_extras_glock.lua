@@ -92,7 +92,7 @@ SWEP.CorrectiveAng = Angle(0.05, -0.05, 0)
 // reload
 
 SWEP.ClipSize = 20
-SWEP.Ammo = "ti_9mm"
+SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1.4
 

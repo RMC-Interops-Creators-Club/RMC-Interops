@@ -96,7 +96,7 @@ SWEP.ScopedSway = 0
 // reload
 
 SWEP.ClipSize = 7
-SWEP.Ammo = "ti_45acp"
+SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1
 

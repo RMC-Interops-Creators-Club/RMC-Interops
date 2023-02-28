@@ -84,7 +84,7 @@ SWEP.SprintPos = Vector(5, 0, -2)
 // reload
 
 SWEP.ClipSize = 25
-SWEP.Ammo = "ti_32acp"
+SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/skorpion.mdl"

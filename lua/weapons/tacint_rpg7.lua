@@ -91,7 +91,7 @@ SWEP.CanMeleeAttack = false
 // reload
 
 SWEP.ClipSize = 1
-SWEP.Ammo = "ti_rpg7"
+SWEP.Ammo = "rpg_round"
 
 SWEP.BulletBodygroups = {
     [1] = {5, 1}
