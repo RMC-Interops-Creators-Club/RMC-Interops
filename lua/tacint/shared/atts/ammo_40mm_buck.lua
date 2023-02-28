@@ -1,5 +1,5 @@
-ATT.PrintName = "BUCK"
-ATT.FullName = "Buckshot Rounds"
+ATT.PrintName = "Buck"
+ATT.FullName = "Buckshot Shotgun Rounds"
 ATT.Icon = Material("entities/tacint_att_ammo_40mm_buck.png", "mips smooth")
 ATT.Description = "40mm shotgun shell that fires a large volley of buckshot."
 
