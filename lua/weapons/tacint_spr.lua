@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "SP-R"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Fast-reaction bolt-action rifle, effective at relatively close range."
+SWEP.Description = "Fast-reaction bolt-action rifle, more effective at close range than other snipers."
 
 SWEP.ViewModel = "models/weapons/tacint/v_spr.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_spr.mdl"
@@ -16,10 +16,10 @@ SWEP.Slot = 3
 
 // "ballistics"
 
-SWEP.Damage_Max = 100 / 5 // damage at minimum range
-SWEP.Damage_Min = 100 // damage at maximum range
+SWEP.Damage_Max = 100 / 3 // damage at minimum range
+SWEP.Damage_Min = 100 / 2 // damage at maximum range
 SWEP.Range_Min = 1800 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
+SWEP.Range_Max = 3100 // distance at which we drop to minimum damage
 SWEP.Penetration = 4 // units of metal this weapon can penetrate
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2,
