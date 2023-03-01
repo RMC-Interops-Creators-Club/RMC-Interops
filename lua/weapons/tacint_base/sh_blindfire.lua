@@ -7,7 +7,7 @@ function SWEP:GetMuzzleOrigin()
         local pos = self:GetOwner():EyePos()
         local eyeang = self:GetOwner():EyeAngles()
 
-        local testpos = pos + eyeang:Up() * 24
+        local testpos = pos + eyeang:Up() * 16
 
         local tr = util.TraceLine({
             start = pos,
