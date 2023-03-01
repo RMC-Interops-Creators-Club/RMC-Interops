@@ -121,6 +121,13 @@ function ENT:PhysicsCollide(data, collider)
         self:EmitSound("tacint/weapons/plant_bomb.wav")
     end
 
+	if true or !self.PhysDebounced then
+		local phys = self:GetPhysicsObject()
+		phys:SetVelocity( phys:GetVelocity() * 0.5 )
+		phys:SetAngleVelocity( phys:GetAngleVelocity() * 0.5 )
+		self.PhysDebounced = true
+	end
+
     if data.DeltaTime < 0.1 then return end
     if !self.BounceSounds then return end
 
