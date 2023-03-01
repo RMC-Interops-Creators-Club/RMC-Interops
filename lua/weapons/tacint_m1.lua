@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Mini-14"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Light semiautomatic rifle. Good recoil."
+SWEP.Description = "Light semiautomatic rifle. Performs better at range than most other assault rifles."
 
 SWEP.ViewModel = "models/weapons/tacint/v_m1.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_m1.mdl"
@@ -18,8 +18,8 @@ SWEP.Slot = 3
 
 SWEP.Damage_Max = 100 / 4 // damage at minimum range
 SWEP.Damage_Min = 100 / 6 // damage at maximum range
-SWEP.Range_Min = 3500 // distance for which to maintain maximum damage
-SWEP.Range_Max = 7000 // distance at which we drop to minimum damage
+SWEP.Range_Min = 1500 // distance for which to maintain maximum damage
+SWEP.Range_Max = 2800 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 
 // misc. shooting
@@ -83,7 +83,7 @@ SWEP.SprintPos = Vector(5, 0, -2)
 
 // reload
 
-SWEP.ClipSize = 30
+SWEP.ClipSize = 20
 SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1

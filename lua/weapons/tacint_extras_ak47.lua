@@ -16,18 +16,15 @@ SWEP.Slot = 2
 
 // "ballistics"
 
-SWEP.Damage_Max = 33
-SWEP.Damage_Min = 24
-SWEP.Range_Min = 2100 // distance for which to maintain maximum damage
-SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 100 / 3
+SWEP.Damage_Min = 100 / 4
+SWEP.Range_Min = 1050 // distance for which to maintain maximum damage
+SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 
 // misc. shooting
 
-SWEP.Firemodes = {
-    2,
-    1
-}
+SWEP.Firemode = 2
 
 SWEP.RPM = 550
 

@@ -18,8 +18,8 @@ SWEP.Slot = 2
 
 SWEP.Damage_Max = 100 / 4 // damage at minimum range
 SWEP.Damage_Min = 100 / 6 // damage at maximum range
-SWEP.Range_Min = 2000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
+SWEP.Range_Min = 1300 // distance for which to maintain maximum damage
+SWEP.Range_Max = 1920 // distance at which we drop to minimum damage
 SWEP.Penetration = 2 // units of metal this weapon can penetrate
 
 // misc. shooting
@@ -28,13 +28,13 @@ SWEP.Firemode = 2
 
 SWEP.RPM = 750
 
-SWEP.Spread = 0.004
+SWEP.Spread = 0
 
 // Spread penalties are in spread units and are additive
 SWEP.MoveSpreadPenalty = 0.045 // spread penalty while travelling at max. 250 u/s
 SWEP.MidAirSpreadPenalty = 0.1 // spread penalty for being in the air
-SWEP.HipFireSpreadPenalty = 0.002 // spread penalty for not being scoped in
-SWEP.ScopedSpreadPenalty = 0
+SWEP.HipFireSpreadPenalty = 0.01 // spread penalty for not being scoped in
+SWEP.ScopedSpreadPenalty = 0.009
 SWEP.BlindFireSpreadPenalty = 0.05 // spread penalty for blind firing
 SWEP.CrouchSpreadPenalty = -0.002
 

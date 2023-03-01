@@ -16,15 +16,15 @@ SWEP.Slot = 2
 
 // "ballistics"
 
-SWEP.Damage_Max = 34
-SWEP.Damage_Min = 21
-SWEP.Range_Min = 3275 // distance for which to maintain maximum damage
-SWEP.Range_Max = 5500
+SWEP.Damage_Max = 100 / 4
+SWEP.Damage_Min = 100 / 6
+SWEP.Range_Min = 1350 // distance for which to maintain maximum damage
+SWEP.Range_Max = 1900
 SWEP.Penetration = 2 // units of metal this weapon can penetrate
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2.5,
-    [HITGROUP_CHEST] = 1.25,
+    [HITGROUP_HEAD] = 2,
+    [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
