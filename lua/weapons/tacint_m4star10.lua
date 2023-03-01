@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "M1014"
 SWEP.Category = "RMC Interops (Heavy Weapons)"
 
-SWEP.Description = "Semi-automatic combat shotgun. Great fire rate but poor control."
+SWEP.Description = "Semi-automatic combat shotgun. Great fire rate but poor control. 6 pellets."
 
 SWEP.ViewModel = "models/weapons/tacint/v_m4star10.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_m4star10.mdl"

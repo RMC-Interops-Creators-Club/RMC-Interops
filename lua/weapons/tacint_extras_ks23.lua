@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "KS-23"
 SWEP.Category = "RMC Interops (Heavy Weapons)"
 
-SWEP.Description = "Heavy shotgun that is lethal up close but damage falls off quickly."
+SWEP.Description = "Heavy shotgun that is lethal up close but damage falls off quickly. 6 pellets."
 
 SWEP.ViewModel = "models/weapons/tacint/v_ks23.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_ks23.mdl"

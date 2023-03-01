@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "FP6"
 SWEP.Category = "RMC Interops (Heavy Weapons)"
 
-SWEP.Description = "Advanced tactical shotgun that performs well even at range."
+SWEP.Description = "Advanced tactical shotgun that performs well even at range. 8 pellets."
 
 SWEP.ViewModel = "models/weapons/tacint/v_fp6.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_fp6.mdl"
@@ -48,9 +48,9 @@ SWEP.ShootSpeedMult = 1
 SWEP.MoveSpreadPenalty = 0.08 // spread penalty while travelling at max. 250 u/s
 SWEP.MidAirSpreadPenalty = 0.12 // spread penalty for being in the air
 SWEP.HipFireSpreadPenalty = 0.085 // spread penalty for not being scoped in
+SWEP.ScopedSpreadPenalty = 0.085
 SWEP.BlindFireSpreadPenalty = 0.05 // spread penalty for blind firing
 SWEP.CrouchSpreadPenalty = 0
-SWEP.ScopedSpreadPenalty = 0
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 1

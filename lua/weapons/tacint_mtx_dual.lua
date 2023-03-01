@@ -156,6 +156,20 @@ SWEP.Akimbo = true
 
 SWEP.Attachments = {
     [1] = {
+        PrintName = "Tactical",
+        Category = "tactical",
+        Bone = "ValveBiped.mtx_root2",
+        WMBone = "Box01",
+        AttachSound = "tacint/weapons/flashlight_on.wav",
+        DetachSound = "tacint/weapons/flashlight_off.wav",
+        VMScale = 1.3,
+        WMScale = 1.3,
+        Pos_VM = Vector(-2.0, 0, 5.25),
+        Ang_VM = Angle(90, 0, 180),
+        Pos_WM = Vector(0, 5, -2.75),
+        Ang_WM = Angle(0, -90, 180),
+    },
+    [2] = {
         PrintName = "Perk",
         Category = {"perk", "perk_melee", "perk_shooting", "perk_reload", "quickdraw"},
         AttachSound = "tacint/weapons/flashlight_on.wav",
