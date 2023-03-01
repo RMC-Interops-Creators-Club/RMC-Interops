@@ -47,7 +47,7 @@ function TacInt.LoadAtts()
             attent.Spawnable = true
             attent.AdminOnly = ATT.AdminOnly or false
             attent.AttToGive = shortname
-            attent.Category = "Tactical Intervention - Attachments"
+            attent.Category = "RMC Interops - Attachments"
 
             print("Registering entity for " .. shortname)
 

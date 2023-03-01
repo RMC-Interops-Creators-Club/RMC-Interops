@@ -209,7 +209,7 @@ local clientmenus_ti = {
 
 hook.Add("PopulateToolMenu", "TacInt_MenuOptions", function()
     for smenu, data in pairs(clientmenus_ti) do
-        spawnmenu.AddToolMenuOption("Options", "Tactical Intervention", "tacint_" .. tostring(smenu), data.text, "", "", data.func)
+        spawnmenu.AddToolMenuOption("Options", "RMC Interops", "tacint_" .. tostring(smenu), data.text, "", "", data.func)
     end
 end)
 
