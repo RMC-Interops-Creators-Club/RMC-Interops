@@ -143,6 +143,7 @@ SWEP.EjectEffect = 2
 // WM:
 // attack1
 SWEP.AnimationTranslationTable = {
+	["deploy"] = "unholster",
     ["fire1"] = "fire1_M",
     ["fire2"] = "fire2_M",
     ["fire3"] = "fire3_M",
@@ -150,6 +151,8 @@ SWEP.AnimationTranslationTable = {
     ["fire5"] = "fire5_M",
     ["melee"] = {"melee1", "melee2"}
 }
+
+SWEP.DeployTimeMult = 2.25
 
 // attachments
 
