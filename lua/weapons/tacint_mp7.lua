@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "MP7"
 SWEP.Category = "RMC Interops (Small Arms)"
 
-SWEP.Description = "Well-balanced submachine gun with above average fire rate."
+SWEP.Description = "Compact 4.6mm PDW with great handling and a fast rate of fire."
 
 SWEP.ViewModel = "models/weapons/tacint/v_mp7.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_mp7.mdl"

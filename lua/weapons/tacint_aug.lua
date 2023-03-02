@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "AUG"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Bullpup assault rifle with good accuracy."
+SWEP.Description = "Bullpup 5.56 NATO assault rifle that maintains a tight spread even in sustained fire."
 
 SWEP.ViewModel = "models/weapons/tacint/v_aug.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_aug.mdl"

@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "SG551"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Assault rifle with a small magazine but high fire rate and low recoil."
+SWEP.Description = "5.56 NATO assault rifle with a small magazine but high fire rate and low recoil."
 
 SWEP.ViewModel = "models/weapons/tacint/v_sg551.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_sg551.mdl"

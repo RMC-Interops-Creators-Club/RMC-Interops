@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "XD-45"
 SWEP.Category = "RMC Interops (Handguns)"
 
-SWEP.Description = "Fully automatic .45 calibre machine pistol with incredible close range power."
+SWEP.Description = "Fully automatic .45 ACP machine pistol with incredible close range power."
 
 SWEP.ViewModel = "models/weapons/tacint/v_xd45.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_xd45.mdl"

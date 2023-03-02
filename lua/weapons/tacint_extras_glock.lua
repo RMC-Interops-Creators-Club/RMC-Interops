@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "G18C"
 SWEP.Category = "RMC Interops (Handguns)"
 
-SWEP.Description = "Automatic pistol with poor damage but a fast rate of fire. Cannot accept muzzle attachments due to the compensated barrel."
+SWEP.Description = "Fully-automatic 9mm pistol with poor accuracy but a insanely quick rate of fire."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_glock18.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_glock.mdl"
@@ -184,7 +184,7 @@ SWEP.Attachments = {
     },
     [3] = {
         PrintName = "Perk",
-        Category = {"perk", "perk_melee", "perk_shooting", "perk_reload", "acc_quickdraw"},
+        Category = {"perk", "perk_melee", "perk_shooting", "perk_reload"},
         AttachSound = "tacint/weapons/flashlight_on.wav",
         DetachSound = "tacint/weapons/flashlight_off.wav",
     },

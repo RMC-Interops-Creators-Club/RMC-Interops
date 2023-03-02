@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "KAC PDW"
 SWEP.Category = "RMC Interops (Small Arms)"
 
-SWEP.Description = "Subcompact 5.56mm rifle with the handling of an SMG. Excellent damage compared to other SMGs."
+SWEP.Description = "Subcompact 5.56mm rifle with the handling of an SMG. Acts as a middle-ground between SMGs and ARs."
 
 SWEP.ViewModel = "models/weapons/tacint/v_pdw.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_pdw.mdl"

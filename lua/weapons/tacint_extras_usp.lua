@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "USP Tactical"
 SWEP.Category = "RMC Interops (Handguns)"
 
-SWEP.Description = "Modern .45 ACP pistol with a double stack magazine."
+SWEP.Description = "Modern .45 ACP pistol that offers a higher capacity than similarly-powerful pistols."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_usp.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_usp.mdl"

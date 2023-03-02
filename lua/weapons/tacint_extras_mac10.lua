@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "MAC-10"
 SWEP.Category = "RMC Interops (Small Arms)"
 
-SWEP.Description = "Cheap machine pistol with an extremely fast rate of fire."
+SWEP.Description = "Cheap .45 ACP machine pistol with poor damage but an extremely fast rate of fire."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_mac10.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_mac10.mdl"
@@ -16,10 +16,10 @@ SWEP.Slot = 1
 
 // "ballistics"
 
-SWEP.Damage_Max = 14
+SWEP.Damage_Max = 15
 SWEP.Damage_Min = 5
-SWEP.Range_Min = 800
-SWEP.Range_Max = 3000
+SWEP.Range_Min = 250
+SWEP.Range_Max = 550
 SWEP.Penetration = 3
 
 SWEP.MuzzleVelocity = 10000
@@ -95,7 +95,7 @@ SWEP.ScopedSway = 0.25
 
 // reload
 
-SWEP.ClipSize = 32
+SWEP.ClipSize = 30
 SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1.2

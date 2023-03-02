@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Hécate II"
 SWEP.Category = "RMC Interops (Heavy Weapons)"
 
-SWEP.Description = "Bolt-action anti-material rifle offering better control than other high-caliber weapons."
+SWEP.Description = "Bolt-action .50 BMG anti-material rifle that offers great control given its high recoil."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_hecate.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_hecate.mdl"

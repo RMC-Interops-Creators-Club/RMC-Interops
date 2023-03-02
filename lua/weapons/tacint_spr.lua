@@ -4,10 +4,10 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "SP-R"
+SWEP.PrintName = "R700 SP-R"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Fast-reaction bolt-action rifle, more effective at close range than other snipers."
+SWEP.Description = "7.62 NATO bolt-action hunting rifle. More effective at close range than other snipers."
 
 SWEP.ViewModel = "models/weapons/tacint/v_spr.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_spr.mdl"

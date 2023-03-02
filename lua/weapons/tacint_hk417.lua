@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "HK417"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Powerful semi-automatic rifle. High damage with poor handling."
+SWEP.Description = "Powerful 7.62 NATO battle rifle that can fit both AR and DMR applications."
 
 SWEP.ViewModel = "models/weapons/tacint/v_hk417.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_hk417.mdl"

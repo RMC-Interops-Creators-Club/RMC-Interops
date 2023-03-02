@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "M4 Carbine"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Well balanced American assault rifle. Older variant with 3-round burst for better control."
+SWEP.Description = "Venerable 5.56 NATO assault rifle. This is the older variant with 3-round burst for improved control."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_m4a1.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_m4a1.mdl"

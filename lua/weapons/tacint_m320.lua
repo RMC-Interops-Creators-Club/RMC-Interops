@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "M320"
 SWEP.Category = "RMC Interops (Utilities)"
 
-SWEP.Description = "Grenade launcher capable of firing a variety of payloads."
+SWEP.Description = "40mm grenade launcher capable of firing a variety of rounds. Fires further than a quick grenade can be thrown."
 
 SWEP.ViewModel = "models/weapons/tacint/v_m320.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_m320.mdl"

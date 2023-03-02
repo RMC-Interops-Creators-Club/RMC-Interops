@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "M1A"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Semi-automatic sniper rifle. Allows more combat flexibility than a bolt-action."
+SWEP.Description = "Semi-automatic 7.62 NATO sniper rifle. Allows more combat flexibility than a bolt-action sniper."
 
 SWEP.ViewModel = "models/weapons/tacint/v_m14.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_m14.mdl"

@@ -4,10 +4,10 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "C4 Detonator"
+SWEP.PrintName = "Detonator"
 SWEP.Category = "RMC Interops (Utilities)"
 
-SWEP.Description = "Device for touching off C4 charges or other types of remote explosives."
+SWEP.Description = "Remote detonation device that can trigger C4 charges (or other explosive devices) from a safe distance."
 
 SWEP.ViewModel = "models/weapons/tacint/v_c4.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_c4_det.mdl"

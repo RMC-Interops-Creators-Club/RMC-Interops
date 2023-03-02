@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "AK-47"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Classic large-caliber automatic assault rifle.  Heavy, high recoil and great stopping power."
+SWEP.Description = "Classic 7.62 Soviet assault rifle with great stopping power but sluggish handling."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_ak47.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_ak47.mdl"

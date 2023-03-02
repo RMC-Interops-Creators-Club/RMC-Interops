@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "XM8 LMG"
 SWEP.Category = "RMC Interops (Heavy Weapons)"
 
-SWEP.Description = "Experimental light machine gun with an integral scope and carbine-length profile."
+SWEP.Description = "Experimental 5.56 NATO LMG with an integral scope and a short profile.  Better mobility than belt-fed LMGs."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_xm8lmg.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_g36k.mdl"
@@ -18,8 +18,8 @@ SWEP.Slot = 2
 
 SWEP.Damage_Max = 100 / 4 // damage at minimum range
 SWEP.Damage_Min = 100 / 8 // damage at maximum range
-SWEP.Range_Min = 1100 // distance for which to maintain maximum damage
-SWEP.Range_Max = 2100 // distance at which we drop to minimum damage
+SWEP.Range_Min = 1025 // distance for which to maintain maximum damage
+SWEP.Range_Max = 1850 // distance at which we drop to minimum damage
 SWEP.Penetration = 2 // units of metal this weapon can penetrate
 
 // misc. shooting

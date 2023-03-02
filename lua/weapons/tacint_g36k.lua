@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "G36K"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Assault rifle with integral scope."
+SWEP.Description = "5.56 NATO assault rifle with integral scope for better target acquisition."
 
 SWEP.ViewModel = "models/weapons/tacint/v_g36k.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_g36k.mdl"

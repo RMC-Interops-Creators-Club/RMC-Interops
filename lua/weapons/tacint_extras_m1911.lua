@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "M1911"
 SWEP.Category = "RMC Interops (Handguns)"
 
-SWEP.Description = "Classic military handgun. Cannot accept tactical attachments but still packs a wallop."
+SWEP.Description = "Classic .45 ACP handgun. Cannot accept tactical attachments due to its age, but is still very powerful."
 SWEP.ViewModel = "models/weapons/tacint_extras/v_m1911.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_m1911.mdl"
 

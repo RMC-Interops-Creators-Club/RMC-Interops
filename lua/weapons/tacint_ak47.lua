@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Beryl 7.62" -- Aware this is modeled on the 5.56 Beryl but dnc shut up blame minh le he not know firearm
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Balanced assault rifle with above average recoil."
+SWEP.Description = "7.62 Soviet assault rifle with balanced characteristics and higher than average recoil."
 
 SWEP.ViewModel = "models/weapons/tacint/v_ak47.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_ak47.mdl"

@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "C8A1"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Well balanced American assault rifle. This model is a Canadian variant."
+SWEP.Description = "Well-balanced 5.56 NATO assault rifle that performs well in a variety of situations."
 
 SWEP.ViewModel = "models/weapons/tacint/v_m4.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_m4.mdl"

@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "UMP-45"
 SWEP.Category = "RMC Interops (Small Arms)"
 
-SWEP.Description = "Quality sub-machine gun with high damage and slow rate of fire."
+SWEP.Description = ".45 ACP SMG with a slow rate of fire but higher than average damage."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_ump45.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_ump45.mdl"

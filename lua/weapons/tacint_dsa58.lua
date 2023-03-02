@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "DSA-58"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "High damage battle rifle with rapid fire rate."
+SWEP.Description = "7.62 NATO battle rifle with high damage and a fast rate of fire but unforgiving recoil."
 
 SWEP.ViewModel = "models/weapons/tacint/v_dsa58.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_dsa58.mdl"

@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "GSR Tactical .45"
 SWEP.Category = "RMC Interops (Handguns)"
 
-SWEP.Description = "Tactical .45 pistol that hits hard up close."
+SWEP.Description = "Tactical .45 ACP pistol that hits hard up close but is limited by its single-stack magazine."
 
 SWEP.ViewModel = "models/weapons/tacint/v_gsr1911.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_gsr1911.mdl"

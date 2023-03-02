@@ -4,10 +4,10 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "TGS-12"
+SWEP.PrintName = "Molot TGS-12"
 SWEP.Category = "RMC Interops (Heavy Weapons)"
 
-SWEP.Description = "Compact shotgun with good mobility but poor spread. 10 pellets."
+SWEP.Description = "Compact 12 gauge shotgun with good mobility but poor spread. 10 pellets."
 
 SWEP.ViewModel = "models/weapons/tacint/v_tgs12.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_tgs12.mdl"

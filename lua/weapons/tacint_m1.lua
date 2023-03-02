@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Mini-14"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Light semiautomatic rifle. Performs better at range than most other assault rifles."
+SWEP.Description = "Semi-automatic 5.56 NATO rifle. Performs better at range than most other assault rifles."
 
 SWEP.ViewModel = "models/weapons/tacint/v_m1.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_m1.mdl"

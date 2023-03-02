@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Skorpion"
 SWEP.Category = "RMC Interops (Small Arms)"
 
-SWEP.Description = "Lightweight machine pistol."
+SWEP.Description = "Lightweight 9mm machine pistol with low damage but great handling."
 
 SWEP.ViewModel = "models/weapons/tacint/v_skorpion.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_skorpion.mdl"
@@ -16,8 +16,8 @@ SWEP.Slot = 1
 
 // "ballistics"
 
-SWEP.Damage_Max = 100 / 4 // damage at minimum range
-SWEP.Damage_Min = 100 / 7 // damage at maximum range
+SWEP.Damage_Max = 100 / 7 // damage at minimum range
+SWEP.Damage_Min = 100 / 10 // damage at maximum range
 SWEP.Range_Min = 1500 // distance for which to maintain maximum damage
 SWEP.Range_Max = 4000 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
@@ -55,7 +55,7 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.97
+SWEP.MoveSpeedMult = 1
 SWEP.ShootingSpeedMult = 1 // slow down applied while shooting
 SWEP.SightedSpeedMult = 0.5
 SWEP.MeleeSpeedMult = 1

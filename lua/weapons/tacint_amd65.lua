@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "AMD65"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Experimental Hungarian assault rifle model with 2-round burst functionality. First shot has reduced recoil."
+SWEP.Description = "7.62 Soviet assault rifle with a 2-round burst firemode that improves control."
 
 SWEP.ViewModel = "models/weapons/tacint/v_amd65.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_amd65.mdl"

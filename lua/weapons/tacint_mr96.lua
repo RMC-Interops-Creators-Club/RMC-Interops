@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "MR96"
 SWEP.Category = "RMC Interops (Handguns)"
 
-SWEP.Description = "Accurate revolver that maintains effective stopping power over long distances."
+SWEP.Description = "Accurate .357 Magnum revolver that maintains effective stopping power over long distances."
 
 SWEP.ViewModel = "models/weapons/tacint/v_mr96.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_mr96.mdl"

@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "AS50"
 SWEP.Category = "RMC Interops (Heavy Weapons)"
 
-SWEP.Description = "High-calibre sniper rifle. Very powerful but very difficult to handle."
+SWEP.Description = "Large .50 BMG anti-material rifle. Has incredible stopping power and penetration but is difficult to control."
 
 SWEP.ViewModel = "models/weapons/tacint/v_as50.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_as50.mdl"

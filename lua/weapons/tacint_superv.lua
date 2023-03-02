@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Vector"
 SWEP.Category = "RMC Interops (Small Arms)"
 
-SWEP.Description = ".45 SMG with extremely fast fire rate."
+SWEP.Description = ".45 ACP SMG with a unique mechanism that gives it an extremely fast fire rate and low recoil."
 
 SWEP.ViewModel = "models/weapons/tacint/v_superv.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_superv.mdl"
@@ -26,7 +26,7 @@ SWEP.Penetration = 1 // units of metal this weapon can penetrate
 
 SWEP.Firemode = 2
 
-SWEP.RPM = 1000
+SWEP.RPM = 1200
 
 SWEP.Spread = 0.015
 
@@ -47,7 +47,7 @@ SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 SWEP.RecoilVisualKick = 0.15
 SWEP.RecoilVisualShake = 0.35
 
-SWEP.RecoilKick = 1.5
+SWEP.RecoilKick = 0.9
 
 SWEP.RecoilSpreadPenalty = 0.007 // extra spread per one unit of recoil
 
@@ -83,7 +83,7 @@ SWEP.SprintPos = Vector(5, 0, -2)
 
 // reload
 
-SWEP.ClipSize = 32
+SWEP.ClipSize = 25
 SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1

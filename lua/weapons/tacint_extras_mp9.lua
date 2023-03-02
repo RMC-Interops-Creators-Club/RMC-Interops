@@ -9,7 +9,7 @@ SWEP.Category = "RMC Interops (Small Arms)"
 
 // Assets: https://gamebanana.com/mods/208831
 
-SWEP.Description = "Premium submachine gun with a fast fire rate."
+SWEP.Description = "9mm SMG with a super small profile, offering great control and mobility."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_mp9.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_mp9.mdl"
@@ -18,10 +18,10 @@ SWEP.Slot = 1
 
 // "ballistics"
 
-SWEP.Damage_Max = 20
+SWEP.Damage_Max = 100 / 5
 SWEP.Damage_Min = 9
-SWEP.Range_Min = 750 // distance for which to maintain maximum damage
-SWEP.Range_Max = 1900 // distance at which we drop to minimum damage
+SWEP.Range_Min = 450 // distance for which to maintain maximum damage
+SWEP.Range_Max = 800 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 
 SWEP.BodyDamageMultipliers = {

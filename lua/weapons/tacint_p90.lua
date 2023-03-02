@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "P90"
 SWEP.Category = "RMC Interops (Small Arms)"
 
-SWEP.Description = "PDW-class submachine gun with large magazine."
+SWEP.Description = "5.7mm PDW with large magazine and exceptional penetration."
 
 SWEP.ViewModel = "models/weapons/tacint/v_p90.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_p90.mdl"
@@ -16,11 +16,11 @@ SWEP.Slot = 2
 
 // "ballistics"
 
-SWEP.Damage_Max = 100 / 5 // damage at minimum range
-SWEP.Damage_Min = 100 / 8 // damage at maximum range
+SWEP.Damage_Max = 100 / 6 // damage at minimum range
+SWEP.Damage_Min = 100 / 10 // damage at maximum range
 SWEP.Range_Min = 1600 // distance for which to maintain maximum damage
 SWEP.Range_Max = 4000 // distance at which we drop to minimum damage
-SWEP.Penetration = 1 // units of metal this weapon can penetrate
+SWEP.Penetration = 12 // units of metal this weapon can penetrate
 
 // misc. shooting
 

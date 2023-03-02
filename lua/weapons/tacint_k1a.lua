@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "K1A"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Korean-made three round burst assault rifle."
+SWEP.Description = "5.56 NATO three round burst assault rifle with good spread but higher than average recoil."
 
 SWEP.ViewModel = "models/weapons/tacint/v_k1a.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_k1a.mdl"

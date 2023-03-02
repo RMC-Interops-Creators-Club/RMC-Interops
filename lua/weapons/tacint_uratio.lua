@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Ultima Ratio"
 SWEP.Category = "RMC Interops (Rifles)"
 
-SWEP.Description = "Premium bolt action sniper rifle with excellent handling."
+SWEP.Description = "Premium .308 bolt action sniper rifle with excellent handling and long range performance."
 
 SWEP.ViewModel = "models/weapons/tacint/v_uratio.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_uratio.mdl"

@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Uzi Pro"
 SWEP.Category = "RMC Interops (Small Arms)"
 
-SWEP.Description = "SMG with excellent moving accuracy."
+SWEP.Description = "Compact 9mm SMG with excellent moving accuracy."
 
 SWEP.ViewModel = "models/weapons/tacint/v_uzi.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_uzi.mdl"

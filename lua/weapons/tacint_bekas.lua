@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Molot Bekas"
 SWEP.Category = "RMC Interops (Heavy Weapons)"
 
-SWEP.Description = "Hunting shotgun with tight spread but a small magazine and low damage. 5 pellets."
+SWEP.Description = "20 gauge hunting shotgun with low damage but a very tight spread. 5 pellets."
 
 SWEP.ViewModel = "models/weapons/tacint/v_bekas.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_bekas.mdl"

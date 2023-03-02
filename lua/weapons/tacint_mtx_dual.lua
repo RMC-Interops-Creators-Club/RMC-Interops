@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Dual MTX"
 SWEP.Category = "RMC Interops (Handguns)"
 
-SWEP.Description = "Pair of handguns well suited for dual wielding. Inaccurate but high capacity."
+SWEP.Description = "Pair of 9mm handguns well suited for dual wielding. Inaccurate but high capacity and rate of fire."
 
 SWEP.ViewModel = "models/weapons/tacint/v_mtx_dual.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_mtx.mdl"

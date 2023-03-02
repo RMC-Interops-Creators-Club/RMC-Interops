@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Sphinx"
 SWEP.Category = "RMC Interops (Handguns)"
 
-SWEP.Description = "9mm pistol with a three round burst fire mode. Based on the CZ-75 design and developed further by SPHINX."
+SWEP.Description = "Sturdy 9mm pistol with an aftermarket 3-round burst fire mode."
 
 SWEP.ViewModel = "models/weapons/tacint/v_sphinx.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_sphinx.mdl"

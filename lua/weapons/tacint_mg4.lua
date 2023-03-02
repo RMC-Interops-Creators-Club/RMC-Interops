@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "MG4"
 SWEP.Category = "RMC Interops (Heavy Weapons)"
 
-SWEP.Description = "Light machine gun that offers huge volume of fire. Despite its name, it is a very heavy weapon."
+SWEP.Description = "5.56 NATO LMG that allows for great sustained fire but is very, very heavy."
 
 SWEP.ViewModel = "models/weapons/tacint/v_mg4.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_mg4.mdl"
