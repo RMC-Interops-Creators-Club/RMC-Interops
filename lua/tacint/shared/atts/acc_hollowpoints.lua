@@ -1,7 +1,7 @@
 ATT.PrintName = "Hollowpoints"
 ATT.FullName = "Hollow-point Rounds"
 ATT.Icon = Material("entities/tacint_att_acc_hollowpoints.png", "mips smooth")
-ATT.Description = "Powerful hollow-tip rounds that improve damage with a reduced magazine size."
+ATT.Description = "Hollow-tipped rounds that improve damage but reduce magazine size."
 ATT.Pros = {"Increased damage"}
 ATT.Cons = {"66% clip capacity"}
 
