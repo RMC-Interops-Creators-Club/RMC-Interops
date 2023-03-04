@@ -377,6 +377,8 @@ function SWEP:SetupDataTables()
     self:SetTactical(true)
 end
 
+SWEP.m_WeaponDeploySpeed = 10
+
 SWEP.CL_Tactical = true
 function SWEP:SetTactical(x)
     if (!game.SinglePlayer() and CLIENT) then self.CL_Tactical = x end
