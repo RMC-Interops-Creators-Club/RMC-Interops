@@ -53,7 +53,7 @@ SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_PISTOL
 SWEP.PassiveAng = Angle(0, 0, 0)
 SWEP.PassivePos = Vector(0, -2, -5)
 
-SWEP.SprintAng = Angle(0, 30, 0)
+SWEP.SprintAng = Angle(0, 3, 0)
 SWEP.SprintPos = Vector(2, 0, -12)
 
 // sounds
