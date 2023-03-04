@@ -1,5 +1,5 @@
-ATT.PrintName = "RIP"
-ATT.FullName = "Radically Invasive Projectile"
+ATT.PrintName = "R.I.P."
+ATT.FullName = "'Radically Invasive Projectile' Rounds"
 ATT.Icon = Material("entities/tacint_att_acc_hollowpoints.png", "mips smooth")
 ATT.Description = "Special pistol rounds that improve damage but worsen damage falloff."
 ATT.Pros = {"Increased damage"}
@@ -11,7 +11,7 @@ ATT.Category = "perk_rip" // can be "string" or {"list", "of", "strings"}
 
 ATT.SortOrder = 1
 
-ATT.Mult_Range_Max = 0.8
-ATT.Mult_Range_Min = 0.8
-ATT.Mult_Damage_Min = 0.6
+ATT.Mult_Range_Max = 0.5
+ATT.Mult_Range_Min = 0.6
+ATT.Mult_Damage_Min = 0.2
 ATT.Mult_Damage_Max = 1.5
