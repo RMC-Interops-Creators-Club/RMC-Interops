@@ -17,9 +17,41 @@ if CLIENT then
 	local mat_radar = Material("tacint/tacrpport/radar.png", "smooth")
 	local mat_radar_active = Material("tacint/tacrpport/radar_active.png", "mips smooth")
 	local mat_dot = Material("tacint/tacrpport/dot.png", "mips smooth")
+	local radarpositions = {}
 	local lastradar = 0
 	local scantime = 2
 	local radardist = 33
+
+	ATT.Hook_Think = function(self)
+		if self:GetTactical() and lastradar + scantime <= CurTime() then
+			table.Empty(radarpositions)
+			local tbl = ents.FindInSphere(self:GetOwner():GetPos(), radardist / TacInt.HUToM)
+
+			for _, ent in ipairs(tbl) do
+				if !(ent:IsPlayer() or ent:IsNPC() or ent:IsNextBot()) then continue end
+				if ent == self:GetOwner() then continue end
+
+				local ang = self:GetOwner():EyeAngles()
+
+				ang.y = ang.y + 90
+				ang.p = 0
+				ang.r = 0
+
+				local relpos = WorldToLocal(ent:GetPos(), Angle(0, 0, 0), self:GetOwner():GetPos(), ang)
+
+				local read = {
+					x = -relpos.x,
+					y = relpos.y,
+				}
+
+				table.insert(radarpositions, read)
+			end
+
+			lastradar = CurTime()
+
+			self:EmitSound(")buttons/blip1.wav", 80, 30, 0.15, CHAN_STATIC)
+		end
+	end
 
 	ATT.Hook_DrawHUD = function(self)
 		if self:GetTactical() then
@@ -36,37 +68,6 @@ if CLIENT then
 			surface.SetDrawColor(255, 255, 255, 100)
 			surface.DrawTexturedRect(x, y, w, h)
 
-			local radarpositions = {}
-
-			if lastradar + scantime > CurTime() then
-				radarpositions = cache_lastradarpositions
-			else
-				local tbl = ents.FindInSphere(self:GetOwner():GetPos(), radardist / TacInt.HUToM)
-
-				for _, ent in ipairs(tbl) do
-					if !(ent:IsPlayer() or ent:IsNPC() or ent:IsNextBot()) then continue end
-					if ent == self:GetOwner() then continue end
-
-					local ang = self:GetOwner():EyeAngles()
-
-					ang.y = ang.y + 90
-					ang.p = 0
-					ang.r = 0
-
-					local relpos = WorldToLocal(ent:GetPos(), Angle(0, 0, 0), self:GetOwner():GetPos(), ang)
-
-					local read = {
-						x = -relpos.x,
-						y = relpos.y,
-					}
-
-					table.insert(radarpositions, read)
-				end
-
-				lastradar = CurTime()
-				cache_lastradarpositions = radarpositions
-			end
-
 			surface.SetDrawColor(0, 0, 0, 255 * 2 * (1 - ((CurTime() - lastradar) / scantime)))
 			surface.SetMaterial(mat_radar_active)
 			surface.DrawTexturedRect(x, y, w, h)
@@ -81,8 +82,8 @@ if CLIENT then
 
 				local gs = ScreenScale(8)
 
-				dx = math.Round(dx / (w / gs)) * (w / gs)
-				dy = math.Round(dy / (h / gs)) * (h / gs)
+				--dx = math.Round(dx / (w / gs)) * (w / gs)
+				--dy = math.Round(dy / (h / gs)) * (h / gs)
 
 				dx = dx - ScreenScale(0.5)
 				dy = dy - ScreenScale(0.5)
