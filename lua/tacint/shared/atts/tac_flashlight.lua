@@ -1,8 +1,8 @@
 ATT.PrintName = "Flashlight"
-ATT.FullName = "Tactical Flashlight"
+ATT.FullName = "Tactical High-Power Weaponlight"
 ATT.Icon = Material("entities/tacint_att_tac_flashlight.png", "mips smooth")
-ATT.Description = "Tactical flashlight that illuminates targets."
-ATT.Pros = {"Toggleable high-power flashlight", "Reduced hipfire spread"}
+ATT.Description = "Tactical flashlight that improves visibility by illuminating dark areas."
+ATT.Pros = {"Increased flashlight range", "Reduced hipfire spread"}
 ATT.Cons = {"Reduced handling"}
 
 ATT.Model = "models/weapons/tacint/addons/flashlight_mounted.mdl"

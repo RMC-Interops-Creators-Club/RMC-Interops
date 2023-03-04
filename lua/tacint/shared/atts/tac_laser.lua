@@ -1,8 +1,8 @@
 ATT.PrintName = "Laser"
-ATT.FullName = "Tactical Laser Module"
+ATT.FullName = "Tactical Laser Pointer Module"
 ATT.Icon = Material("entities/tacint_att_tac_laser.png", "mips smooth")
-ATT.Description = "Tactical laser-pointer that aids your aim and helps stay on target."
-ATT.Pros = {"Reduced recoil spread"}
+ATT.Description = "Tactical laser with a bright beam that helps keep your shots on target."
+ATT.Pros = {"Reduced spread accumulation"}
 ATT.Cons = {"Reduced handling", "Beam is visible to other players"}
 
 ATT.Model = "models/weapons/tacint/addons/laser_mounted.mdl"

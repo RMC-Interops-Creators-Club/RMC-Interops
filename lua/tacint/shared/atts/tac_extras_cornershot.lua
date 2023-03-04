@@ -1,8 +1,8 @@
 ATT.PrintName = "Blind-Cam"
 ATT.FullName = "Tactical Blindspot Targeting Camera"
 ATT.Icon = Material("entities/tacrp_att_tac_extras_cornershot.png", "mips smooth")
-ATT.Description = "Large rifle-mounted camera allowing visibility while blind-firing."
-ATT.Pros = {"Visiblity while blindfiring"}
+ATT.Description = "Tactical camera that allows the user to see over cover when blindfiring."
+ATT.Pros = {"Display blindfire aim"}
 ATT.Cons = {"Visible glare from lens", "Reduced handling"}
 
 ATT.Model = "models/weapons/tacint/addons/cornershot_mounted.mdl"
