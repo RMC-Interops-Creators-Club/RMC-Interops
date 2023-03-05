@@ -37,7 +37,7 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 2
 
-SWEP.RPM = 1200
+SWEP.RPM = 1050
 
 SWEP.Spread = 0
 SWEP.HipFireSpreadPenalty = 0.025 // spread penalty for not being scoped in
