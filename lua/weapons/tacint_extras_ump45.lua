@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "UMP-45"
 SWEP.Category = "RMC Interops (Small Arms)"
 
-SWEP.Description = ".45 ACP SMG with a slow rate of fire but higher than average damage."
+SWEP.Description = ".45 ACP SMG with a slow rate of fire but high damage."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_ump45.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_ump45.mdl"
@@ -16,10 +16,10 @@ SWEP.Slot = 2
 
 // "ballistics"
 
-SWEP.Damage_Max = 27
-SWEP.Damage_Min = 16
-SWEP.Range_Min = 1125 // distance for which to maintain maximum damage
-SWEP.Range_Max = 2500 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 25
+SWEP.Damage_Min = 12
+SWEP.Range_Min = 575 // distance for which to maintain maximum damage
+SWEP.Range_Max = 1050 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 
 SWEP.BodyDamageMultipliers = {
@@ -39,21 +39,23 @@ SWEP.MuzzleVelocity = 12500
 
 SWEP.RPM = 525
 
-SWEP.Spread = 0.005
+SWEP.Spread = 0
+SWEP.HipFireSpreadPenalty = 0.035
+SWEP.ScopedSpreadPenalty = 0.009
 
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 12
-SWEP.RecoilResetTime = 0.12 // time after you stop shooting for recoil to start dissipating
+SWEP.RecoilResetTime = 0.2 // time after you stop shooting for recoil to start dissipating
 SWEP.RecoilDissipationRate = 100
 SWEP.RecoilFirstShotMult = 1
 
-SWEP.RecoilVisualKick = 0.02
+SWEP.RecoilVisualKick = 0.03
 
-SWEP.RecoilKick = 0.25
+SWEP.RecoilKick = 1
 
-SWEP.RecoilSpreadPenalty = 0.0008
+SWEP.RecoilSpreadPenalty = 0.008
 
 SWEP.CanBlindFire = true
 

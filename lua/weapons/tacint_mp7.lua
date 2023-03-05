@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "MP7"
 SWEP.Category = "RMC Interops (Small Arms)"
 
-SWEP.Description = "Compact 4.6mm PDW with great handling and a fast rate of fire."
+SWEP.Description = "Compact 4.6mm PDW with a large magazine and a fast rate of fire."
 
 SWEP.ViewModel = "models/weapons/tacint/v_mp7.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_mp7.mdl"
@@ -16,11 +16,11 @@ SWEP.Slot = 2
 
 // "ballistics"
 
-SWEP.Damage_Max = 100 / 4 // damage at minimum range
-SWEP.Damage_Min = 100 / 7 // damage at maximum range
+SWEP.Damage_Max = 100 / 5 // damage at minimum range
+SWEP.Damage_Min = 100 / 9 // damage at maximum range
 SWEP.Range_Min = 650 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
-SWEP.Penetration = 1 // units of metal this weapon can penetrate
+SWEP.Range_Max = 1250 // distance at which we drop to minimum damage
+SWEP.Penetration = 4 // units of metal this weapon can penetrate
 
 // misc. shooting
 
@@ -28,13 +28,13 @@ SWEP.Firemode = 2
 
 SWEP.RPM = 850
 
-SWEP.Spread = 0.015
+SWEP.Spread = 0
 
 // Spread penalties are in spread units and are additive
 SWEP.MoveSpreadPenalty = 0.018 // spread penalty while travelling at max. 250 u/s
 SWEP.MidAirSpreadPenalty = 0.045 // spread penalty for being in the air
-SWEP.HipFireSpreadPenalty = 0 // spread penalty for not being scoped in
-SWEP.ScopedSpreadPenalty = -0.006
+SWEP.HipFireSpreadPenalty = 0.05 // spread penalty for not being scoped in
+SWEP.ScopedSpreadPenalty = 0.035
 SWEP.BlindFireSpreadPenalty = 0.05 // spread penalty for blind firing
 SWEP.CrouchSpreadPenalty = -0.004
 
@@ -162,12 +162,13 @@ SWEP.AttachmentElements = {
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = {"optic_smg", "optic_cqb", "optic_medium"},
+        Category = {"optic_smg", "optic_cqb"},
         Bone = "ValveBiped.mp7_rootbone",
         AttachSound = "tacint/weapons/optic_on.wav",
         DetachSound = "tacint/weapons/optic_off.wav",
         InstalledElements = {"optic"},
-        Pos_VM = Vector(-4.25, 0, 1.5),
+		VMScale = 0.85,
+        Pos_VM = Vector(-4.35, 0, 1.5),
         Pos_WM = Vector(4, 1.5, -6),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -3.5, 180),

@@ -16,10 +16,10 @@ SWEP.Slot = 2
 
 // "ballistics"
 
-SWEP.Damage_Max = 100 / 5 // damage at minimum range
-SWEP.Damage_Min = 100 / 7 // damage at maximum range
-SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 100 / 7 // damage at minimum range
+SWEP.Damage_Min = 100 / 12 // damage at maximum range
+SWEP.Range_Min = 600 // distance for which to maintain maximum damage
+SWEP.Range_Max = 1075 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 
 // misc. shooting
@@ -28,19 +28,19 @@ SWEP.Firemode = 2
 
 SWEP.RPM = 1200
 
-SWEP.Spread = 0.015
+SWEP.Spread = 0
 
 // Spread penalties are in spread units and are additive
 SWEP.MoveSpreadPenalty = 0.017 // spread penalty while travelling at max. 250 u/s
 SWEP.MidAirSpreadPenalty = 0.065 // spread penalty for being in the air
-SWEP.HipFireSpreadPenalty = 0 // spread penalty for not being scoped in
-SWEP.ScopedSpreadPenalty = -0.006
+SWEP.HipFireSpreadPenalty = 0.035 // spread penalty for not being scoped in
+SWEP.ScopedSpreadPenalty = 0.006
 SWEP.BlindFireSpreadPenalty = 0.05 // spread penalty for blind firing
 SWEP.CrouchSpreadPenalty = -0.004
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 10
-SWEP.RecoilResetTime = 0.1 // time after you stop shooting for recoil to start dissipating
+SWEP.RecoilResetTime = 0.2 // time after you stop shooting for recoil to start dissipating
 SWEP.RecoilDissipationRate = 100
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
@@ -49,7 +49,7 @@ SWEP.RecoilVisualShake = 0.35
 
 SWEP.RecoilKick = 0.9
 
-SWEP.RecoilSpreadPenalty = 0.007 // extra spread per one unit of recoil
+SWEP.RecoilSpreadPenalty = 0.009 // extra spread per one unit of recoil
 
 SWEP.CanBlindFire = true
 
