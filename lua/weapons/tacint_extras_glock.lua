@@ -10,7 +10,7 @@ SWEP.Category = "RMC Interops (Handguns)"
 SWEP.Description = "Fully-automatic 9mm pistol with poor accuracy but a insanely quick rate of fire."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_glock18.mdl"
-SWEP.WorldModel = "models/weapons/tacint_extras/w_glock.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_glock18.mdl"
 
 SWEP.Slot = 1
 

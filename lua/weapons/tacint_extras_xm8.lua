@@ -10,7 +10,7 @@ SWEP.Category = "RMC Interops (Heavy Weapons)"
 SWEP.Description = "Experimental 5.56 NATO LMG with an integral scope and a short profile.  Better mobility than belt-fed LMGs."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_xm8lmg.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_g36k.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_xm8lmg.mdl"
 
 SWEP.Slot = 2
 

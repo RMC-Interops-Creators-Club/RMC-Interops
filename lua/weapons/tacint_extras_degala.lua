@@ -10,7 +10,7 @@ SWEP.Category = "RMC Interops (Handguns)"
 SWEP.Description = "Large .50 AE pistol. Unwieldly, impractical, but extremely powerful."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_deagle.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_gsr1911.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_deagle.mdl"
 
 SWEP.Slot = 1
 

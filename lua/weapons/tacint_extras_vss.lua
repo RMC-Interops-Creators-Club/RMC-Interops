@@ -10,7 +10,7 @@ SWEP.Category = "RMC Interops (Rifles)"
 SWEP.Description = "Integrally-suppressed 9x39mm sniper rifle intended for closer ranged combat than a typical DMR."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_vss.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_ak47.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_vss.mdl"
 
 SWEP.Slot = 3
 
