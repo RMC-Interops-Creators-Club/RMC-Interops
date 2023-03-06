@@ -197,9 +197,9 @@ local function addsound(name, spath)
     })
 end
 
-addsound("tacint_degala.clip_in", path1 .. "gsr1911_clip_in.wav")
-addsound("tacint_degala.clip_in-mid", path1 .. "gsr1911_clip_in-mid.wav")
-addsound("tacint_degala.clip_out", path1 .. "gsr1911_clip_out.wav")
+addsound("tacint_degala.clip_in", path .. "Deagle Mag In.wav")
+addsound("tacint_degala.clip_in-mid", path .. "Deagle Mag In.wav")
+addsound("tacint_degala.clip_out", path .. "Deagle Mag Out.wav")
 addsound("tacint_degala.slide_action", path1 .. "gsr1911_slide_action.wav")
 addsound("tacint_degala.slide_shut", path1 .. "gsr1911_slide_shut.wav")
 addsound("tacint_degala.cock_hammer", path1 .. "gsr1911_cockhammer.wav")
