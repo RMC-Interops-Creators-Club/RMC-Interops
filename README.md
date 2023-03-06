@@ -1,9 +1,9 @@
-# Tactical-Intervention - RMC's Edit, aka RMC InterOps
+# RMC InterOps, aka Tactical Intervention - RMC's Edit
 
 placeholder workshop desc
 --------------------------------------------------------------------------------
 
-A modified version of Arctic's Tactical Invervention weapon pack that aims to improve the core weapon base, improve gameplay and add new features and content for a more enjoyable experience.  This includes redone stats, a new customization UI, new weapons and features backported from Tactical RP.
+A modified version of Arctic's Tactical Invervention weapon pack that aims to improve the core weapon base, improve gameplay and add new features and content for a more enjoyable experience. This includes redone stats, a new customization UI, new weapons and features backported from Tactical RP.
 
 Features:
 - New content: All of the extra weapons from TacRP have been backported, new weapons such as the VSS and P226, tac laser and radar attachments and restored knives.
@@ -46,3 +46,4 @@ Contributors
   - Worldmodels & magazines (?)
 - Arctic
   - Original Tactical Intervention weapons
+  - "Laying the foundations"
