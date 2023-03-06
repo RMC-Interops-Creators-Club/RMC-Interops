@@ -9,7 +9,7 @@ SWEP.Category = "RMC Interops (Rifles)"
 
 SWEP.Description = "5.56 NATO assault rifle with integral scope for better target acquisition."
 
-SWEP.ViewModel = "models/weapons/tacint/v_g36k.mdl"
+SWEP.ViewModel = "models/weapons/tacint/v_g36k_hq.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_g36k.mdl"
 
 SWEP.Slot = 2
@@ -166,6 +166,11 @@ SWEP.AttachmentElements = {
             {2, 1}
         },
     },
+	    ["irons"] = {
+        BGs_VM = {
+            {3, 1}
+        },
+    }
 }
 
 
@@ -175,10 +180,11 @@ SWEP.Attachments = {
         Category = {"ironsights", "optic_cqb"},
         Bone = "ValveBiped.g36k_rootbone",
         WMBone = "Box01",
+		InstalledElements = {"irons"},
         AttachSound = "tacint/weapons/optic_on.wav",
         DetachSound = "tacint/weapons/optic_off.wav",
         VMScale = 0.75,
-        Pos_VM = Vector(-7.3, 0.25, 2),
+        Pos_VM = Vector(-6.4, 0, 4),
         Pos_WM = Vector(0, 0, 2.75),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
