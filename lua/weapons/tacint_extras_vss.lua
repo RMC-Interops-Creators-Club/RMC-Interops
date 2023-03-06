@@ -169,11 +169,18 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {2, 1}
         },
+        BGs_WM = {
+            {2, 1}
+        },
     },
     ["irons"] = {
         BGs_VM = {
             {2, 2}
         },
+        BGs_WM = {
+            {2, 2}
+        },
+        Mult_HipFireSpreadPenalty = (1/16),
     },
 }
 
