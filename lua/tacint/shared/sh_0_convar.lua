@@ -84,12 +84,12 @@ local conVars = {
         default = "1",
     },
     {
-        name = "true_laser",
+        name = "truelaser",
         default = "1"
     },
     {
-        name = "range_hu",
-        default = "0",
+        name = "metricunit",
+        default = "1",
         client = true
     },
     {
@@ -140,6 +140,14 @@ local function menu_client_ti(panel)
         label = "Show Grenade Panel",
         command = "tacint_showgrenadepanel"
     })
+    panel:AddControl("checkbox", {
+        label = "True Laser Position",
+        command = "tacint_truelaser"
+    })
+    panel:AddControl("checkbox", {
+        label = "Use Metric Units",
+        command = "tacint_metricunit"
+    })
 end
 
 local function menu_server_ti(panel)
@@ -176,10 +184,6 @@ local function menu_server_ti(panel)
     panel:AddControl("checkbox", {
         label = "Enable Penetration",
         command = "tacint_penetration"
-    })
-    panel:AddControl("checkbox", {
-        label = "Use HL2 Ammo Types",
-        command = "tacint_hl2ammo"
     })
     panel:AddControl("checkbox", {
         label = "NPCs Deal Equal Damage",

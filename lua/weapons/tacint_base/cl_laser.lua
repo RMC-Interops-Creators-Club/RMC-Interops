@@ -60,7 +60,7 @@ function SWEP:DrawLaser(pos, ang, strength, thirdperson)
 
     local delta = behavior and 1 or 0
 
-    if IsValid(vm) and GetConVar("tacint_true_laser"):GetBool() and !self:GetCustomize() and !behavior then
+    if IsValid(vm) and GetConVar("tacint_truelaser"):GetBool() and !self:GetCustomize() and !behavior then
         local d1 = (CurTime() - self:GetNextPrimaryFire()) / 0.5
         d1 = math.min(d1, (CurTime() - self:GetNextSecondaryFire()) / 2)
 

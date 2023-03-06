@@ -188,8 +188,8 @@ function SWEP:DrawWeaponSelection(x, y, w, h, a)
 end
 
 function SWEP:RangeUnitize(range)
-    if GetConVar("tacint_range_hu"):GetBool() then
-        return tostring(math.Round(range)) .. " HU"
+    if !GetConVar("tacint_metricunit"):GetBool() then
+        return tostring(math.Round(range)) .. " hU"
     else
         return tostring(math.Round(range*TacInt.HUToM)) .. "m"
     end
