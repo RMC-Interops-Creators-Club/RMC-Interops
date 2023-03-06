@@ -49,7 +49,7 @@ if CLIENT then
 
 			lastradar = CurTime()
 
-			self:EmitSound(")buttons/blip1.wav", 80, 30, 0.15, CHAN_STATIC)
+			self:EmitSound(")buttons/blip1.wav", 80, 30, 0.3, CHAN_STATIC)
 		end
 	end
 
