@@ -41,7 +41,7 @@ SWEP.RPM = 850
 
 SWEP.Spread = 0.004
 SWEP.HipFireSpreadPenalty = 0.0015 // spread penalty for not being scoped in
-SWEP.MoveSpreadPenalty = 0.045 // spread penalty while travelling at max. 250 u/s
+SWEP.MoveSpreadPenalty = 0.05 // spread penalty while travelling at max. 250 u/s
 
 SWEP.ShootTimeMult = 0.5
 
@@ -50,13 +50,13 @@ SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 3
 SWEP.RecoilResetTime = 0.25
 SWEP.RecoilDissipationRate = 100
-SWEP.RecoilFirstShotMult = 0.2 // multiplier for the first shot's recoil amount
+SWEP.RecoilFirstShotMult = 0.5 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 0.24
 
 SWEP.RecoilKick = 0.8
 
-SWEP.RecoilSpreadPenalty = 0.004
+SWEP.RecoilSpreadPenalty = 0.008
 
 SWEP.CanBlindFire = true
 

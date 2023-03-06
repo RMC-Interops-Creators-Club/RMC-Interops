@@ -14,7 +14,7 @@ ATT.SortOrder = 1
 
 ATT.Add_Vol_Shoot = -20
 ATT.Mult_RecoilPerShot = 0.85
-ATT.Mult_Range_Max = 0.72
+ATT.Mult_Range_Max = 0.76
 
 ATT.Silencer = true
 ATT.Override_MuzzleEffect = "muzzleflash_suppressed"
