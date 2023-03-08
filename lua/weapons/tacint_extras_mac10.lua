@@ -18,8 +18,8 @@ SWEP.Slot = 1
 
 SWEP.Damage_Max = 15
 SWEP.Damage_Min = 5
-SWEP.Range_Min = 250
-SWEP.Range_Max = 550
+SWEP.Range_Min = 275
+SWEP.Range_Max = 620
 SWEP.Penetration = 3
 
 SWEP.MuzzleVelocity = 10000

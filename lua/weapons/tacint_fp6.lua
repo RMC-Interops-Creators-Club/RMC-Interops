@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "FP6"
 SWEP.Category = "RMC Interops (Heavy Weapons)"
 
-SWEP.Description = "Advanced 12 gauge tactical shotgun that performs well even at range. 8 pellets."
+SWEP.Description = "Tactical 12 gauge shotgun with a large capacity that performs well in most scenarios. 8 pellets."
 
 SWEP.ViewModel = "models/weapons/tacint/v_fp6.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_fp6.mdl"
@@ -16,10 +16,10 @@ SWEP.Slot = 3
 
 // "ballistics"
 
-SWEP.Damage_Max = 100 / 6 // damage at minimum range
-SWEP.Damage_Min = 100 / 12 // damage at maximum range
-SWEP.Range_Min = 250 // distance for which to maintain maximum damage
-SWEP.Range_Max = 510 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 100 / 7 // damage at minimum range
+SWEP.Damage_Min = 100 / 14 // damage at maximum range
+SWEP.Range_Min = 240 // distance for which to maintain maximum damage
+SWEP.Range_Max = 470 // distance at which we drop to minimum damage
 SWEP.Penetration = 0.25 // units of metal this weapon can penetrate
 SWEP.Num = 8
 
@@ -47,7 +47,7 @@ SWEP.ShootSpeedMult = 1
 // Spread penalties are in spread units and are additive
 SWEP.MoveSpreadPenalty = 0.08 // spread penalty while travelling at max. 250 u/s
 SWEP.MidAirSpreadPenalty = 0.12 // spread penalty for being in the air
-SWEP.HipFireSpreadPenalty = 0.085 // spread penalty for not being scoped in
+SWEP.HipFireSpreadPenalty = 0.095 // spread penalty for not being scoped in
 SWEP.ScopedSpreadPenalty = 0.085
 SWEP.BlindFireSpreadPenalty = 0.05 // spread penalty for blind firing
 SWEP.CrouchSpreadPenalty = 0
