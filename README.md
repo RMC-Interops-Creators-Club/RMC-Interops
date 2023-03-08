@@ -3,35 +3,24 @@
 placeholder workshop desc
 --------------------------------------------------------------------------------
 
-A modified version of Arctic's Tactical Invervention weapon pack that aims to improve the core weapon base, improve gameplay and add new features and content for a more enjoyable experience. This includes redone stats, a new customization UI, new weapons and features backported from Tactical RP.
+The most tactical weapons pack to ever grace Garry's Mod, featuring 10 full assault clips worth of super hi-tactical black ops weaponry and equipment with many available tactical enhancements that will give any entry team great tactical potential.  The tactics on display here rival even the most hardcore of tactical shooters, with many tactical upgrades to enhance the tactical nature of each tactical weapon and ensure that you and your team of trained tactical operators have the superior tactics necessary to deal with any threat.
+
+Red Mountain Company opens their tactical armory to the public, featuring only the finest stolen goods, reverse-engineered to be more tactical than ever.
+
+RMC Interops is an edit of Arctic's Tactical Intervention weapons pack that aims to extend the feature set and weapon selection and make QoL improvements to the base while retaining the distinct "tactical-arcade" feel.  This includes a swath of brand new weapons, completely overhauled balance, backported features from Tactical RP, and general improvements to the weapons base.  This started as a small, for-fun project with the end goal of backporting the extra weapons introduced in Tactical RP for use on private servers hosted by friends, but quickly became a minor overhaul of the whole Tactical Intervention base, with some of the features we introduced being ported forward to Tactical RP.
 
 Features:
-- New content: All of the extra weapons from TacRP have been backported, new weapons such as the VSS and P226, tac laser and radar attachments and restored knives.
-- Complete rebalance: All weapon and attachment stats have been rebalanced for a more enjoyable experience with more gameplay variety.
-- New customization UI: Simplified stats page and the ability to see attachment pros and cons, spread now measured in degrees.
+- Brand new weapons: P226, VSS Vintorez, Desert Eagle, XM8 LMG, M60, knives & all weapons from TacRP extras.
+- Overhauled customization UI: Hover over attachments to see their descriptions and pros and cons.
+- More attachments: New tactical and muzzle attachments for most weapons, including most all tactical attachments from TacRP.
+- Better quicknades: Grenades now properly work in MP and have much more predictable trajectories.
+- New gameplay features: Sniper scope sway, scope glare, instantly-cancellable shotgun reloads and reworked burst-fire and semi-auto fire.
+- Completely redone balance: Nearly every weapon has been rebalanced to play more fairly in MP.
+- New spread and recoil: Spread and recoil are no longer mechanically linked to one another.
+
+If you want ever more weapons, be sure to check out RMC Interops Extras [clickable link], featuring 10+ new weapons to add to your arsenal!
 
 --------------------------------------------------------------------------------
-
-Current plans:
-- Backport TacRP Extras weapons.
-    - AK [Done]
-    - Glock [Done]
-    - Hecate II [Done]
-    - M4A1 [Done]
-    - 1911 [Done]
-    - MAC10 [Done]
-    - MP9 [Done]
-    - UMP45 [Done]
-    - USP [Done]
-    - KS23 [Done]
-    - Riot Shield
-    
-- Add new weapons [see "tacint_rmc_new_weapons.txt"]
-- Backport TacRP attachments. [Done]
-- Total balance overhaul.
-- Make tac attachments override default HL2 flashlight. [Done]
-- Make it so shotgun reloads can be instantly cancelled. (like CS 1.6)
-- Restore the knives.
 
 Contributors
 - VinierAardvark1
@@ -43,7 +32,8 @@ Contributors
 - CyloWalker
   - Weapon icons
 - Palindrone
-  - Worldmodels & magazines (?)
+  - Worldmodels & magazines
 - Arctic
-  - Original Tactical Intervention weapons
-  - "Laying the foundations"
+  - "Laying the foundations" (original base)
+- Minh "Gooseman" Le & FIX Korea
+  - Tactical Intervention assets
