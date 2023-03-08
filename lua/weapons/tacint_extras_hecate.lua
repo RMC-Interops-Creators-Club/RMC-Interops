@@ -22,7 +22,7 @@ SWEP.Range_Min = 1350 // distance for which to maintain maximum damage
 SWEP.Range_Max = 2240 // distance at which we drop to minimum damage
 SWEP.Penetration = 30 // units of metal this weapon can penetrate
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3, // somebody is surviving this
+    [HITGROUP_HEAD] = 3, // somebody isnt surviving this
     [HITGROUP_CHEST] = 1.25,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -101,7 +101,7 @@ SWEP.SprintPos = Vector(5, 0, -4)
 
 SWEP.Scope = true
 SWEP.ScopeOverlay = Material("tacint/scopes/sniper.png", "mips smooth") // Material("path/to/overlay")
-SWEP.ScopeFOV = 90 / 10
+SWEP.ScopeFOV = 90 / 15
 SWEP.ScopeLevels = 1 // 2 = like CS:S
 
 SWEP.QuickScopeSpreadPenalty = 0.25
@@ -184,6 +184,9 @@ SWEP.AttachmentElements = {
         BGs_WM = {
             {2, 1}
         },
+        Mult_HipFireSpreadPenalty = 0,
+        Mult_CrouchSpreadPenalty = -0.025,
+        Mult_MoveSpreadPenalty = 7,
     },
     ["tactical"] = {
         BGs_VM = {
