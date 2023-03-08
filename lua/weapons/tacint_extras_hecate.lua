@@ -184,9 +184,9 @@ SWEP.AttachmentElements = {
         BGs_WM = {
             {2, 1}
         },
-        Mult_HipFireSpreadPenalty = 0,
+        Mult_HipFireSpreadPenalty = 0.05,
         Mult_CrouchSpreadPenalty = -0.025,
-        Mult_MoveSpreadPenalty = 7,
+        Mult_MoveSpreadPenalty = 4,
     },
     ["tactical"] = {
         BGs_VM = {

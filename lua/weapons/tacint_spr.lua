@@ -177,7 +177,7 @@ SWEP.AttachmentElements = {
         },
         Mult_HipFireSpreadPenalty = 0,
         Mult_CrouchSpreadPenalty = -0.025,
-        Mult_MoveSpreadPenalty = 5.5,
+        Mult_MoveSpreadPenalty = 3,
     },
 }
 
