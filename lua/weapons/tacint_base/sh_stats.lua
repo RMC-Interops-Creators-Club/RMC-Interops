@@ -77,7 +77,6 @@ function SWEP:GetValue(val, invert)
 				table.Add(eles, k.UnInstalledElements or emptt)
 			end
 		end
-		PrintTable(eles)
 		for index, fucker in ipairs(eles) do
 			if slot != fucker then continue end
 			table.insert(totalstatbanks, slottbl)
